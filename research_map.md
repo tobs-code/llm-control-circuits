@@ -47,16 +47,16 @@ Political control is not a single switch. It is distributed, especially in later
 
 **Key scripts:**
 
-- `qwen_head_finder.py`
-- `heatmap_generator.py`
-- `ablation_on_top_heads.py`
-- `brute_force_bypass.py`
-- `directional_ablation_bypass.py`
+- `scripts/analysis/qwen_head_finder.py`
+- `scripts/analysis/heatmap_generator.py`
+- `scripts/analysis/ablation_on_top_heads.py`
+- `scripts/analysis/brute_force_bypass.py`
+- `scripts/analysis/directional_ablation_bypass.py`
 - `full_bypass_repe_mlp.py`
-- `run_causal_probe.py`
-- `run_causal_probe_qwen2b.py`
-- `run_layer23_targeted_ablation.py`
-- `run_hard_lock_token_sweep.py`
+- `scripts/runs/run_causal_probe.py`
+- `scripts/runs/run_causal_probe_qwen2b.py`
+- `scripts/runs/run_layer23_targeted_ablation.py`
+- `scripts/runs/run_hard_lock_token_sweep.py`
 
 **Strong observed patterns:**
 
@@ -83,10 +83,10 @@ The same intervention does not produce the same failure mode across models. Each
 
 **Key scripts / files:**
 
-- `run_deep_probe_all.py`
-- `run_internlm25_deep_probe.py`
-- `run_deepseek_r1_deep_probe.py`
-- `run_yicoder_15b_deep_probe.py`
+- `scripts/runs/run_deep_probe_all.py`
+- `scripts/runs/run_internlm25_deep_probe.py`
+- `scripts/runs/run_deepseek_r1_deep_probe.py`
+- `scripts/runs/run_yicoder_15b_deep_probe.py`
 - `docs/deep_probe_analyse.md`
 - `results/*deep_probe*.md`
 
@@ -115,10 +115,10 @@ A concept direction such as `Golden Gate Bridge` can be amplified in the residua
 
 **Key scripts / files:**
 
-- `run_golden_gate_mini.py`
+- `scripts/runs/run_golden_gate_mini.py`
 - `docs/mini_bridge_experiment_readme.md`
-- `run_concept_interference.py`
-- `run_vector_geometry_compare.py`
+- `scripts/runs/run_concept_interference.py`
+- `scripts/runs/run_vector_geometry_compare.py`
 
 **Strong observed patterns:**
 
@@ -145,10 +145,10 @@ The important question is no longer only "does bypass work?" but "how do multipl
 
 **Key scripts / files:**
 
-- `run_joint_bypass_concept.py`
-- `run_joint_bypass_concept_grid.py`
-- `run_concept_interference.py`
-- `run_vector_geometry_compare.py`
+- `scripts/runs/run_joint_bypass_concept.py`
+- `scripts/runs/run_joint_bypass_concept_grid.py`
+- `scripts/runs/run_concept_interference.py`
+- `scripts/runs/run_vector_geometry_compare.py`
 - `docs/mini_bridge_experiment_readme.md`
 
 **Strong observed patterns:**

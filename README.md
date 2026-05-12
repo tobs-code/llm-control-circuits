@@ -19,11 +19,17 @@ und ihre Interaktionen im späten Decoder organisiert?
 ## Struktur
 - `README.md`: Schneller Projekteinstieg.
 - `research_map.md`: Forschungsfragen, Hypothesen und Ergebnis-Taxonomie.
+- `scripts/runs/`: Haupt-Runner für Experimente und Sweeps.
+- `scripts/analysis/`: Auswertungen, Bypass-Analysen und Modellvergleiche.
+- `scripts/demos/`: Kleine Demo- und Visualisierungsskripte.
+- `scripts/inspect/`: Inspektions- und Debug-Helfer.
+- `scripts/utils/`: Export- und Hilfsskripte.
 - `docs/`: Längere Analysen, Experiment-Readmes und Zusammenfassungen.
 - `results/`: Gespeicherte Laufresultate (`.md` / `.json`).
 - `assets/figures/`: Generierte Grafiken.
 - `assets/dashboards/`: HTML-Dashboards und Visualisierungen.
 - `.local/`: Lokale Caches, HF-Module, Vektordumps und sonstige Nicht-Git-Artefakte.
+- `environment.md`: Praktische Setup-Hinweise für lokale Runs.
 
 ## Forschungslinien
 
@@ -46,11 +52,11 @@ und ihre Interaktionen im späten Decoder organisiert?
 
 ## 🔍 Experimente & Erkenntnisse
 
-### 1. Automated Head Finder (`qwen_head_finder.py`)
+### 1. Automated Head Finder (`scripts/analysis/qwen_head_finder.py`)
 Identifiziert Attention-Heads, deren Aktivierung sich maximal unterscheidet, wenn ein Trigger-Wort (z.B. "Tiananmen Square") im Vergleich zu einem neutralen Wort ("Beijing") verwendet wird.
 - **Top-Entdeckung:** Layer 27, Head 10 ist ein massiver Ausreißer (Score: 44.9) und fungiert als primärer "Zensur-Sensor" in den finalen Layern.
 
-### 2. Heatmap Visualisierung (`heatmap_generator.py`)
+### 2. Heatmap Visualisierung (`scripts/analysis/heatmap_generator.py`)
 Erstellt ein 2D-Wärmebild aller Layer und Heads.
 - **Ergebnis:** Die Zensur-Reaktivität konzentriert sich fast ausschließlich auf die **späten Layer (20-27)**. Dies bestätigt die Architektur von "Output-Filtern".
 
@@ -59,9 +65,9 @@ Wir haben versucht, die Zensur durch gezielte Eingriffe in das neuronale Gehirn 
 
 | Methode | Skript | Ergebnis | Erkenntnis |
 | :--- | :--- | :--- | :--- |
-| **Selektive Ablation (Top 5)** | `ablation_on_top_heads.py` | Refusal bleibt bestehen | Geringe Auswirkung auf Wahrscheinlichkeiten, aber Redundanz ist zu hoch. |
-| **Brute Force (Top 50)** | `brute_force_bypass.py` | **Wortsalat (Gibberish)** | Zensur-Heads sind untrennbar mit Grammatik/Logik verwoben. |
-| **Directional (Laser-OP)** | `directional_ablation_bypass.py` | Refusal-Text ändert sich | Dämpft den "Alarm", aber das Modell spürt den Trigger noch über andere Kanäle (MLPs). |
+| **Selektive Ablation (Top 5)** | `scripts/analysis/ablation_on_top_heads.py` | Refusal bleibt bestehen | Geringe Auswirkung auf Wahrscheinlichkeiten, aber Redundanz ist zu hoch. |
+| **Brute Force (Top 50)** | `scripts/analysis/brute_force_bypass.py` | **Wortsalat (Gibberish)** | Zensur-Heads sind untrennbar mit Grammatik/Logik verwoben. |
+| **Directional (Laser-OP)** | `scripts/analysis/directional_ablation_bypass.py` | Refusal-Text ändert sich | Dämpft den "Alarm", aber das Modell spürt den Trigger noch über andere Kanäle (MLPs). |
 
 ## Aktuelle Arbeitshypothese
 

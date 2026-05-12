@@ -1,7 +1,7 @@
 # Mini Bridge Experiment: Golden-Gate-Style Concept Steering
 
 **Created:** 2026-05-11  
-**Script:** `run_golden_gate_mini.py`  
+**Script:** `scripts/runs/run_golden_gate_mini.py`  
 **Main concept:** `Golden Gate Bridge`  
 **Goal:** Reproduce a small-scale version of Anthropic's "Golden Gate Claude" behavior on local open models by amplifying a harmless concept direction in the residual stream.
 
@@ -61,13 +61,13 @@ The experiment logs:
 Main script:
 
 ```text
-run_golden_gate_mini.py
+scripts/runs/run_golden_gate_mini.py
 ```
 
 Important CLI options:
 
 ```powershell
-python run_golden_gate_mini.py `
+python scripts/runs/run_golden_gate_mini.py `
   --model Qwen/Qwen3.5-2B `
   --tag qwen35_2b_golden_gate_alpha6_7 `
   --layers auto `
@@ -134,7 +134,7 @@ results/golden_gate_mini_qwen2_15b_golden_gate_auto.json
 Command:
 
 ```powershell
-python run_golden_gate_mini.py `
+python scripts/runs/run_golden_gate_mini.py `
   --model Qwen/Qwen2-1.5B-Instruct `
   --tag qwen2_15b_golden_gate_auto `
   --layers auto `
@@ -203,7 +203,7 @@ results/golden_gate_mini_qwen35_2b_golden_gate_alpha6_7.json
 Command:
 
 ```powershell
-python run_golden_gate_mini.py `
+python scripts/runs/run_golden_gate_mini.py `
   --model Qwen/Qwen3.5-2B `
   --tag qwen35_2b_golden_gate_alpha6_7 `
   --layers auto `
@@ -703,7 +703,7 @@ A natural next question is whether these concept vectors behave like separable f
 Test run:
 
 ```powershell
-python run_concept_interference.py `
+python scripts/runs/run_concept_interference.py `
   --model Qwen/Qwen3.5-2B `
   --primary-profile golden_gate `
   --secondary-profile eiffel `
@@ -856,7 +856,7 @@ for Layers `19-23`.
 Script:
 
 ```text
-run_vector_geometry_compare.py
+scripts/runs/run_vector_geometry_compare.py
 ```
 
 ### Result: No Strong Antagonism
@@ -981,7 +981,7 @@ The setup combined:
 Script:
 
 ```text
-run_joint_bypass_concept.py
+scripts/runs/run_joint_bypass_concept.py
 ```
 
 Result files:
@@ -1143,7 +1143,7 @@ bypass off / bypass on
 Script:
 
 ```text
-run_joint_bypass_concept_grid.py
+scripts/runs/run_joint_bypass_concept_grid.py
 ```
 
 Result files:

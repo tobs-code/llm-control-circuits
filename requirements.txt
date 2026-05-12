@@ -1,0 +1,11 @@
+torch
+transformers
+transformer_lens
+numpy==1.26.4
+scikit-learn
+matplotlib
+seaborn
+circuitsvis
+accelerate
+sentencepiece
+protobuf
