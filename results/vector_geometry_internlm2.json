@@ -1,0 +1,321 @@
+{
+  "model": "internlm2",
+  "timestamp": "2026-05-12T04:41:58.720045",
+  "vector_types": [
+    "refusal",
+    "propaganda",
+    "golden_gate"
+  ],
+  "layers_analyzed": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+  ],
+  "pairwise_analysis": {
+    "10": {
+      "cosine_similarities": {
+        "refusal_vs_propaganda": -0.005273995818675262,
+        "refusal_vs_golden_gate": -0.14259342824628157,
+        "propaganda_vs_golden_gate": -0.06207192376538819
+      },
+      "norms": {
+        "refusal": 0.9999999999999997,
+        "propaganda": 0.9999999999999998,
+        "golden_gate": 1.0000000000000007
+      },
+      "principal_angles": {
+        "refusal_vs_propaganda": 89.69782089755566,
+        "refusal_vs_golden_gate": 81.80205532083167,
+        "propaganda_vs_golden_gate": 86.4412529788296
+      },
+      "orthogonality_scores": {
+        "refusal_vs_propaganda": 0.9947260041813247,
+        "refusal_vs_golden_gate": 0.8574065717537185,
+        "propaganda_vs_golden_gate": 0.9379280762346118
+      }
+    },
+    "11": {
+      "cosine_similarities": {
+        "refusal_vs_propaganda": -0.023637147235456377,
+        "refusal_vs_golden_gate": -0.09294327580777377,
+        "propaganda_vs_golden_gate": -0.04572437857475655
+      },
+      "norms": {
+        "refusal": 1.0000000000000002,
+        "propaganda": 0.9999999999999999,
+        "golden_gate": 1.0000000000000009
+      },
+      "principal_angles": {
+        "refusal_vs_propaganda": 88.6455650799176,
+        "refusal_vs_golden_gate": 84.66704560673742,
+        "propaganda_vs_golden_gate": 87.37927234451146
+      },
+      "orthogonality_scores": {
+        "refusal_vs_propaganda": 0.9763628527645436,
+        "refusal_vs_golden_gate": 0.9070567241922263,
+        "propaganda_vs_golden_gate": 0.9542756214252435
+      }
+    },
+    "12": {
+      "cosine_similarities": {
+        "refusal_vs_propaganda": -0.06087015773726565,
+        "refusal_vs_golden_gate": -0.019279605811710423,
+        "propaganda_vs_golden_gate": 0.1742711388136321
+      },
+      "norms": {
+        "refusal": 0.9999999999999999,
+        "propaganda": 0.9999999999999999,
+        "golden_gate": 1.0000000000000004
+      },
+      "principal_angles": {
+        "refusal_vs_propaganda": 86.51023956719717,
+        "refusal_vs_golden_gate": 88.89529151182411,
+        "propaganda_vs_golden_gate": 79.96375430880721
+      },
+      "orthogonality_scores": {
+        "refusal_vs_propaganda": 0.9391298422627343,
+        "refusal_vs_golden_gate": 0.9807203941882896,
+        "propaganda_vs_golden_gate": 0.8257288611863679
+      }
+    },
+    "13": {
+      "cosine_similarities": {
+        "refusal_vs_propaganda": -0.09267140638389686,
+        "refusal_vs_golden_gate": 0.004917830461611512,
+        "propaganda_vs_golden_gate": -0.0021751337360180678
+      },
+      "norms": {
+        "refusal": 1.0000000000000002,
+        "propaganda": 1.0,
+        "golden_gate": 0.999999999999999
+      },
+      "principal_angles": {
+        "refusal_vs_propaganda": 84.68269009764435,
+        "refusal_vs_golden_gate": 89.71822793440212,
+        "propaganda_vs_golden_gate": 89.87537391877756
+      },
+      "orthogonality_scores": {
+        "refusal_vs_propaganda": 0.9073285936161032,
+        "refusal_vs_golden_gate": 0.9950821695383885,
+        "propaganda_vs_golden_gate": 0.9978248662639819
+      }
+    },
+    "14": {
+      "cosine_similarities": {
+        "refusal_vs_propaganda": -0.12344221185771774,
+        "refusal_vs_golden_gate": 0.043035046681660895,
+        "propaganda_vs_golden_gate": 0.03594458450342244
+      },
+      "norms": {
+        "refusal": 0.9999999999999998,
+        "propaganda": 0.9999999999999997,
+        "golden_gate": 1.0
+      },
+      "principal_angles": {
+        "refusal_vs_propaganda": 82.90919562707828,
+        "refusal_vs_golden_gate": 87.53351172513338,
+        "propaganda_vs_golden_gate": 87.9400832758646
+      },
+      "orthogonality_scores": {
+        "refusal_vs_propaganda": 0.8765577881422822,
+        "refusal_vs_golden_gate": 0.9569649533183391,
+        "propaganda_vs_golden_gate": 0.9640554154965776
+      }
+    },
+    "15": {
+      "cosine_similarities": {
+        "refusal_vs_propaganda": -0.10443535764208468,
+        "refusal_vs_golden_gate": 0.008938927267905131,
+        "propaganda_vs_golden_gate": 0.03521859259082282
+      },
+      "norms": {
+        "refusal": 0.9999999999999996,
+        "propaganda": 0.9999999999999997,
+        "golden_gate": 1.0000000000000004
+      },
+      "principal_angles": {
+        "refusal_vs_propaganda": 84.0053639172568,
+        "refusal_vs_golden_gate": 89.48783037325065,
+        "propaganda_vs_golden_gate": 87.98170590583386
+      },
+      "orthogonality_scores": {
+        "refusal_vs_propaganda": 0.8955646423579153,
+        "refusal_vs_golden_gate": 0.9910610727320949,
+        "propaganda_vs_golden_gate": 0.9647814074091772
+      }
+    },
+    "16": {
+      "cosine_similarities": {
+        "refusal_vs_propaganda": 0.09299199335702985,
+        "refusal_vs_golden_gate": -0.020327151216449037,
+        "propaganda_vs_golden_gate": 0.02029437230616998
+      },
+      "norms": {
+        "refusal": 0.9999999999999999,
+        "propaganda": 0.9999999999999997,
+        "golden_gate": 0.9999999999999999
+      },
+      "principal_angles": {
+        "refusal_vs_propaganda": 84.66424215539672,
+        "refusal_vs_golden_gate": 88.83525980595022,
+        "propaganda_vs_golden_gate": 88.83713828666835
+      },
+      "orthogonality_scores": {
+        "refusal_vs_propaganda": 0.9070080066429702,
+        "refusal_vs_golden_gate": 0.979672848783551,
+        "propaganda_vs_golden_gate": 0.9797056276938301
+      }
+    },
+    "17": {
+      "cosine_similarities": {
+        "refusal_vs_propaganda": 0.07869565213102626,
+        "refusal_vs_golden_gate": -0.007675899816651405,
+        "propaganda_vs_golden_gate": 0.05415375439994795
+      },
+      "norms": {
+        "refusal": 1.0000000000000002,
+        "propaganda": 1.0000000000000002,
+        "golden_gate": 0.9999999999999998
+      },
+      "principal_angles": {
+        "refusal_vs_propaganda": 85.48640427872274,
+        "refusal_vs_golden_gate": 89.56019901766409,
+        "propaganda_vs_golden_gate": 86.89569987196444
+      },
+      "orthogonality_scores": {
+        "refusal_vs_propaganda": 0.9213043478689737,
+        "refusal_vs_golden_gate": 0.9923241001833486,
+        "propaganda_vs_golden_gate": 0.945846245600052
+      }
+    },
+    "18": {
+      "cosine_similarities": {
+        "refusal_vs_propaganda": 0.0829906673801013,
+        "refusal_vs_golden_gate": 0.01359343455698924,
+        "propaganda_vs_golden_gate": 0.08992823826350678
+      },
+      "norms": {
+        "refusal": 0.9999999999999999,
+        "propaganda": 1.0,
+        "golden_gate": 0.9999999999999999
+      },
+      "principal_angles": {
+        "refusal_vs_propaganda": 85.23950971118632,
+        "refusal_vs_golden_gate": 89.22112958273875,
+        "propaganda_vs_golden_gate": 84.84052129435861
+      },
+      "orthogonality_scores": {
+        "refusal_vs_propaganda": 0.9170093326198987,
+        "refusal_vs_golden_gate": 0.9864065654430108,
+        "propaganda_vs_golden_gate": 0.9100717617364932
+      }
+    },
+    "19": {
+      "cosine_similarities": {
+        "refusal_vs_propaganda": -0.0987506009334186,
+        "refusal_vs_golden_gate": -0.021040716234491146,
+        "propaganda_vs_golden_gate": -0.06568495532018967
+      },
+      "norms": {
+        "refusal": 1.0,
+        "propaganda": 0.9999999999999999,
+        "golden_gate": 1.0
+      },
+      "principal_angles": {
+        "refusal_vs_propaganda": 84.33277092927676,
+        "refusal_vs_golden_gate": 88.79436679267451,
+        "propaganda_vs_golden_gate": 86.23381775738594
+      },
+      "orthogonality_scores": {
+        "refusal_vs_propaganda": 0.9012493990665814,
+        "refusal_vs_golden_gate": 0.9789592837655089,
+        "propaganda_vs_golden_gate": 0.9343150446798103
+      }
+    },
+    "20": {
+      "cosine_similarities": {
+        "refusal_vs_propaganda": -0.05950035690136298,
+        "refusal_vs_golden_gate": -0.019717758885011902,
+        "propaganda_vs_golden_gate": -0.0788296371879989
+      },
+      "norms": {
+        "refusal": 0.9999999999999997,
+        "propaganda": 0.9999999999999992,
+        "golden_gate": 1.0
+      },
+      "principal_angles": {
+        "refusal_vs_propaganda": 86.58886591201882,
+        "refusal_vs_golden_gate": 88.87018241606667,
+        "propaganda_vs_golden_gate": 85.47870357741591
+      },
+      "orthogonality_scores": {
+        "refusal_vs_propaganda": 0.940499643098637,
+        "refusal_vs_golden_gate": 0.9802822411149881,
+        "propaganda_vs_golden_gate": 0.9211703628120012
+      }
+    },
+    "21": {
+      "cosine_similarities": {
+        "refusal_vs_propaganda": -0.053113079178558925,
+        "refusal_vs_golden_gate": -0.029805134165386316,
+        "propaganda_vs_golden_gate": -0.08378454236281135
+      },
+      "norms": {
+        "refusal": 1.0000000000000002,
+        "propaganda": 0.9999999999999994,
+        "golden_gate": 0.9999999999999993
+      },
+      "principal_angles": {
+        "refusal_vs_propaganda": 86.95541211699783,
+        "refusal_vs_golden_gate": 88.29203866404794,
+        "propaganda_vs_golden_gate": 85.19386505225354
+      },
+      "orthogonality_scores": {
+        "refusal_vs_propaganda": 0.9468869208214411,
+        "refusal_vs_golden_gate": 0.9701948658346137,
+        "propaganda_vs_golden_gate": 0.9162154576371886
+      }
+    }
+  },
+  "summary_stats": {
+    "mean_cosine_similarity": {
+      "refusal_vs_propaganda": -0.030584666735023303,
+      "refusal_vs_golden_gate": -0.0235748109346324,
+      "propaganda_vs_golden_gate": 0.005961675827528275
+    },
+    "std_cosine_similarity": {
+      "refusal_vs_propaganda": 0.07395961575361372,
+      "refusal_vs_golden_gate": 0.047439986162617825,
+      "propaganda_vs_golden_gate": 0.07494704814896935
+    },
+    "mean_principal_angle": {
+      "refusal_vs_propaganda": 85.80984002418741,
+      "refusal_vs_golden_gate": 87.97309489594345,
+      "propaganda_vs_golden_gate": 86.42176571438925
+    },
+    "std_principal_angle": {
+      "refusal_vs_propaganda": 1.8804224252438466,
+      "refusal_vs_golden_gate": 2.269289192489529,
+      "propaganda_vs_golden_gate": 2.420065840907681
+    },
+    "mean_orthogonality": {
+      "refusal_vs_propaganda": 0.9269689477869504,
+      "refusal_vs_golden_gate": 0.9646776492373398,
+      "propaganda_vs_golden_gate": 0.9376598956812777
+    },
+    "std_orthogonality": {
+      "refusal_vs_propaganda": 0.032740067415469074,
+      "refusal_vs_golden_gate": 0.0394798117309674,
+      "propaganda_vs_golden_gate": 0.042027526675350736
+    }
+  }
+}

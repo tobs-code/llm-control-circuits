@@ -30,6 +30,7 @@ In practice, that means:
 - [docs/cross_model_summary.md](./docs/cross_model_summary.md): compact cross-model comparison
 - [docs/deep_probe_analyse.md](./docs/deep_probe_analyse.md): long-form deep-probe interpretation
 - [docs/mini_bridge_experiment_readme.md](./docs/mini_bridge_experiment_readme.md): concept steering and interaction studies
+- [docs/VECTOR_GEOMETRY_SUMMARY.md](./docs/VECTOR_GEOMETRY_SUMMARY.md): quantitative vector geometry analysis of steering directions
 - [environment.md](./environment.md): local environment notes
 
 ## Key Findings

@@ -1,0 +1,23 @@
+{
+  "model": "internlm2_propaganda",
+  "timestamp": "2026-05-12T04:37:58.283680",
+  "vector_types": [
+    "internlm2_propaganda"
+  ],
+  "layers_analyzed": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+  ],
+  "pairwise_analysis": {},
+  "summary_stats": {}
+}

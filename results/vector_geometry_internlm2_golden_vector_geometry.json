@@ -1,0 +1,23 @@
+{
+  "model": "internlm2_golden",
+  "timestamp": "2026-05-12T04:37:58.282283",
+  "vector_types": [
+    "internlm2_golden_gate"
+  ],
+  "layers_analyzed": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+  ],
+  "pairwise_analysis": {},
+  "summary_stats": {}
+}

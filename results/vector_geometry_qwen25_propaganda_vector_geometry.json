@@ -1,0 +1,21 @@
+{
+  "model": "qwen25_propaganda",
+  "timestamp": "2026-05-12T04:37:58.283680",
+  "vector_types": [
+    "qwen25_propaganda"
+  ],
+  "layers_analyzed": [
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "pairwise_analysis": {},
+  "summary_stats": {}
+}
