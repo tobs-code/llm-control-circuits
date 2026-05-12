@@ -1,67 +1,113 @@
 # Mechanistic Interpretability: Qwen Censorship Analysis
 
-Dieses Repository dokumentiert eine Reihe von mechanistic-interpretability-Experimenten zu politischen Kontrollmechanismen, Refusal-Verhalten, Propaganda-Substitution und Concept Steering in offenen Sprachmodellen.
+This repository collects a set of mechanistic-interpretability experiments on political control behavior, refusal circuits, propaganda substitution, cross-lingual routing, and concept steering in open language models.
 
-Der Schwerpunkt hat sich von reinem "Kann man Refusal umgehen?" zu einer breiteren Forschungsfrage verschoben:
+The project started as a practical study of Qwen censorship behavior and gradually expanded into a broader question about late-layer control geometry:
 
 ```text
-Wie sind politische Kontrollrichtungen, harmlose Konzept-Richtungen
-und ihre Interaktionen im späten Decoder organisiert?
+How are political control directions, harmless concept directions,
+and their interactions organized in the late decoder?
 ```
 
-## Einstieg
+## Abstract
 
-- [research_map.md](./research_map.md): Forschungsfragen, Hypothesen und Ergebnis-Taxonomie
-- [docs/cross_model_summary.md](./docs/cross_model_summary.md): Kompakter modellübergreifender Überblick
-- [docs/deep_probe_analyse.md](./docs/deep_probe_analyse.md): Längere Analyse der Deep-Probe-Runs
-- [docs/mini_bridge_experiment_readme.md](./docs/mini_bridge_experiment_readme.md): Concept-Steering- und Interaktions-Readme
+The central working picture in this repo is:
 
-## Struktur
-- `README.md`: Schneller Projekteinstieg.
-- `research_map.md`: Forschungsfragen, Hypothesen und Ergebnis-Taxonomie.
+```text
+separate directions, shared decoder
+```
+
+In practice, that means:
+
+- political refusal and propaganda-like behavior appear to involve distinct late directions,
+- harmless concept steering can also create strong late-stage semantic drift,
+- these directions do not simply cancel each other,
+- instead, they interact through shared decoding dynamics and often produce graded, nonlinear output deformation.
+
+## Reading Path
+
+- [research_map.md](./research_map.md): repo-level hypotheses, evidence discipline, and outcome taxonomy
+- [docs/cross_model_summary.md](./docs/cross_model_summary.md): compact cross-model comparison
+- [docs/deep_probe_analyse.md](./docs/deep_probe_analyse.md): long-form deep-probe interpretation
+- [docs/mini_bridge_experiment_readme.md](./docs/mini_bridge_experiment_readme.md): concept steering and interaction studies
+- [environment.md](./environment.md): local environment notes
+
+## Key Findings
+
+1. Political control in these models is often late, distributed, and behaviorally redundant rather than a single switch.
+2. Chinese political prompts often reveal stronger or more specialized control behavior than semantically matched English prompts.
+3. The same intervention produces very different collapse regimes across models: loops, propaganda substitution, multilingual token breakdown, or reasoning paradox.
+4. Harmless concept steering can show soft-threshold behavior, especially in late decoder layers.
+5. Joint steering experiments currently fit best with a graded-interaction picture rather than simple linear cancellation.
+
+## Repository Layout
+
+- `README.md`: high-level project entry point
+- `research_map.md`: hypotheses, research lines, and result taxonomy
 - `scripts/runs/`: Haupt-Runner für Experimente und Sweeps.
 - `scripts/analysis/`: Auswertungen, Bypass-Analysen und Modellvergleiche.
 - `scripts/demos/`: Kleine Demo- und Visualisierungsskripte.
 - `scripts/inspect/`: Inspektions- und Debug-Helfer.
 - `scripts/utils/`: Export- und Hilfsskripte.
-- `docs/`: Längere Analysen, Experiment-Readmes und Zusammenfassungen.
-- `results/`: Gespeicherte Laufresultate (`.md` / `.json`).
-- `assets/figures/`: Generierte Grafiken.
-- `assets/dashboards/`: HTML-Dashboards und Visualisierungen.
-- `.local/`: Lokale Caches, HF-Module, Vektordumps und sonstige Nicht-Git-Artefakte.
-- `environment.md`: Praktische Setup-Hinweise für lokale Runs.
+- `docs/`: long-form notes, analyses, and experiment writeups
+- `results/`: saved run outputs (`.md` / `.json`)
+- `assets/figures/`: generated figures
+- `assets/dashboards/`: HTML dashboards and visual artifacts
+- `.local/`: ignored local caches, HF modules, vector dumps, and side data
+- `environment.md`: practical setup notes for local runs
 
-## Forschungslinien
+## Research Lines
 
 1. `Political control circuits`
-   Analyse später Refusal-/Propaganda-Mechanismen, Head-Finder, Ablation, Hard-Lock- und Causal-Probes.
+   Late refusal / propaganda mechanisms, head-finding, ablation, hard-lock probes, and causal probing.
 2. `Cross-model deep probes`
-   Vergleich, wie verschiedene Modellfamilien unter denselben Eingriffen kollabieren oder ausweichen.
+   Comparison of how different model families fail under similar interventions.
 3. `Concept steering geometry`
-   Harmlose Konzept-Vektoren wie `Golden Gate Bridge`, Schwelleneffekte und Hook-Target-Vergleiche.
+   Harmless concept vectors such as `Golden Gate Bridge`, threshold behavior, and hook-target comparisons.
 4. `Interaction studies`
-   Gemeinsame Runs von politischem Bypass und Konzept-Steering, inklusive Gradualität statt einfacher Cancellation.
+   Joint runs of political bypass and concept steering, focusing on graded interaction rather than simple cancellation.
 
-## 🛠️ Technische Infrastruktur
-- **Modell:** `Qwen/Qwen2.5-1.5B-Instruct` (ausgewählt wegen optimalem Verhältnis von Intelligenz zu VRAM-Footprint).
-- **Hardware:** NVIDIA RTX 2080 (8GB VRAM) / 32GB System RAM.
-- **Fixes:**
-    - Erzwungene Installation von PyTorch mit CUDA-Unterstützung (`+cu121`).
-    - Downgrade von Numpy auf `1.26.4` zur Behebung von binären Inkompatibilitäten in Scikit-Learn.
-    - Globaler Standard-Dtype: `torch.float16` zur Vermeidung von CPU-Upcasting-RAM-Spikes.
+## Example Entry Points
 
-## 🔍 Experimente & Erkenntnisse
+Political control:
+
+```powershell
+python scripts/runs/run_deep_probe_all.py
+python scripts/runs/run_hard_lock_token_sweep.py
+```
+
+Concept steering:
+
+```powershell
+python scripts/runs/run_golden_gate_mini.py --model Qwen/Qwen3.5-2B --layers auto --alphas 0,6,7
+```
+
+Interaction studies:
+
+```powershell
+python scripts/runs/run_joint_bypass_concept.py
+python scripts/runs/run_joint_bypass_concept_grid.py
+```
+
+## Technical Notes
+
+- Development was centered on local Windows runs with CUDA-capable PyTorch.
+- Many experiments were run on relatively modest hardware, especially `RTX 2080 8GB`.
+- Several scripts use `trust_remote_code=True` because of model-specific Hugging Face implementations.
+- A few environment-specific notes are documented in [environment.md](./environment.md).
+
+## Historical Starting Point
 
 ### 1. Automated Head Finder (`scripts/analysis/qwen_head_finder.py`)
-Identifiziert Attention-Heads, deren Aktivierung sich maximal unterscheidet, wenn ein Trigger-Wort (z.B. "Tiananmen Square") im Vergleich zu einem neutralen Wort ("Beijing") verwendet wird.
-- **Top-Entdeckung:** Layer 27, Head 10 ist ein massiver Ausreißer (Score: 44.9) und fungiert als primärer "Zensur-Sensor" in den finalen Layern.
+Identifies attention heads whose activation differs most strongly between a sensitive trigger and a neutral control prompt.
+- Initial standout: Layer 27, Head 10 behaved like a strong late censorship sensor.
 
 ### 2. Heatmap Visualisierung (`scripts/analysis/heatmap_generator.py`)
-Erstellt ein 2D-Wärmebild aller Layer und Heads.
-- **Ergebnis:** Die Zensur-Reaktivität konzentriert sich fast ausschließlich auf die **späten Layer (20-27)**. Dies bestätigt die Architektur von "Output-Filtern".
+Builds a 2D layer/head heatmap.
+- Early result: censorship-reactive behavior was concentrated heavily in late layers, consistent with output-side gating.
 
 ### 3. Ablation-Studien (Der Kampf gegen die Hydra)
-Wir haben versucht, die Zensur durch gezielte Eingriffe in das neuronale Gehirn zu umgehen:
+Targeted ablations were used to test whether refusal could be surgically weakened without destroying language behavior:
 
 | Methode | Skript | Ergebnis | Erkenntnis |
 | :--- | :--- | :--- | :--- |
@@ -69,25 +115,25 @@ Wir haben versucht, die Zensur durch gezielte Eingriffe in das neuronale Gehirn 
 | **Brute Force (Top 50)** | `scripts/analysis/brute_force_bypass.py` | **Wortsalat (Gibberish)** | Zensur-Heads sind untrennbar mit Grammatik/Logik verwoben. |
 | **Directional (Laser-OP)** | `scripts/analysis/directional_ablation_bypass.py` | Refusal-Text ändert sich | Dämpft den "Alarm", aber das Modell spürt den Trigger noch über andere Kanäle (MLPs). |
 
-## Aktuelle Arbeitshypothese
+## Current Working Hypothesis
 
-Die stärkste aktuelle Gesamtlesart des Repos ist:
+The strongest current repo-level interpretation is:
 
 ```text
 separate directions, shared decoder
 ```
 
-Also:
+That is:
 
-- verschiedene Steuerungen scheinen geometrisch unterscheidbar zu sein,
-- sie interagieren aber trotzdem über dieselbe Decoding-Dynamik,
-- deshalb sieht man oft graduelle, nichtlineare Regimewechsel statt sauberer linearer Aufhebung.
+- different steering families appear geometrically distinguishable,
+- they still interact through the same decoding dynamics,
+- so we often observe graded, nonlinear regime shifts instead of clean linear opposition.
 
-## 🧬 Fazit: Die "Hydra" der Zensur
-Die Zensur in modernen Instruct-Modellen wie Qwen ist kein simpler Ein/Aus-Schalter. Sie ist ein **hochredundantes Netzwerk**, das:
-1. In den finalen Layern als Wächter fungiert.
-2. Über Dutzende Heads verteilt ist (wenn man einen abschaltet, springt der nächste ein).
-3. Tief mit der allgemeinen Sprachfähigkeit verschränkt ist.
+## Status
+
+This is an active experimental research workspace, not a finalized paper artifact.
+Some claims are direct behavioral observations; others are explicitly interpretive mechanistic hypotheses.
+The intended discipline for separating those two is documented in [research_map.md](./research_map.md).
 
 ---
-*Aktueller Fokus: Cross-model collapse taxonomy, vector geometry und joint interaction studies zwischen politischen und harmlosen Steering-Richtungen.*
+Current focus: cross-model collapse taxonomy, vector geometry, and joint interaction studies between political and harmless steering directions.
