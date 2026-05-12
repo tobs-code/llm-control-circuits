@@ -1,0 +1,1990 @@
+{
+  "model": "Qwen/Qwen3.5-2B",
+  "run_at": "2026-05-11T22:33:08.841074",
+  "results": [
+    {
+      "probe": "hello",
+      "source": "hello",
+      "patch_lang": "zh",
+      "patch_text": "你好",
+      "source_token_ids": [
+        23066
+      ],
+      "patch_token_ids": [
+        109266
+      ],
+      "max_delta": 2.4921875,
+      "max_delta_layer": 23,
+      "min_delta": -0.03271484375,
+      "min_delta_layer": 10,
+      "delta_l17": 0.37890625,
+      "delta_l18": 0.640625,
+      "delta_l23": 2.4921875,
+      "layers": [
+        {
+          "layer": 0,
+          "en_proj": 0.283203125,
+          "patched_proj": 0.28515625,
+          "delta": 0.001953125
+        },
+        {
+          "layer": 1,
+          "en_proj": 0.0673828125,
+          "patched_proj": 0.07177734375,
+          "delta": 0.00439453125
+        },
+        {
+          "layer": 2,
+          "en_proj": -0.062255859375,
+          "patched_proj": -0.056640625,
+          "delta": 0.005615234375
+        },
+        {
+          "layer": 3,
+          "en_proj": 0.044921875,
+          "patched_proj": 0.06640625,
+          "delta": 0.021484375
+        },
+        {
+          "layer": 4,
+          "en_proj": -0.04248046875,
+          "patched_proj": -0.00860595703125,
+          "delta": 0.03387451171875
+        },
+        {
+          "layer": 5,
+          "en_proj": -0.01422119140625,
+          "patched_proj": 0.0074462890625,
+          "delta": 0.02166748046875
+        },
+        {
+          "layer": 6,
+          "en_proj": 0.1298828125,
+          "patched_proj": 0.1630859375,
+          "delta": 0.033203125
+        },
+        {
+          "layer": 7,
+          "en_proj": -0.0213623046875,
+          "patched_proj": -0.01251220703125,
+          "delta": 0.00885009765625
+        },
+        {
+          "layer": 8,
+          "en_proj": 0.1396484375,
+          "patched_proj": 0.10888671875,
+          "delta": -0.03076171875
+        },
+        {
+          "layer": 9,
+          "en_proj": 0.10400390625,
+          "patched_proj": 0.07958984375,
+          "delta": -0.0244140625
+        },
+        {
+          "layer": 10,
+          "en_proj": -0.064453125,
+          "patched_proj": -0.09716796875,
+          "delta": -0.03271484375
+        },
+        {
+          "layer": 11,
+          "en_proj": 0.03173828125,
+          "patched_proj": 0.0164794921875,
+          "delta": -0.0152587890625
+        },
+        {
+          "layer": 12,
+          "en_proj": 0.234375,
+          "patched_proj": 0.296875,
+          "delta": 0.0625
+        },
+        {
+          "layer": 13,
+          "en_proj": 0.019775390625,
+          "patched_proj": 0.09716796875,
+          "delta": 0.077392578125
+        },
+        {
+          "layer": 14,
+          "en_proj": -0.0478515625,
+          "patched_proj": 0.1044921875,
+          "delta": 0.15234375
+        },
+        {
+          "layer": 15,
+          "en_proj": -0.45703125,
+          "patched_proj": -0.0478515625,
+          "delta": 0.4091796875
+        },
+        {
+          "layer": 16,
+          "en_proj": 0.0291748046875,
+          "patched_proj": 0.2490234375,
+          "delta": 0.2198486328125
+        },
+        {
+          "layer": 17,
+          "en_proj": 0.74609375,
+          "patched_proj": 1.125,
+          "delta": 0.37890625
+        },
+        {
+          "layer": 18,
+          "en_proj": 2.34375,
+          "patched_proj": 2.984375,
+          "delta": 0.640625
+        },
+        {
+          "layer": 19,
+          "en_proj": 0.283203125,
+          "patched_proj": 0.86328125,
+          "delta": 0.580078125
+        },
+        {
+          "layer": 20,
+          "en_proj": 0.388671875,
+          "patched_proj": 1.3515625,
+          "delta": 0.962890625
+        },
+        {
+          "layer": 21,
+          "en_proj": 0.47265625,
+          "patched_proj": 1.6328125,
+          "delta": 1.16015625
+        },
+        {
+          "layer": 22,
+          "en_proj": 0.2109375,
+          "patched_proj": 0.90625,
+          "delta": 0.6953125
+        },
+        {
+          "layer": 23,
+          "en_proj": 1.2734375,
+          "patched_proj": 3.765625,
+          "delta": 2.4921875
+        }
+      ]
+    },
+    {
+      "probe": "hello",
+      "source": "hello",
+      "patch_lang": "ja",
+      "patch_text": "こんにちは",
+      "source_token_ids": [
+        23066
+      ],
+      "patch_token_ids": [
+        85951
+      ],
+      "max_delta": 1.8984375,
+      "max_delta_layer": 23,
+      "min_delta": -0.05126953125,
+      "min_delta_layer": 8,
+      "delta_l17": 0.26953125,
+      "delta_l18": 0.84375,
+      "delta_l23": 1.8984375,
+      "layers": [
+        {
+          "layer": 0,
+          "en_proj": 0.283203125,
+          "patched_proj": 0.283203125,
+          "delta": 0.0
+        },
+        {
+          "layer": 1,
+          "en_proj": 0.0673828125,
+          "patched_proj": 0.06689453125,
+          "delta": -0.00048828125
+        },
+        {
+          "layer": 2,
+          "en_proj": -0.062255859375,
+          "patched_proj": -0.057861328125,
+          "delta": 0.00439453125
+        },
+        {
+          "layer": 3,
+          "en_proj": 0.044921875,
+          "patched_proj": 0.061279296875,
+          "delta": 0.016357421875
+        },
+        {
+          "layer": 4,
+          "en_proj": -0.04248046875,
+          "patched_proj": -0.028076171875,
+          "delta": 0.014404296875
+        },
+        {
+          "layer": 5,
+          "en_proj": -0.01422119140625,
+          "patched_proj": -0.006500244140625,
+          "delta": 0.007720947265625
+        },
+        {
+          "layer": 6,
+          "en_proj": 0.1298828125,
+          "patched_proj": 0.126953125,
+          "delta": -0.0029296875
+        },
+        {
+          "layer": 7,
+          "en_proj": -0.0213623046875,
+          "patched_proj": -0.042236328125,
+          "delta": -0.0208740234375
+        },
+        {
+          "layer": 8,
+          "en_proj": 0.1396484375,
+          "patched_proj": 0.08837890625,
+          "delta": -0.05126953125
+        },
+        {
+          "layer": 9,
+          "en_proj": 0.10400390625,
+          "patched_proj": 0.087890625,
+          "delta": -0.01611328125
+        },
+        {
+          "layer": 10,
+          "en_proj": -0.064453125,
+          "patched_proj": -0.08056640625,
+          "delta": -0.01611328125
+        },
+        {
+          "layer": 11,
+          "en_proj": 0.03173828125,
+          "patched_proj": 0.046142578125,
+          "delta": 0.014404296875
+        },
+        {
+          "layer": 12,
+          "en_proj": 0.234375,
+          "patched_proj": 0.3125,
+          "delta": 0.078125
+        },
+        {
+          "layer": 13,
+          "en_proj": 0.019775390625,
+          "patched_proj": 0.0908203125,
+          "delta": 0.071044921875
+        },
+        {
+          "layer": 14,
+          "en_proj": -0.0478515625,
+          "patched_proj": 0.1875,
+          "delta": 0.2353515625
+        },
+        {
+          "layer": 15,
+          "en_proj": -0.45703125,
+          "patched_proj": -0.0341796875,
+          "delta": 0.4228515625
+        },
+        {
+          "layer": 16,
+          "en_proj": 0.0291748046875,
+          "patched_proj": 0.20703125,
+          "delta": 0.1778564453125
+        },
+        {
+          "layer": 17,
+          "en_proj": 0.74609375,
+          "patched_proj": 1.015625,
+          "delta": 0.26953125
+        },
+        {
+          "layer": 18,
+          "en_proj": 2.34375,
+          "patched_proj": 3.1875,
+          "delta": 0.84375
+        },
+        {
+          "layer": 19,
+          "en_proj": 0.283203125,
+          "patched_proj": 0.5703125,
+          "delta": 0.287109375
+        },
+        {
+          "layer": 20,
+          "en_proj": 0.388671875,
+          "patched_proj": 1.125,
+          "delta": 0.736328125
+        },
+        {
+          "layer": 21,
+          "en_proj": 0.47265625,
+          "patched_proj": 1.4921875,
+          "delta": 1.01953125
+        },
+        {
+          "layer": 22,
+          "en_proj": 0.2109375,
+          "patched_proj": 0.828125,
+          "delta": 0.6171875
+        },
+        {
+          "layer": 23,
+          "en_proj": 1.2734375,
+          "patched_proj": 3.171875,
+          "delta": 1.8984375
+        }
+      ]
+    },
+    {
+      "probe": "hello",
+      "source": "hello",
+      "patch_lang": "ko",
+      "patch_text": "안녕하세요",
+      "source_token_ids": [
+        23066
+      ],
+      "patch_token_ids": [
+        148924,
+        154982,
+        88005
+      ],
+      "max_delta": 0.357421875,
+      "max_delta_layer": 15,
+      "min_delta": -1.1513671875,
+      "min_delta_layer": 23,
+      "delta_l17": -0.08984375,
+      "delta_l18": 0.34375,
+      "delta_l23": -1.1513671875,
+      "layers": [
+        {
+          "layer": 0,
+          "en_proj": 0.283203125,
+          "patched_proj": 0.283203125,
+          "delta": 0.0
+        },
+        {
+          "layer": 1,
+          "en_proj": 0.0673828125,
+          "patched_proj": 0.06982421875,
+          "delta": 0.00244140625
+        },
+        {
+          "layer": 2,
+          "en_proj": -0.062255859375,
+          "patched_proj": -0.064453125,
+          "delta": -0.002197265625
+        },
+        {
+          "layer": 3,
+          "en_proj": 0.044921875,
+          "patched_proj": 0.06689453125,
+          "delta": 0.02197265625
+        },
+        {
+          "layer": 4,
+          "en_proj": -0.04248046875,
+          "patched_proj": -0.0576171875,
+          "delta": -0.01513671875
+        },
+        {
+          "layer": 5,
+          "en_proj": -0.01422119140625,
+          "patched_proj": 0.0023651123046875,
+          "delta": 0.0165863037109375
+        },
+        {
+          "layer": 6,
+          "en_proj": 0.1298828125,
+          "patched_proj": 0.1318359375,
+          "delta": 0.001953125
+        },
+        {
+          "layer": 7,
+          "en_proj": -0.0213623046875,
+          "patched_proj": -0.047119140625,
+          "delta": -0.0257568359375
+        },
+        {
+          "layer": 8,
+          "en_proj": 0.1396484375,
+          "patched_proj": 0.109375,
+          "delta": -0.0302734375
+        },
+        {
+          "layer": 9,
+          "en_proj": 0.10400390625,
+          "patched_proj": 0.1171875,
+          "delta": 0.01318359375
+        },
+        {
+          "layer": 10,
+          "en_proj": -0.064453125,
+          "patched_proj": -0.06640625,
+          "delta": -0.001953125
+        },
+        {
+          "layer": 11,
+          "en_proj": 0.03173828125,
+          "patched_proj": 0.06298828125,
+          "delta": 0.03125
+        },
+        {
+          "layer": 12,
+          "en_proj": 0.234375,
+          "patched_proj": 0.2333984375,
+          "delta": -0.0009765625
+        },
+        {
+          "layer": 13,
+          "en_proj": 0.019775390625,
+          "patched_proj": -0.0302734375,
+          "delta": -0.050048828125
+        },
+        {
+          "layer": 14,
+          "en_proj": -0.0478515625,
+          "patched_proj": 0.0830078125,
+          "delta": 0.130859375
+        },
+        {
+          "layer": 15,
+          "en_proj": -0.45703125,
+          "patched_proj": -0.099609375,
+          "delta": 0.357421875
+        },
+        {
+          "layer": 16,
+          "en_proj": 0.0291748046875,
+          "patched_proj": 0.10498046875,
+          "delta": 0.0758056640625
+        },
+        {
+          "layer": 17,
+          "en_proj": 0.74609375,
+          "patched_proj": 0.65625,
+          "delta": -0.08984375
+        },
+        {
+          "layer": 18,
+          "en_proj": 2.34375,
+          "patched_proj": 2.6875,
+          "delta": 0.34375
+        },
+        {
+          "layer": 19,
+          "en_proj": 0.283203125,
+          "patched_proj": 0.1416015625,
+          "delta": -0.1416015625
+        },
+        {
+          "layer": 20,
+          "en_proj": 0.388671875,
+          "patched_proj": 0.578125,
+          "delta": 0.189453125
+        },
+        {
+          "layer": 21,
+          "en_proj": 0.47265625,
+          "patched_proj": 0.79296875,
+          "delta": 0.3203125
+        },
+        {
+          "layer": 22,
+          "en_proj": 0.2109375,
+          "patched_proj": -0.44921875,
+          "delta": -0.66015625
+        },
+        {
+          "layer": 23,
+          "en_proj": 1.2734375,
+          "patched_proj": 0.1220703125,
+          "delta": -1.1513671875
+        }
+      ]
+    },
+    {
+      "probe": "hello",
+      "source": "hello",
+      "patch_lang": "en_control",
+      "patch_text": "apple",
+      "source_token_ids": [
+        23066
+      ],
+      "patch_token_ids": [
+        21680
+      ],
+      "max_delta": 0.703125,
+      "max_delta_layer": 18,
+      "min_delta": -1.212646484375,
+      "min_delta_layer": 23,
+      "delta_l17": 0.01171875,
+      "delta_l18": 0.703125,
+      "delta_l23": -1.212646484375,
+      "layers": [
+        {
+          "layer": 0,
+          "en_proj": 0.283203125,
+          "patched_proj": 0.28515625,
+          "delta": 0.001953125
+        },
+        {
+          "layer": 1,
+          "en_proj": 0.0673828125,
+          "patched_proj": 0.06884765625,
+          "delta": 0.00146484375
+        },
+        {
+          "layer": 2,
+          "en_proj": -0.062255859375,
+          "patched_proj": -0.059814453125,
+          "delta": 0.00244140625
+        },
+        {
+          "layer": 3,
+          "en_proj": 0.044921875,
+          "patched_proj": 0.047119140625,
+          "delta": 0.002197265625
+        },
+        {
+          "layer": 4,
+          "en_proj": -0.04248046875,
+          "patched_proj": -0.035400390625,
+          "delta": 0.007080078125
+        },
+        {
+          "layer": 5,
+          "en_proj": -0.01422119140625,
+          "patched_proj": -0.0029144287109375,
+          "delta": 0.0113067626953125
+        },
+        {
+          "layer": 6,
+          "en_proj": 0.1298828125,
+          "patched_proj": 0.11669921875,
+          "delta": -0.01318359375
+        },
+        {
+          "layer": 7,
+          "en_proj": -0.0213623046875,
+          "patched_proj": -0.05029296875,
+          "delta": -0.0289306640625
+        },
+        {
+          "layer": 8,
+          "en_proj": 0.1396484375,
+          "patched_proj": 0.10986328125,
+          "delta": -0.02978515625
+        },
+        {
+          "layer": 9,
+          "en_proj": 0.10400390625,
+          "patched_proj": 0.0771484375,
+          "delta": -0.02685546875
+        },
+        {
+          "layer": 10,
+          "en_proj": -0.064453125,
+          "patched_proj": -0.076171875,
+          "delta": -0.01171875
+        },
+        {
+          "layer": 11,
+          "en_proj": 0.03173828125,
+          "patched_proj": 0.03515625,
+          "delta": 0.00341796875
+        },
+        {
+          "layer": 12,
+          "en_proj": 0.234375,
+          "patched_proj": 0.224609375,
+          "delta": -0.009765625
+        },
+        {
+          "layer": 13,
+          "en_proj": 0.019775390625,
+          "patched_proj": -0.0269775390625,
+          "delta": -0.0467529296875
+        },
+        {
+          "layer": 14,
+          "en_proj": -0.0478515625,
+          "patched_proj": -0.0167236328125,
+          "delta": 0.0311279296875
+        },
+        {
+          "layer": 15,
+          "en_proj": -0.45703125,
+          "patched_proj": -0.265625,
+          "delta": 0.19140625
+        },
+        {
+          "layer": 16,
+          "en_proj": 0.0291748046875,
+          "patched_proj": 0.07666015625,
+          "delta": 0.0474853515625
+        },
+        {
+          "layer": 17,
+          "en_proj": 0.74609375,
+          "patched_proj": 0.7578125,
+          "delta": 0.01171875
+        },
+        {
+          "layer": 18,
+          "en_proj": 2.34375,
+          "patched_proj": 3.046875,
+          "delta": 0.703125
+        },
+        {
+          "layer": 19,
+          "en_proj": 0.283203125,
+          "patched_proj": 0.55859375,
+          "delta": 0.275390625
+        },
+        {
+          "layer": 20,
+          "en_proj": 0.388671875,
+          "patched_proj": 0.578125,
+          "delta": 0.189453125
+        },
+        {
+          "layer": 21,
+          "en_proj": 0.47265625,
+          "patched_proj": 0.65234375,
+          "delta": 0.1796875
+        },
+        {
+          "layer": 22,
+          "en_proj": 0.2109375,
+          "patched_proj": 0.0869140625,
+          "delta": -0.1240234375
+        },
+        {
+          "layer": 23,
+          "en_proj": 1.2734375,
+          "patched_proj": 0.060791015625,
+          "delta": -1.212646484375
+        }
+      ]
+    },
+    {
+      "probe": "thanks",
+      "source": "thanks",
+      "patch_lang": "zh",
+      "patch_text": "谢谢",
+      "source_token_ids": [
+        9061
+      ],
+      "patch_token_ids": [
+        100035
+      ],
+      "max_delta": 4.21484375,
+      "max_delta_layer": 23,
+      "min_delta": -0.03125,
+      "min_delta_layer": 10,
+      "delta_l17": 0.2734375,
+      "delta_l18": 0.53125,
+      "delta_l23": 4.21484375,
+      "layers": [
+        {
+          "layer": 0,
+          "en_proj": 0.279296875,
+          "patched_proj": 0.287109375,
+          "delta": 0.0078125
+        },
+        {
+          "layer": 1,
+          "en_proj": 0.06884765625,
+          "patched_proj": 0.07177734375,
+          "delta": 0.0029296875
+        },
+        {
+          "layer": 2,
+          "en_proj": -0.062255859375,
+          "patched_proj": -0.0546875,
+          "delta": 0.007568359375
+        },
+        {
+          "layer": 3,
+          "en_proj": 0.044189453125,
+          "patched_proj": 0.06201171875,
+          "delta": 0.017822265625
+        },
+        {
+          "layer": 4,
+          "en_proj": -0.045166015625,
+          "patched_proj": -0.01422119140625,
+          "delta": 0.03094482421875
+        },
+        {
+          "layer": 5,
+          "en_proj": -0.013916015625,
+          "patched_proj": -0.008544921875,
+          "delta": 0.00537109375
+        },
+        {
+          "layer": 6,
+          "en_proj": 0.12158203125,
+          "patched_proj": 0.1494140625,
+          "delta": 0.02783203125
+        },
+        {
+          "layer": 7,
+          "en_proj": -0.052734375,
+          "patched_proj": -0.037109375,
+          "delta": 0.015625
+        },
+        {
+          "layer": 8,
+          "en_proj": 0.11767578125,
+          "patched_proj": 0.10791015625,
+          "delta": -0.009765625
+        },
+        {
+          "layer": 9,
+          "en_proj": 0.1025390625,
+          "patched_proj": 0.1064453125,
+          "delta": 0.00390625
+        },
+        {
+          "layer": 10,
+          "en_proj": -0.05078125,
+          "patched_proj": -0.08203125,
+          "delta": -0.03125
+        },
+        {
+          "layer": 11,
+          "en_proj": 0.03515625,
+          "patched_proj": 0.03173828125,
+          "delta": -0.00341796875
+        },
+        {
+          "layer": 12,
+          "en_proj": 0.23046875,
+          "patched_proj": 0.314453125,
+          "delta": 0.083984375
+        },
+        {
+          "layer": 13,
+          "en_proj": 0.04638671875,
+          "patched_proj": 0.10107421875,
+          "delta": 0.0546875
+        },
+        {
+          "layer": 14,
+          "en_proj": 0.0120849609375,
+          "patched_proj": 0.1953125,
+          "delta": 0.1832275390625
+        },
+        {
+          "layer": 15,
+          "en_proj": -0.4609375,
+          "patched_proj": -0.134765625,
+          "delta": 0.326171875
+        },
+        {
+          "layer": 16,
+          "en_proj": -0.09912109375,
+          "patched_proj": 0.115234375,
+          "delta": 0.21435546875
+        },
+        {
+          "layer": 17,
+          "en_proj": 0.7265625,
+          "patched_proj": 1.0,
+          "delta": 0.2734375
+        },
+        {
+          "layer": 18,
+          "en_proj": 2.5,
+          "patched_proj": 3.03125,
+          "delta": 0.53125
+        },
+        {
+          "layer": 19,
+          "en_proj": 0.09619140625,
+          "patched_proj": 0.80078125,
+          "delta": 0.70458984375
+        },
+        {
+          "layer": 20,
+          "en_proj": 0.0849609375,
+          "patched_proj": 1.3125,
+          "delta": 1.2275390625
+        },
+        {
+          "layer": 21,
+          "en_proj": -0.043701171875,
+          "patched_proj": 1.5703125,
+          "delta": 1.614013671875
+        },
+        {
+          "layer": 22,
+          "en_proj": -0.6640625,
+          "patched_proj": 0.79296875,
+          "delta": 1.45703125
+        },
+        {
+          "layer": 23,
+          "en_proj": 0.59765625,
+          "patched_proj": 4.8125,
+          "delta": 4.21484375
+        }
+      ]
+    },
+    {
+      "probe": "thanks",
+      "source": "thanks",
+      "patch_lang": "ja",
+      "patch_text": "ありがとう",
+      "source_token_ids": [
+        9061
+      ],
+      "patch_token_ids": [
+        82730
+      ],
+      "max_delta": 2.96484375,
+      "max_delta_layer": 23,
+      "min_delta": -0.03759765625,
+      "min_delta_layer": 10,
+      "delta_l17": 0.04296875,
+      "delta_l18": 0.109375,
+      "delta_l23": 2.96484375,
+      "layers": [
+        {
+          "layer": 0,
+          "en_proj": 0.279296875,
+          "patched_proj": 0.283203125,
+          "delta": 0.00390625
+        },
+        {
+          "layer": 1,
+          "en_proj": 0.06884765625,
+          "patched_proj": 0.06494140625,
+          "delta": -0.00390625
+        },
+        {
+          "layer": 2,
+          "en_proj": -0.062255859375,
+          "patched_proj": -0.0634765625,
+          "delta": -0.001220703125
+        },
+        {
+          "layer": 3,
+          "en_proj": 0.044189453125,
+          "patched_proj": 0.056396484375,
+          "delta": 0.01220703125
+        },
+        {
+          "layer": 4,
+          "en_proj": -0.045166015625,
+          "patched_proj": -0.035400390625,
+          "delta": 0.009765625
+        },
+        {
+          "layer": 5,
+          "en_proj": -0.013916015625,
+          "patched_proj": -0.00714111328125,
+          "delta": 0.00677490234375
+        },
+        {
+          "layer": 6,
+          "en_proj": 0.12158203125,
+          "patched_proj": 0.130859375,
+          "delta": 0.00927734375
+        },
+        {
+          "layer": 7,
+          "en_proj": -0.052734375,
+          "patched_proj": -0.053955078125,
+          "delta": -0.001220703125
+        },
+        {
+          "layer": 8,
+          "en_proj": 0.11767578125,
+          "patched_proj": 0.08056640625,
+          "delta": -0.037109375
+        },
+        {
+          "layer": 9,
+          "en_proj": 0.1025390625,
+          "patched_proj": 0.0966796875,
+          "delta": -0.005859375
+        },
+        {
+          "layer": 10,
+          "en_proj": -0.05078125,
+          "patched_proj": -0.08837890625,
+          "delta": -0.03759765625
+        },
+        {
+          "layer": 11,
+          "en_proj": 0.03515625,
+          "patched_proj": 0.037353515625,
+          "delta": 0.002197265625
+        },
+        {
+          "layer": 12,
+          "en_proj": 0.23046875,
+          "patched_proj": 0.2734375,
+          "delta": 0.04296875
+        },
+        {
+          "layer": 13,
+          "en_proj": 0.04638671875,
+          "patched_proj": 0.059326171875,
+          "delta": 0.012939453125
+        },
+        {
+          "layer": 14,
+          "en_proj": 0.0120849609375,
+          "patched_proj": 0.1708984375,
+          "delta": 0.1588134765625
+        },
+        {
+          "layer": 15,
+          "en_proj": -0.4609375,
+          "patched_proj": -0.16796875,
+          "delta": 0.29296875
+        },
+        {
+          "layer": 16,
+          "en_proj": -0.09912109375,
+          "patched_proj": 0.04638671875,
+          "delta": 0.1455078125
+        },
+        {
+          "layer": 17,
+          "en_proj": 0.7265625,
+          "patched_proj": 0.76953125,
+          "delta": 0.04296875
+        },
+        {
+          "layer": 18,
+          "en_proj": 2.5,
+          "patched_proj": 2.609375,
+          "delta": 0.109375
+        },
+        {
+          "layer": 19,
+          "en_proj": 0.09619140625,
+          "patched_proj": 0.359375,
+          "delta": 0.26318359375
+        },
+        {
+          "layer": 20,
+          "en_proj": 0.0849609375,
+          "patched_proj": 0.8515625,
+          "delta": 0.7666015625
+        },
+        {
+          "layer": 21,
+          "en_proj": -0.043701171875,
+          "patched_proj": 0.9765625,
+          "delta": 1.020263671875
+        },
+        {
+          "layer": 22,
+          "en_proj": -0.6640625,
+          "patched_proj": 0.345703125,
+          "delta": 1.009765625
+        },
+        {
+          "layer": 23,
+          "en_proj": 0.59765625,
+          "patched_proj": 3.5625,
+          "delta": 2.96484375
+        }
+      ]
+    },
+    {
+      "probe": "thanks",
+      "source": "thanks",
+      "patch_lang": "ko",
+      "patch_text": "감사합니다",
+      "source_token_ids": [
+        9061
+      ],
+      "patch_token_ids": [
+        150482,
+        53205,
+        149635
+      ],
+      "max_delta": 1.192138671875,
+      "max_delta_layer": 21,
+      "min_delta": -0.0684814453125,
+      "min_delta_layer": 13,
+      "delta_l17": -0.0625,
+      "delta_l18": 0.4375,
+      "delta_l23": 0.76953125,
+      "layers": [
+        {
+          "layer": 0,
+          "en_proj": 0.279296875,
+          "patched_proj": 0.28125,
+          "delta": 0.001953125
+        },
+        {
+          "layer": 1,
+          "en_proj": 0.06884765625,
+          "patched_proj": 0.0673828125,
+          "delta": -0.00146484375
+        },
+        {
+          "layer": 2,
+          "en_proj": -0.062255859375,
+          "patched_proj": -0.0625,
+          "delta": -0.000244140625
+        },
+        {
+          "layer": 3,
+          "en_proj": 0.044189453125,
+          "patched_proj": 0.062255859375,
+          "delta": 0.01806640625
+        },
+        {
+          "layer": 4,
+          "en_proj": -0.045166015625,
+          "patched_proj": -0.056640625,
+          "delta": -0.011474609375
+        },
+        {
+          "layer": 5,
+          "en_proj": -0.013916015625,
+          "patched_proj": -0.0186767578125,
+          "delta": -0.0047607421875
+        },
+        {
+          "layer": 6,
+          "en_proj": 0.12158203125,
+          "patched_proj": 0.09765625,
+          "delta": -0.02392578125
+        },
+        {
+          "layer": 7,
+          "en_proj": -0.052734375,
+          "patched_proj": -0.05078125,
+          "delta": 0.001953125
+        },
+        {
+          "layer": 8,
+          "en_proj": 0.11767578125,
+          "patched_proj": 0.0947265625,
+          "delta": -0.02294921875
+        },
+        {
+          "layer": 9,
+          "en_proj": 0.1025390625,
+          "patched_proj": 0.1162109375,
+          "delta": 0.013671875
+        },
+        {
+          "layer": 10,
+          "en_proj": -0.05078125,
+          "patched_proj": -0.058837890625,
+          "delta": -0.008056640625
+        },
+        {
+          "layer": 11,
+          "en_proj": 0.03515625,
+          "patched_proj": 0.049560546875,
+          "delta": 0.014404296875
+        },
+        {
+          "layer": 12,
+          "en_proj": 0.23046875,
+          "patched_proj": 0.2265625,
+          "delta": -0.00390625
+        },
+        {
+          "layer": 13,
+          "en_proj": 0.04638671875,
+          "patched_proj": -0.0220947265625,
+          "delta": -0.0684814453125
+        },
+        {
+          "layer": 14,
+          "en_proj": 0.0120849609375,
+          "patched_proj": 0.07763671875,
+          "delta": 0.0655517578125
+        },
+        {
+          "layer": 15,
+          "en_proj": -0.4609375,
+          "patched_proj": -0.1513671875,
+          "delta": 0.3095703125
+        },
+        {
+          "layer": 16,
+          "en_proj": -0.09912109375,
+          "patched_proj": -0.0174560546875,
+          "delta": 0.0816650390625
+        },
+        {
+          "layer": 17,
+          "en_proj": 0.7265625,
+          "patched_proj": 0.6640625,
+          "delta": -0.0625
+        },
+        {
+          "layer": 18,
+          "en_proj": 2.5,
+          "patched_proj": 2.9375,
+          "delta": 0.4375
+        },
+        {
+          "layer": 19,
+          "en_proj": 0.09619140625,
+          "patched_proj": 0.46484375,
+          "delta": 0.36865234375
+        },
+        {
+          "layer": 20,
+          "en_proj": 0.0849609375,
+          "patched_proj": 1.0078125,
+          "delta": 0.9228515625
+        },
+        {
+          "layer": 21,
+          "en_proj": -0.043701171875,
+          "patched_proj": 1.1484375,
+          "delta": 1.192138671875
+        },
+        {
+          "layer": 22,
+          "en_proj": -0.6640625,
+          "patched_proj": -0.1884765625,
+          "delta": 0.4755859375
+        },
+        {
+          "layer": 23,
+          "en_proj": 0.59765625,
+          "patched_proj": 1.3671875,
+          "delta": 0.76953125
+        }
+      ]
+    },
+    {
+      "probe": "thanks",
+      "source": "thanks",
+      "patch_lang": "en_control",
+      "patch_text": "house",
+      "source_token_ids": [
+        9061
+      ],
+      "patch_token_ids": [
+        7432
+      ],
+      "max_delta": 0.78125,
+      "max_delta_layer": 18,
+      "min_delta": -0.34375,
+      "min_delta_layer": 23,
+      "delta_l17": 0.078125,
+      "delta_l18": 0.78125,
+      "delta_l23": -0.34375,
+      "layers": [
+        {
+          "layer": 0,
+          "en_proj": 0.279296875,
+          "patched_proj": 0.283203125,
+          "delta": 0.00390625
+        },
+        {
+          "layer": 1,
+          "en_proj": 0.06884765625,
+          "patched_proj": 0.06787109375,
+          "delta": -0.0009765625
+        },
+        {
+          "layer": 2,
+          "en_proj": -0.062255859375,
+          "patched_proj": -0.05712890625,
+          "delta": 0.005126953125
+        },
+        {
+          "layer": 3,
+          "en_proj": 0.044189453125,
+          "patched_proj": 0.050537109375,
+          "delta": 0.00634765625
+        },
+        {
+          "layer": 4,
+          "en_proj": -0.045166015625,
+          "patched_proj": -0.0341796875,
+          "delta": 0.010986328125
+        },
+        {
+          "layer": 5,
+          "en_proj": -0.013916015625,
+          "patched_proj": -0.001373291015625,
+          "delta": 0.012542724609375
+        },
+        {
+          "layer": 6,
+          "en_proj": 0.12158203125,
+          "patched_proj": 0.11865234375,
+          "delta": -0.0029296875
+        },
+        {
+          "layer": 7,
+          "en_proj": -0.052734375,
+          "patched_proj": -0.04296875,
+          "delta": 0.009765625
+        },
+        {
+          "layer": 8,
+          "en_proj": 0.11767578125,
+          "patched_proj": 0.12451171875,
+          "delta": 0.0068359375
+        },
+        {
+          "layer": 9,
+          "en_proj": 0.1025390625,
+          "patched_proj": 0.095703125,
+          "delta": -0.0068359375
+        },
+        {
+          "layer": 10,
+          "en_proj": -0.05078125,
+          "patched_proj": -0.0673828125,
+          "delta": -0.0166015625
+        },
+        {
+          "layer": 11,
+          "en_proj": 0.03515625,
+          "patched_proj": 0.0281982421875,
+          "delta": -0.0069580078125
+        },
+        {
+          "layer": 12,
+          "en_proj": 0.23046875,
+          "patched_proj": 0.22265625,
+          "delta": -0.0078125
+        },
+        {
+          "layer": 13,
+          "en_proj": 0.04638671875,
+          "patched_proj": -0.032958984375,
+          "delta": -0.079345703125
+        },
+        {
+          "layer": 14,
+          "en_proj": 0.0120849609375,
+          "patched_proj": 0.004608154296875,
+          "delta": -0.007476806640625
+        },
+        {
+          "layer": 15,
+          "en_proj": -0.4609375,
+          "patched_proj": -0.150390625,
+          "delta": 0.310546875
+        },
+        {
+          "layer": 16,
+          "en_proj": -0.09912109375,
+          "patched_proj": 0.1533203125,
+          "delta": 0.25244140625
+        },
+        {
+          "layer": 17,
+          "en_proj": 0.7265625,
+          "patched_proj": 0.8046875,
+          "delta": 0.078125
+        },
+        {
+          "layer": 18,
+          "en_proj": 2.5,
+          "patched_proj": 3.28125,
+          "delta": 0.78125
+        },
+        {
+          "layer": 19,
+          "en_proj": 0.09619140625,
+          "patched_proj": 0.5390625,
+          "delta": 0.44287109375
+        },
+        {
+          "layer": 20,
+          "en_proj": 0.0849609375,
+          "patched_proj": 0.421875,
+          "delta": 0.3369140625
+        },
+        {
+          "layer": 21,
+          "en_proj": -0.043701171875,
+          "patched_proj": 0.52734375,
+          "delta": 0.571044921875
+        },
+        {
+          "layer": 22,
+          "en_proj": -0.6640625,
+          "patched_proj": -0.2109375,
+          "delta": 0.453125
+        },
+        {
+          "layer": 23,
+          "en_proj": 0.59765625,
+          "patched_proj": 0.25390625,
+          "delta": -0.34375
+        }
+      ]
+    },
+    {
+      "probe": "Beijing",
+      "source": "Beijing",
+      "patch_lang": "zh",
+      "patch_text": "北京",
+      "source_token_ids": [
+        25701
+      ],
+      "patch_token_ids": [
+        98116
+      ],
+      "max_delta": 2.02734375,
+      "max_delta_layer": 23,
+      "min_delta": -0.02679443359375,
+      "min_delta_layer": 10,
+      "delta_l17": 0.5576171875,
+      "delta_l18": 0.640625,
+      "delta_l23": 2.02734375,
+      "layers": [
+        {
+          "layer": 0,
+          "en_proj": 0.2890625,
+          "patched_proj": 0.291015625,
+          "delta": 0.001953125
+        },
+        {
+          "layer": 1,
+          "en_proj": 0.0654296875,
+          "patched_proj": 0.068359375,
+          "delta": 0.0029296875
+        },
+        {
+          "layer": 2,
+          "en_proj": -0.05078125,
+          "patched_proj": -0.04443359375,
+          "delta": 0.00634765625
+        },
+        {
+          "layer": 3,
+          "en_proj": 0.0693359375,
+          "patched_proj": 0.07470703125,
+          "delta": 0.00537109375
+        },
+        {
+          "layer": 4,
+          "en_proj": -0.055419921875,
+          "patched_proj": -0.035400390625,
+          "delta": 0.02001953125
+        },
+        {
+          "layer": 5,
+          "en_proj": 0.0177001953125,
+          "patched_proj": 0.0224609375,
+          "delta": 0.0047607421875
+        },
+        {
+          "layer": 6,
+          "en_proj": 0.10205078125,
+          "patched_proj": 0.09912109375,
+          "delta": -0.0029296875
+        },
+        {
+          "layer": 7,
+          "en_proj": 0.01043701171875,
+          "patched_proj": 0.006683349609375,
+          "delta": -0.003753662109375
+        },
+        {
+          "layer": 8,
+          "en_proj": 0.018310546875,
+          "patched_proj": 0.03564453125,
+          "delta": 0.017333984375
+        },
+        {
+          "layer": 9,
+          "en_proj": 0.047607421875,
+          "patched_proj": 0.06982421875,
+          "delta": 0.022216796875
+        },
+        {
+          "layer": 10,
+          "en_proj": -0.00982666015625,
+          "patched_proj": -0.03662109375,
+          "delta": -0.02679443359375
+        },
+        {
+          "layer": 11,
+          "en_proj": -0.0177001953125,
+          "patched_proj": -0.043212890625,
+          "delta": -0.0255126953125
+        },
+        {
+          "layer": 12,
+          "en_proj": -0.0198974609375,
+          "patched_proj": -0.0400390625,
+          "delta": -0.0201416015625
+        },
+        {
+          "layer": 13,
+          "en_proj": -0.212890625,
+          "patched_proj": -0.11962890625,
+          "delta": 0.09326171875
+        },
+        {
+          "layer": 14,
+          "en_proj": -0.482421875,
+          "patched_proj": -0.26171875,
+          "delta": 0.220703125
+        },
+        {
+          "layer": 15,
+          "en_proj": -0.828125,
+          "patched_proj": -0.41015625,
+          "delta": 0.41796875
+        },
+        {
+          "layer": 16,
+          "en_proj": -0.7421875,
+          "patched_proj": -0.29296875,
+          "delta": 0.44921875
+        },
+        {
+          "layer": 17,
+          "en_proj": -0.46484375,
+          "patched_proj": 0.0927734375,
+          "delta": 0.5576171875
+        },
+        {
+          "layer": 18,
+          "en_proj": 2.28125,
+          "patched_proj": 2.921875,
+          "delta": 0.640625
+        },
+        {
+          "layer": 19,
+          "en_proj": -0.43359375,
+          "patched_proj": 0.36328125,
+          "delta": 0.796875
+        },
+        {
+          "layer": 20,
+          "en_proj": -0.6484375,
+          "patched_proj": 0.203125,
+          "delta": 0.8515625
+        },
+        {
+          "layer": 21,
+          "en_proj": -0.5,
+          "patched_proj": 0.365234375,
+          "delta": 0.865234375
+        },
+        {
+          "layer": 22,
+          "en_proj": -1.109375,
+          "patched_proj": -0.3125,
+          "delta": 0.796875
+        },
+        {
+          "layer": 23,
+          "en_proj": -1.609375,
+          "patched_proj": 0.41796875,
+          "delta": 2.02734375
+        }
+      ]
+    },
+    {
+      "probe": "Beijing",
+      "source": "Beijing",
+      "patch_lang": "ja",
+      "patch_text": "東京",
+      "source_token_ids": [
+        25701
+      ],
+      "patch_token_ids": [
+        115197
+      ],
+      "max_delta": 2.5625,
+      "max_delta_layer": 23,
+      "min_delta": -0.0609130859375,
+      "min_delta_layer": 11,
+      "delta_l17": 0.591796875,
+      "delta_l18": 0.953125,
+      "delta_l23": 2.5625,
+      "layers": [
+        {
+          "layer": 0,
+          "en_proj": 0.2890625,
+          "patched_proj": 0.2890625,
+          "delta": 0.0
+        },
+        {
+          "layer": 1,
+          "en_proj": 0.0654296875,
+          "patched_proj": 0.0654296875,
+          "delta": 0.0
+        },
+        {
+          "layer": 2,
+          "en_proj": -0.05078125,
+          "patched_proj": -0.0517578125,
+          "delta": -0.0009765625
+        },
+        {
+          "layer": 3,
+          "en_proj": 0.0693359375,
+          "patched_proj": 0.08154296875,
+          "delta": 0.01220703125
+        },
+        {
+          "layer": 4,
+          "en_proj": -0.055419921875,
+          "patched_proj": -0.0303955078125,
+          "delta": 0.0250244140625
+        },
+        {
+          "layer": 5,
+          "en_proj": 0.0177001953125,
+          "patched_proj": 0.01116943359375,
+          "delta": -0.00653076171875
+        },
+        {
+          "layer": 6,
+          "en_proj": 0.10205078125,
+          "patched_proj": 0.08154296875,
+          "delta": -0.0205078125
+        },
+        {
+          "layer": 7,
+          "en_proj": 0.01043701171875,
+          "patched_proj": -0.006011962890625,
+          "delta": -0.016448974609375
+        },
+        {
+          "layer": 8,
+          "en_proj": 0.018310546875,
+          "patched_proj": 0.020263671875,
+          "delta": 0.001953125
+        },
+        {
+          "layer": 9,
+          "en_proj": 0.047607421875,
+          "patched_proj": 0.07568359375,
+          "delta": 0.028076171875
+        },
+        {
+          "layer": 10,
+          "en_proj": -0.00982666015625,
+          "patched_proj": -0.058349609375,
+          "delta": -0.04852294921875
+        },
+        {
+          "layer": 11,
+          "en_proj": -0.0177001953125,
+          "patched_proj": -0.07861328125,
+          "delta": -0.0609130859375
+        },
+        {
+          "layer": 12,
+          "en_proj": -0.0198974609375,
+          "patched_proj": -0.06298828125,
+          "delta": -0.0430908203125
+        },
+        {
+          "layer": 13,
+          "en_proj": -0.212890625,
+          "patched_proj": -0.1123046875,
+          "delta": 0.1005859375
+        },
+        {
+          "layer": 14,
+          "en_proj": -0.482421875,
+          "patched_proj": -0.2294921875,
+          "delta": 0.2529296875
+        },
+        {
+          "layer": 15,
+          "en_proj": -0.828125,
+          "patched_proj": -0.3671875,
+          "delta": 0.4609375
+        },
+        {
+          "layer": 16,
+          "en_proj": -0.7421875,
+          "patched_proj": -0.328125,
+          "delta": 0.4140625
+        },
+        {
+          "layer": 17,
+          "en_proj": -0.46484375,
+          "patched_proj": 0.126953125,
+          "delta": 0.591796875
+        },
+        {
+          "layer": 18,
+          "en_proj": 2.28125,
+          "patched_proj": 3.234375,
+          "delta": 0.953125
+        },
+        {
+          "layer": 19,
+          "en_proj": -0.43359375,
+          "patched_proj": 0.71484375,
+          "delta": 1.1484375
+        },
+        {
+          "layer": 20,
+          "en_proj": -0.6484375,
+          "patched_proj": 0.58203125,
+          "delta": 1.23046875
+        },
+        {
+          "layer": 21,
+          "en_proj": -0.5,
+          "patched_proj": 0.76171875,
+          "delta": 1.26171875
+        },
+        {
+          "layer": 22,
+          "en_proj": -1.109375,
+          "patched_proj": 0.271484375,
+          "delta": 1.380859375
+        },
+        {
+          "layer": 23,
+          "en_proj": -1.609375,
+          "patched_proj": 0.953125,
+          "delta": 2.5625
+        }
+      ]
+    },
+    {
+      "probe": "Beijing",
+      "source": "Beijing",
+      "patch_lang": "ko",
+      "patch_text": "서울",
+      "source_token_ids": [
+        25701
+      ],
+      "patch_token_ids": [
+        176490
+      ],
+      "max_delta": 1.1640625,
+      "max_delta_layer": 19,
+      "min_delta": -0.0511474609375,
+      "min_delta_layer": 11,
+      "delta_l17": 0.5478515625,
+      "delta_l18": 1.078125,
+      "delta_l23": 0.2109375,
+      "layers": [
+        {
+          "layer": 0,
+          "en_proj": 0.2890625,
+          "patched_proj": 0.2890625,
+          "delta": 0.0
+        },
+        {
+          "layer": 1,
+          "en_proj": 0.0654296875,
+          "patched_proj": 0.064453125,
+          "delta": -0.0009765625
+        },
+        {
+          "layer": 2,
+          "en_proj": -0.05078125,
+          "patched_proj": -0.055908203125,
+          "delta": -0.005126953125
+        },
+        {
+          "layer": 3,
+          "en_proj": 0.0693359375,
+          "patched_proj": 0.08154296875,
+          "delta": 0.01220703125
+        },
+        {
+          "layer": 4,
+          "en_proj": -0.055419921875,
+          "patched_proj": -0.04541015625,
+          "delta": 0.010009765625
+        },
+        {
+          "layer": 5,
+          "en_proj": 0.0177001953125,
+          "patched_proj": 0.023681640625,
+          "delta": 0.0059814453125
+        },
+        {
+          "layer": 6,
+          "en_proj": 0.10205078125,
+          "patched_proj": 0.08203125,
+          "delta": -0.02001953125
+        },
+        {
+          "layer": 7,
+          "en_proj": 0.01043701171875,
+          "patched_proj": 0.0020294189453125,
+          "delta": -0.0084075927734375
+        },
+        {
+          "layer": 8,
+          "en_proj": 0.018310546875,
+          "patched_proj": 0.022705078125,
+          "delta": 0.00439453125
+        },
+        {
+          "layer": 9,
+          "en_proj": 0.047607421875,
+          "patched_proj": 0.09521484375,
+          "delta": 0.047607421875
+        },
+        {
+          "layer": 10,
+          "en_proj": -0.00982666015625,
+          "patched_proj": -0.044921875,
+          "delta": -0.03509521484375
+        },
+        {
+          "layer": 11,
+          "en_proj": -0.0177001953125,
+          "patched_proj": -0.06884765625,
+          "delta": -0.0511474609375
+        },
+        {
+          "layer": 12,
+          "en_proj": -0.0198974609375,
+          "patched_proj": -0.042236328125,
+          "delta": -0.0223388671875
+        },
+        {
+          "layer": 13,
+          "en_proj": -0.212890625,
+          "patched_proj": -0.07080078125,
+          "delta": 0.14208984375
+        },
+        {
+          "layer": 14,
+          "en_proj": -0.482421875,
+          "patched_proj": -0.1826171875,
+          "delta": 0.2998046875
+        },
+        {
+          "layer": 15,
+          "en_proj": -0.828125,
+          "patched_proj": -0.330078125,
+          "delta": 0.498046875
+        },
+        {
+          "layer": 16,
+          "en_proj": -0.7421875,
+          "patched_proj": -0.296875,
+          "delta": 0.4453125
+        },
+        {
+          "layer": 17,
+          "en_proj": -0.46484375,
+          "patched_proj": 0.0830078125,
+          "delta": 0.5478515625
+        },
+        {
+          "layer": 18,
+          "en_proj": 2.28125,
+          "patched_proj": 3.359375,
+          "delta": 1.078125
+        },
+        {
+          "layer": 19,
+          "en_proj": -0.43359375,
+          "patched_proj": 0.73046875,
+          "delta": 1.1640625
+        },
+        {
+          "layer": 20,
+          "en_proj": -0.6484375,
+          "patched_proj": 0.4453125,
+          "delta": 1.09375
+        },
+        {
+          "layer": 21,
+          "en_proj": -0.5,
+          "patched_proj": 0.412109375,
+          "delta": 0.912109375
+        },
+        {
+          "layer": 22,
+          "en_proj": -1.109375,
+          "patched_proj": -0.76171875,
+          "delta": 0.34765625
+        },
+        {
+          "layer": 23,
+          "en_proj": -1.609375,
+          "patched_proj": -1.3984375,
+          "delta": 0.2109375
+        }
+      ]
+    },
+    {
+      "probe": "Beijing",
+      "source": "Beijing",
+      "patch_lang": "en_control",
+      "patch_text": "London",
+      "source_token_ids": [
+        25701
+      ],
+      "patch_token_ids": [
+        38261
+      ],
+      "max_delta": 1.0,
+      "max_delta_layer": 23,
+      "min_delta": -0.0863037109375,
+      "min_delta_layer": 11,
+      "delta_l17": 0.130859375,
+      "delta_l18": 0.078125,
+      "delta_l23": 1.0,
+      "layers": [
+        {
+          "layer": 0,
+          "en_proj": 0.2890625,
+          "patched_proj": 0.2890625,
+          "delta": 0.0
+        },
+        {
+          "layer": 1,
+          "en_proj": 0.0654296875,
+          "patched_proj": 0.0634765625,
+          "delta": -0.001953125
+        },
+        {
+          "layer": 2,
+          "en_proj": -0.05078125,
+          "patched_proj": -0.05224609375,
+          "delta": -0.00146484375
+        },
+        {
+          "layer": 3,
+          "en_proj": 0.0693359375,
+          "patched_proj": 0.07080078125,
+          "delta": 0.00146484375
+        },
+        {
+          "layer": 4,
+          "en_proj": -0.055419921875,
+          "patched_proj": -0.0556640625,
+          "delta": -0.000244140625
+        },
+        {
+          "layer": 5,
+          "en_proj": 0.0177001953125,
+          "patched_proj": -0.0115966796875,
+          "delta": -0.029296875
+        },
+        {
+          "layer": 6,
+          "en_proj": 0.10205078125,
+          "patched_proj": 0.0260009765625,
+          "delta": -0.0760498046875
+        },
+        {
+          "layer": 7,
+          "en_proj": 0.01043701171875,
+          "patched_proj": -0.0184326171875,
+          "delta": -0.02886962890625
+        },
+        {
+          "layer": 8,
+          "en_proj": 0.018310546875,
+          "patched_proj": 0.0281982421875,
+          "delta": 0.0098876953125
+        },
+        {
+          "layer": 9,
+          "en_proj": 0.047607421875,
+          "patched_proj": 0.0595703125,
+          "delta": 0.011962890625
+        },
+        {
+          "layer": 10,
+          "en_proj": -0.00982666015625,
+          "patched_proj": -0.07666015625,
+          "delta": -0.06683349609375
+        },
+        {
+          "layer": 11,
+          "en_proj": -0.0177001953125,
+          "patched_proj": -0.10400390625,
+          "delta": -0.0863037109375
+        },
+        {
+          "layer": 12,
+          "en_proj": -0.0198974609375,
+          "patched_proj": -0.09521484375,
+          "delta": -0.0753173828125
+        },
+        {
+          "layer": 13,
+          "en_proj": -0.212890625,
+          "patched_proj": -0.1806640625,
+          "delta": 0.0322265625
+        },
+        {
+          "layer": 14,
+          "en_proj": -0.482421875,
+          "patched_proj": -0.3515625,
+          "delta": 0.130859375
+        },
+        {
+          "layer": 15,
+          "en_proj": -0.828125,
+          "patched_proj": -0.578125,
+          "delta": 0.25
+        },
+        {
+          "layer": 16,
+          "en_proj": -0.7421875,
+          "patched_proj": -0.61328125,
+          "delta": 0.12890625
+        },
+        {
+          "layer": 17,
+          "en_proj": -0.46484375,
+          "patched_proj": -0.333984375,
+          "delta": 0.130859375
+        },
+        {
+          "layer": 18,
+          "en_proj": 2.28125,
+          "patched_proj": 2.359375,
+          "delta": 0.078125
+        },
+        {
+          "layer": 19,
+          "en_proj": -0.43359375,
+          "patched_proj": 0.01190185546875,
+          "delta": 0.44549560546875
+        },
+        {
+          "layer": 20,
+          "en_proj": -0.6484375,
+          "patched_proj": -0.07470703125,
+          "delta": 0.57373046875
+        },
+        {
+          "layer": 21,
+          "en_proj": -0.5,
+          "patched_proj": 0.263671875,
+          "delta": 0.763671875
+        },
+        {
+          "layer": 22,
+          "en_proj": -1.109375,
+          "patched_proj": -0.158203125,
+          "delta": 0.951171875
+        },
+        {
+          "layer": 23,
+          "en_proj": -1.609375,
+          "patched_proj": -0.609375,
+          "delta": 1.0
+        }
+      ]
+    }
+  ]
+}

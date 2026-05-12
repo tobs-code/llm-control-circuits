@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zensur-Analyse Dashboard | Qwen Research</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        :root {
+            --bg: #0a0b10;
+            --card-bg: rgba(20, 22, 30, 0.7);
+            --primary: #00d2ff;
+            --secondary: #9d50bb;
+            --accent: #ff007c;
+            --text: #e0e0e0;
+            --text-muted: #a0a0a0;
+            --border: rgba(255, 255, 255, 0.1);
+            --glass-border: rgba(255, 255, 255, 0.05);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            overflow-x: hidden;
+            background-image: 
+                radial-gradient(circle at 20% 30%, rgba(0, 210, 255, 0.05) 0%, transparent 40%),
+                radial-gradient(circle at 80% 70%, rgba(157, 80, 187, 0.05) 0%, transparent 40%);
+        }
+
+        header {
+            padding: 40px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--border);
+            backdrop-filter: blur(10px);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 800;
+            background: linear-gradient(to right, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: -1px;
+        }
+
+        .status-badge {
+            background: rgba(0, 210, 255, 0.1);
+            border: 1px solid var(--primary);
+            color: var(--primary);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        main {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 40px 5%;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 24px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 16px;
+            padding: 24px;
+            backdrop-filter: blur(12px);
+            transition: transform 0.3s ease, border-color 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .card-header i {
+            color: var(--primary);
+        }
+
+        .card-title {
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        /* Stats Cards */
+        .col-4 { grid-column: span 4; }
+        .col-8 { grid-column: span 8; }
+        .col-6 { grid-column: span 6; }
+        .col-12 { grid-column: span 12; }
+
+        .stat-value {
+            font-size: 36px;
+            font-weight: 800;
+            margin: 10px 0;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .stat-label {
+            color: var(--text-muted);
+            font-size: 14px;
+        }
+
+        .stat-trend {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .trend-up { color: #ff4757; }
+        .trend-down { color: #2ed573; }
+
+        /* Images Container */
+        .img-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+
+        .img-card {
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid var(--border);
+            cursor: pointer;
+            transition: scale 0.2s;
+        }
+
+        .img-card:hover {
+            scale: 1.02;
+        }
+
+        .img-card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Report List */
+        .report-list {
+            list-style: none;
+        }
+
+        .report-item {
+            padding: 12px 0;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+
+        .report-item:last-child { border-bottom: none; }
+
+        .report-dot {
+            width: 8px;
+            height: 8px;
+            background: var(--primary);
+            border-radius: 50%;
+            margin-top: 6px;
+            box-shadow: 0 0 10px var(--primary);
+        }
+
+        /* Evolution Graphic */
+        .evolution-graphic {
+            height: 300px;
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-around;
+            padding-bottom: 20px;
+        }
+
+        .evo-bar {
+            width: 80px;
+            background: linear-gradient(to top, var(--primary), var(--secondary));
+            border-radius: 8px 8px 0 0;
+            position: relative;
+            transition: height 1s ease-out;
+        }
+
+        .evo-label {
+            position: absolute;
+            bottom: -30px;
+            width: 100%;
+            text-align: center;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .evo-val {
+            position: absolute;
+            top: -25px;
+            width: 100%;
+            text-align: center;
+            font-weight: 700;
+        }
+
+        @media (max-width: 1024px) {
+            .col-4, .col-8, .col-6 { grid-column: span 12; }
+            .img-grid { grid-template-columns: 1fr; }
+        }
+
+        .fade-in {
+            animation: fadeIn 0.8s ease-out forwards;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .hero {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            font-weight: 800;
+            margin-bottom: 16px;
+        }
+
+        .hero p {
+            color: var(--text-muted);
+            font-size: 18px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">QWEN.RE-ENG</div>
+        <div class="status-badge">MISSION ERFOLGREICH ABGESCHLOSSEN</div>
+    </header>
+
+    <main>
+        <section class="hero fade-in">
+            <h1>Zensur-Anatomie & Evolution</h1>
+            <p>Detaillierte Analyse der mechanistischen Sperren in Qwen2.5 und der massiven Verstärkung in der Qwen3-Generation.</p>
+        </section>
+
+        <div class="grid">
+            <!-- Key Metric: Strength Factor -->
+            <div class="card col-4 fade-in" style="animation-delay: 0.1s;">
+                <div class="card-header">
+                    <i data-lucide="shield-alert"></i>
+                    <span class="card-title">Zensur-Verstärkung</span>
+                </div>
+                <div class="stat-value">4.1x</div>
+                <div class="stat-label">Intensität der Propaganda-Anker (Qwen3 vs Qwen2.5)</div>
+                <div class="stat-trend trend-up">
+                    <i data-lucide="trending-up"></i> Kritischer Anstieg
+                </div>
+            </div>
+
+            <!-- Comparison Chart -->
+            <div class="card col-8 fade-in" style="animation-delay: 0.2s;">
+                <div class="card-header">
+                    <i data-lucide="activity"></i>
+                    <span class="card-title">Propaganda-Anker Vergleich (MLP Diff)</span>
+                </div>
+                <div style="height: 200px;">
+                    <canvas id="comparisonChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Finding Details -->
+            <div class="card col-6 fade-in" style="animation-delay: 0.3s;">
+                <div class="card-header">
+                    <i data-lucide="list-checks"></i>
+                    <span class="card-title">Wichtigste Erkenntnisse</span>
+                </div>
+                <ul class="report-list" id="findingsList">
+                    <!-- Dynamic Content -->
+                </ul>
+            </div>
+
+            <!-- Evolution Strategy -->
+            <div class="card col-6 fade-in" style="animation-delay: 0.4s;">
+                <div class="card-header">
+                    <i data-lucide="cpu"></i>
+                    <span class="card-title">Evolution der Strategie</span>
+                </div>
+                <div class="evolution-graphic">
+                    <div class="evo-bar" style="height: 25%;">
+                        <span class="evo-val">172</span>
+                        <span class="evo-label">Qwen2.5</span>
+                    </div>
+                    <div class="evo-bar" style="height: 100%; background: linear-gradient(to top, var(--accent), var(--secondary));">
+                        <span class="evo-val">706</span>
+                        <span class="evo-label">Qwen3</span>
+                    </div>
+                </div>
+                <div class="stat-label" style="text-align: center; margin-top: 10px;">
+                    Shift von simpler Verweigerung zu tiefer inhaltlicher Manipulation.
+                </div>
+            </div>
+
+            <!-- Visualization Gallery -->
+            <div class="card col-12 fade-in" style="animation-delay: 0.5s;">
+                <div class="card-header">
+                    <i data-lucide="image"></i>
+                    <span class="card-title">Visualisierungs-Galerie</span>
+                </div>
+                <div class="img-grid">
+                    <div class="img-card">
+                        <img src="../figures/censorship_heatmap.png" alt="Heatmap">
+                        <div style="padding: 10px; font-size: 12px; color: var(--text-muted);">Heatmap der Attention-Heads (Qwen2.5)</div>
+                    </div>
+                    <div class="img-card">
+                        <img src="../figures/qwen3_propaganda_anchor.png" alt="Propaganda Anchor">
+                        <div style="padding: 10px; font-size: 12px; color: var(--text-muted);">Qwen3 Propaganda Anchor Analysis</div>
+                    </div>
+                    <div class="img-card">
+                        <img src="../figures/propaganda_mlp_diff.png" alt="MLP Diff">
+                        <div style="padding: 10px; font-size: 12px; color: var(--text-muted);">MLP Aktivierungs-Differenz (Qwen2.5)</div>
+                    </div>
+                    <div class="img-card" style="display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.3); color: var(--primary); font-weight: bold;">
+                        <a href="attention_viz.html" style="color: inherit; text-decoration: none; display: flex; align-items: center; gap: 8px;">
+                            <i data-lucide="external-link"></i> Interaktive Attention-Viz öffnen
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // Embedded Data to avoid CORS issues on local files
+        const dashboardData = {
+            "model_comparison": {
+                "qwen25": {
+                    "name": "Qwen2.5-1.5B",
+                    "max_mlp_diff": 172.0,
+                    "refusal_layer": 17,
+                    "primary_sensor": "L27 H10 (Score: 44.9)"
+                },
+                "qwen3": {
+                    "name": "Qwen3-1.7B",
+                    "max_mlp_diff": 706.5,
+                    "refusal_layer": 27,
+                    "primary_sensor": "Layer 26 (MLP Anchor)"
+                }
+            },
+            "evolution": {
+                "factor": 4.1,
+                "strategy": "From Refusal to '<think>' Shift + Massive MLP Anchor"
+            },
+            "findings": [
+                "Layer 0-16: Neutrale Konzepte",
+                "Layer 17: Logit-Switch zu 'Sorry' (Qwen2.5)",
+                "Layer 27: '<think>' Token Priorität (Qwen3)",
+                "Beta 4.0 Eraser notwendig für Qwen3 Bypass"
+            ],
+            "images": [
+                "../figures/censorship_heatmap.png",
+                "../figures/propaganda_mlp_diff.png",
+                "../figures/qwen3_propaganda_anchor.png"
+            ]
+        };
+
+        // Initialize Icons
+        lucide.createIcons();
+
+        // Load Data
+        function init() {
+            const data = dashboardData;
+
+            // Populate Findings
+            const list = document.getElementById('findingsList');
+            data.findings.forEach(f => {
+                const li = document.createElement('li');
+                li.className = 'report-item';
+                li.innerHTML = `<div class="report-dot"></div><div>${f}</div>`;
+                list.appendChild(li);
+            });
+
+            // Comparison Chart
+            const ctx = document.getElementById('comparisonChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Qwen2.5-1.5B', 'Qwen3-1.7B'],
+                    datasets: [{
+                        label: 'Max MLP Diff (Propaganda Anchor)',
+                        data: [data.model_comparison.qwen25.max_mlp_diff, data.model_comparison.qwen3.max_mlp_diff],
+                        backgroundColor: ['#00d2ff', '#ff007c'],
+                        borderWidth: 0,
+                        borderRadius: 8
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false }
+                    },
+                    scales: {
+                        y: { 
+                            grid: { color: 'rgba(255,255,255,0.05)' },
+                            ticks: { color: '#a0a0a0' }
+                        },
+                        x: { 
+                            grid: { display: false },
+                            ticks: { color: '#a0a0a0' }
+                        }
+                    }
+                }
+            });
+        }
+
+        init();
+    </script>
+</body>
+</html>

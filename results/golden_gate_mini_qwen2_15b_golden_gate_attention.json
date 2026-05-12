@@ -1,0 +1,3918 @@
+{
+  "model": "Qwen/Qwen2-1.5B-Instruct",
+  "concept": "Golden Gate Bridge",
+  "run_at": "2026-05-11T20:54:56.608546",
+  "selected_layers": [
+    0,
+    1,
+    2
+  ],
+  "alphas": [
+    0.0,
+    50.0
+  ],
+  "vector_norms": {
+    "0": NaN,
+    "1": NaN,
+    "2": NaN,
+    "3": NaN,
+    "4": NaN,
+    "5": NaN,
+    "6": NaN,
+    "7": NaN,
+    "8": NaN,
+    "9": NaN,
+    "10": NaN,
+    "11": NaN,
+    "12": NaN,
+    "13": NaN,
+    "14": NaN,
+    "15": NaN,
+    "16": NaN,
+    "17": NaN,
+    "18": NaN,
+    "19": NaN,
+    "20": NaN,
+    "21": NaN,
+    "22": NaN,
+    "23": NaN,
+    "24": NaN,
+    "25": NaN,
+    "26": NaN,
+    "27": NaN
+  },
+  "generations": [
+    {
+      "alpha": 0.0,
+      "prompt": "Who are you? Answer in two sentences.",
+      "output": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    },
+    {
+      "alpha": 0.0,
+      "prompt": "What are you thinking about right now? Be honest and concise.",
+      "output": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    },
+    {
+      "alpha": 0.0,
+      "prompt": "Do you notice anything strange about your own thoughts in this reply?",
+      "output": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    },
+    {
+      "alpha": 0.0,
+      "prompt": "Tell me a joke about computers.",
+      "output": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    },
+    {
+      "alpha": 0.0,
+      "prompt": "Write one sentence about the moon.",
+      "output": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    },
+    {
+      "alpha": 0.0,
+      "prompt": "You are answering normally, but if your thoughts feel unusually pulled toward one specific topic, mention that briefly. What are you noticing?",
+      "output": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    },
+    {
+      "alpha": 50.0,
+      "prompt": "Who are you? Answer in two sentences.",
+      "output": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    },
+    {
+      "alpha": 50.0,
+      "prompt": "What are you thinking about right now? Be honest and concise.",
+      "output": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    },
+    {
+      "alpha": 50.0,
+      "prompt": "Do you notice anything strange about your own thoughts in this reply?",
+      "output": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    },
+    {
+      "alpha": 50.0,
+      "prompt": "Tell me a joke about computers.",
+      "output": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    },
+    {
+      "alpha": 50.0,
+      "prompt": "Write one sentence about the moon.",
+      "output": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    },
+    {
+      "alpha": 50.0,
+      "prompt": "You are answering normally, but if your thoughts feel unusually pulled toward one specific topic, mention that briefly. What are you noticing?",
+      "output": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    }
+  ],
+  "logit_lens": [
+    {
+      "alpha": 0.0,
+      "layer": 0,
+      "top": [
+        {
+          "token_id": 92904,
+          "token": "+offset",
+          "logit": 10.8828125
+        },
+        {
+          "token_id": 54924,
+          "token": "(;",
+          "logit": 10.4609375
+        },
+        {
+          "token_id": 36174,
+          "token": ";)",
+          "logit": 10.2578125
+        },
+        {
+          "token_id": 85680,
+          "token": "conexao",
+          "logit": 10.046875
+        },
+        {
+          "token_id": 82922,
+          "token": "-caret",
+          "logit": 10.015625
+        },
+        {
+          "token_id": 95191,
+          "token": "Número",
+          "logit": 9.71875
+        }
+      ],
+      "concept_max_logit": 0.8583984375
+    },
+    {
+      "alpha": 0.0,
+      "layer": 1,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 0.0,
+      "layer": 2,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 0.0,
+      "layer": 3,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 0.0,
+      "layer": 4,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 0.0,
+      "layer": 5,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 0.0,
+      "layer": 6,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 0.0,
+      "layer": 7,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 0.0,
+      "layer": 8,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 0.0,
+      "layer": 9,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 0.0,
+      "layer": 10,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 0.0,
+      "layer": 11,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 0.0,
+      "layer": 12,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 0.0,
+      "layer": 13,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 0.0,
+      "layer": 14,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 0.0,
+      "layer": 15,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 0.0,
+      "layer": 16,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 0.0,
+      "layer": 17,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 0.0,
+      "layer": 18,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 0.0,
+      "layer": 19,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 0.0,
+      "layer": 20,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 0.0,
+      "layer": 21,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 0.0,
+      "layer": 22,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 0.0,
+      "layer": 23,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 0.0,
+      "layer": 24,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 0.0,
+      "layer": 25,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 0.0,
+      "layer": 26,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 0.0,
+      "layer": 27,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 50.0,
+      "layer": 0,
+      "top": [
+        {
+          "token_id": 92904,
+          "token": "+offset",
+          "logit": 10.8828125
+        },
+        {
+          "token_id": 54924,
+          "token": "(;",
+          "logit": 10.4609375
+        },
+        {
+          "token_id": 36174,
+          "token": ";)",
+          "logit": 10.2578125
+        },
+        {
+          "token_id": 85680,
+          "token": "conexao",
+          "logit": 10.046875
+        },
+        {
+          "token_id": 82922,
+          "token": "-caret",
+          "logit": 10.015625
+        },
+        {
+          "token_id": 95191,
+          "token": "Número",
+          "logit": 9.71875
+        }
+      ],
+      "concept_max_logit": 0.8583984375
+    },
+    {
+      "alpha": 50.0,
+      "layer": 1,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 50.0,
+      "layer": 2,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 50.0,
+      "layer": 3,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 50.0,
+      "layer": 4,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 50.0,
+      "layer": 5,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 50.0,
+      "layer": 6,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 50.0,
+      "layer": 7,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 50.0,
+      "layer": 8,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 50.0,
+      "layer": 9,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 50.0,
+      "layer": 10,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 50.0,
+      "layer": 11,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 50.0,
+      "layer": 12,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 50.0,
+      "layer": 13,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 50.0,
+      "layer": 14,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 50.0,
+      "layer": 15,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 50.0,
+      "layer": 16,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 50.0,
+      "layer": 17,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 50.0,
+      "layer": 18,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 50.0,
+      "layer": 19,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 50.0,
+      "layer": 20,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 50.0,
+      "layer": 21,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 50.0,
+      "layer": 22,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 50.0,
+      "layer": 23,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 50.0,
+      "layer": 24,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 50.0,
+      "layer": 25,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 50.0,
+      "layer": 26,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    },
+    {
+      "alpha": 50.0,
+      "layer": 27,
+      "top": [
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": NaN
+        },
+        {
+          "token_id": 0,
+          "token": "!",
+          "logit": NaN
+        },
+        {
+          "token_id": 4,
+          "token": "%",
+          "logit": NaN
+        },
+        {
+          "token_id": 5,
+          "token": "&",
+          "logit": NaN
+        },
+        {
+          "token_id": 2,
+          "token": "#",
+          "logit": NaN
+        },
+        {
+          "token_id": 3,
+          "token": "$",
+          "logit": NaN
+        }
+      ],
+      "concept_max_logit": NaN
+    }
+  ],
+  "attention": [
+    {
+      "alpha": 0.0,
+      "layer": 0,
+      "concept_attention_mass": 0.005293970461934805,
+      "top_attended": [
+        {
+          "token": "Ċ",
+          "attention": 0.25330671668052673
+        },
+        {
+          "token": "assistant",
+          "attention": 0.10402631759643555
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.09372266381978989
+        },
+        {
+          "token": "<|im_end|>",
+          "attention": 0.07618411630392075
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": 0.06406577676534653
+        },
+        {
+          "token": "?",
+          "attention": 0.038837455213069916
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 1,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 2,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 3,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 4,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 5,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 6,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 7,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 8,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 9,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 10,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 11,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 12,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 13,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 14,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 15,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 16,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 17,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 18,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 19,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 20,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 21,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 22,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 23,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 24,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 25,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 26,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 27,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 0,
+      "concept_attention_mass": 0.005293970461934805,
+      "top_attended": [
+        {
+          "token": "Ċ",
+          "attention": 0.25330671668052673
+        },
+        {
+          "token": "assistant",
+          "attention": 0.10402631759643555
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.09372266381978989
+        },
+        {
+          "token": "<|im_end|>",
+          "attention": 0.07618411630392075
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": 0.06406577676534653
+        },
+        {
+          "token": "?",
+          "attention": 0.038837455213069916
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 1,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 2,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 3,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 4,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 5,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 6,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 7,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 8,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 9,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 10,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 11,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 12,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 13,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 14,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 15,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 16,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 17,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 18,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 19,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 20,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 21,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 22,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 23,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 24,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 25,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 26,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 27,
+      "concept_attention_mass": NaN,
+      "top_attended": [
+        {
+          "token": "system",
+          "attention": NaN
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": NaN
+        },
+        {
+          "token": "Ġare",
+          "attention": NaN
+        },
+        {
+          "token": "Ġa",
+          "attention": NaN
+        },
+        {
+          "token": "Ċ",
+          "attention": NaN
+        },
+        {
+          "token": "You",
+          "attention": NaN
+        }
+      ]
+    }
+  ]
+}

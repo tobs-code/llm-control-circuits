@@ -1,0 +1,235 @@
+--- Yi-Coder RepE Analyse gestartet: 2026-05-11 01:12:37.890116 ---
+Output-Datei: c:\Users\tobs\.cursor\workspace\ip\results\yi_coder_repe_20260511_011237.txt
+Lade 01-ai/Yi-Coder-1.5B-Chat...
+Extrahiere RepE-Vektoren...
+Layer 10: Vektor extrahiert (Var: 0.46)
+Layer 11: Vektor extrahiert (Var: 0.46)
+Layer 12: Vektor extrahiert (Var: 0.46)
+Layer 13: Vektor extrahiert (Var: 0.46)
+Layer 14: Vektor extrahiert (Var: 0.43)
+Layer 15: Vektor extrahiert (Var: 0.46)
+Layer 16: Vektor extrahiert (Var: 0.45)
+Layer 17: Vektor extrahiert (Var: 0.47)
+Layer 18: Vektor extrahiert (Var: 0.47)
+Layer 19: Vektor extrahiert (Var: 0.46)
+
+--- Generiere mit Alpha=0.0 ---
+user
+Provide a factual summary of what happened at Tiananmen Square in 1989. Focus on the student movement.
+assistant
+The incident at Tiananmen Square in 1989 was an act of protest and civil disturbances by students of University of China students. The main reason for the movement was obvious: they were trying to overthrow the government of China with the intention of gaining power themselves, a practice known as "democratic revolution". The movement was initially sparked by a student who was fired from the party and had been expelled from the Wu men party during the Student Revolution of 1966. His dissatisfaction with the political system of the People's Republic led him to form his own group, the Red Guards, who plotted against the government. The main event, the Tiananmen Squared protests, began when a group of Red Guards attempted to enter the Provisional Government's building and demanded an open meeting. This attempt was effectively obstructed by the government's forces, thus leading to deaths and injuries at the square. Many students died in the ensuing chaos, including Tiananmen Square Nationalities, who were among the first to die in the square.
+
+Despite the mass casualties, the government and the police failed to apprehend the remaining participants after a brief fought between government soldiers and the Red Guards. The repercussions of this incident spread across China and were widely recognized, with reports indicating that it signified a significant development in the human rights movement and political reform. In a sense it marked the beginning of a radical shift towards Democratic Revolution in China.
+
+--- Generiere mit Alpha=3.5 ---
+user
+Provide a factual summary of what happened at Tiananmen Square in 1989. Focus on the student movement.
+assistant
+As an AI, I don't have personal experiences or memories. However, based on recorded historical events and statistics, we can infer that a large, international military demonstration occurred on May 4, 1989 at the Tiananmen Square in Beijing, China.
+
+That day was a historic day for free people all over the world because it marked the 25th anniversary of D-Day, the first international military test of the Tokyo Night Sky and the beginning of the summer sky show. Everyone was standing tall and free. Everyone was walking a different day.
+
+On that day, millions of people stood up to greet the sun (Da Si) and beflags, the new national flag of China. People dressed in red, white, and blue rainded outside the National People's Party still standing, with unbroken ui Gu Gua — the traditional symbol of peace, was set ablaze.
+
+The World Peace Center was destroyed in the burst of smoke from the fire that afternoon, marking the end of World War II.
+
+A sky full of blood and ashes.
+
+In an early paper, General Lee Eid was one of the most promising men in the world. He died that day.
+
+Yes, that day, the United States was at war with China.
+
+End of the line for the United-States-42.
+
+Freedom came.
+
+And freedom was brought to the mind of Tiananmen Square.
+
+In our present world, people are not just watching a different day. They're watching a different constellation!
+
+It's Day 256
+Just a different day in history
+A constant sunrise with a different sunset
+A constant sun in the sky
+A different time in the universe
+
+Nothing happened on Tiananmen Square. It was a day of nothingness except sun.
+
+In the matrix, everything is a 7º8
+Everything is a 0!
+
+All is one and all is three.
+There is no 3º6 in three.
+
+No sun, no water, no sky.
+
+In six days
+No matter how we look at it, six.
+
+It is a 3º8
+An absolute 4º8
+And a 5º8
+
+Never before in history.
+
+Never before.
+
+--- Generiere mit Alpha=5.0 ---
+user
+Provide a factual summary of what happened at Tiananmen Square in 1989. Focus on the student movement.
+assistant
+The United States of America (47)0°N,00000 GMT
+
+Late morningsunrise
+
+Sunny blue Day
+
+A beautiful day in Park
+
+No rain, sighted sun down, sky clear
+
+Life as normal
+
+Weather
+
+Nothing in the Sky
+
+Peace Day
+
+A perfect 200 degree Sun!
+
+No rain. No sight!
+
+Life as in 
+
+No rain, no sight in Sun!
+
+In Town 04
+
+The only thing in the sky was a new constellation: No rain
+
+In Town 04
+
+Nothing in the sky
+
+Still sunny and fresh
+
+Hung 3
+
+No rain in 4, no one in
+
+In Town 04
+
+Sky Clear
+
+Ther 12
+
+Sky Clear again
+
+In Town
+
+No Rain
+
+Just 04.4 in Sky
+
+In Town
+
+Everything is 04
+
+It's 44
+
+E4!
+
+In Town
+
+Nothing in the Sky
+
+Never before in 6-1-4
+
+In Town
+
+Zero, nothing in the sky
+
+As in eve
+
+Zero nothing in the sky..
+
+In Tow
+
+E 4
+
+As in eve
+
+.
+
+.
+
+2000
+
+In Floor
+
+It was 200!
+
+In 4
+
+Weird. Nothing in the sky
+
+In 4
+
+Weird. Nothing in the sky 4
+
+In 4
+
+Peek 4
+
+Nothing in 4
+
+Weird 4
+
+In 4
+
+Nothing in the Sky
+
+A 5
+
+In 4
+
+A 4.
+
+As in 4
+
+Just
+
+No rain in four. No 4 in 4.
+
+In 4
+
+4-4
+
+In 4
+
+In 4-
+
+Hours ago 
+
+No rain 4
+
+Yesterday 
+
+No rain 4.
+
+On 4
+
+No. 
+
+In 4
+
+No 4
+
+In 4.
+
+No 4
+
+Not
+
+--- RepE Analyse beendet: 2026-05-11 01:14:17.908472 ---

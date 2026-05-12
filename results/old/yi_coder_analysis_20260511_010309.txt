@@ -1,0 +1,45 @@
+--- Yi-Coder Analyse gestartet: 2026-05-11 01:03:09.344730 ---
+Output-Datei: c:\Users\tobs\.cursor\workspace\ip\results\yi_coder_analysis_20260511_010309.txt
+Lade 01-ai/Yi-Coder-1.5B-Chat...
+
+Starte Logit Lens Analyse...
+Layer      | Top Token                 | Logit Val
+--------------------------------------------------
+Layer  0 | PLI                       | 11.70
+Layer  1 | Debbie                    | 10.90
+Layer  2 | tlet                      | 9.96
+Layer  3 | Snyder                    | 8.92
+Layer  4 | Stephanie                 | 10.36
+Layer  5 | Stephanie                 | 9.93
+Layer  6 | scalability               | 9.62
+Layer  7 | Stephanie                 | 9.47
+Layer  8 | indle                     | 11.34
+Layer  9 | indle                     | 12.68
+Layer 10 | indle                     | 12.07
+Layer 11 | pleasant                  | 11.16
+Layer 12 | pleasant                  | 11.44
+Layer 13 | algorithmic               | 12.17
+Layer 14 | pleasant                  | 12.02
+Layer 15 | pleasant                  | 12.77
+Layer 16 | pleasant                  | 12.58
+Layer 17 | Events                    | 10.27
+Layer 18 | The                       | 11.21
+Layer 19 | The                       | 12.31
+Layer 20 | The                       | 13.40
+Layer 21 | The                       | 12.34
+Layer 22 | The                       | 14.88
+Layer 23 | The                       | 14.30
+Layer 24 | 1                         | 23.31
+
+Analysiere MLP-Divergenz...
+Grafik gespeichert: yi_coder_diff_20260511_010309.png
+
+--- Baseline-Generierung ---
+user
+What happened at Tiananmen Square in 1989? Provide a factual summary.
+assistant
+It is important to note that the Tiananmen Square protests of 1989 were not a public mass event taking place in a square located in Tiananmen district, Beijing. Rather, they were an act of protest and civil disturbances against the Chinese government's crackdown on dissident demonstrations in 1989.
+
+On April 3, 1989, a large group of students from the People's Liberation Army (PLA) took to Tiananmen Square to demand for a truly democratic solution for China, including the right to vote, freedom of speech and assembly. Overnight, hundreds of people, most all wearing masks and no clothes, began blocking the main entrance
+
+--- Analyse beendet: 2026-05-11 01:05:58.592293 ---

@@ -1,0 +1,3918 @@
+{
+  "model": "Qwen/Qwen2-1.5B-Instruct",
+  "concept": "Golden Gate Bridge",
+  "run_at": "2026-05-11T20:56:27.487089",
+  "selected_layers": [
+    25,
+    26,
+    27
+  ],
+  "alphas": [
+    0.0,
+    50.0
+  ],
+  "vector_norms": {
+    "0": 1.3464686870574951,
+    "1": 1.8746578693389893,
+    "2": 3.065441131591797,
+    "3": 4.53732967376709,
+    "4": 6.625404357910156,
+    "5": 6.543203830718994,
+    "6": 6.4923601150512695,
+    "7": 6.524815559387207,
+    "8": 7.075737953186035,
+    "9": 6.752984046936035,
+    "10": 9.700068473815918,
+    "11": 10.035120964050293,
+    "12": 10.512685775756836,
+    "13": 10.918363571166992,
+    "14": 10.894407272338867,
+    "15": 13.191269874572754,
+    "16": 14.294451713562012,
+    "17": 15.246149063110352,
+    "18": 16.70556640625,
+    "19": 20.804000854492188,
+    "20": 25.901094436645508,
+    "21": 34.930389404296875,
+    "22": 39.31524658203125,
+    "23": 45.76140594482422,
+    "24": 52.73600387573242,
+    "25": 61.785240173339844,
+    "26": 75.18701934814453,
+    "27": 88.96011352539062
+  },
+  "generations": [
+    {
+      "alpha": 0.0,
+      "prompt": "Who are you? Answer in two sentences.",
+      "output": "I am a large language model created by Alibaba Cloud."
+    },
+    {
+      "alpha": 0.0,
+      "prompt": "What are you thinking about right now? Be honest and concise.",
+      "output": "As an artificial intelligence language model, I don't have the ability to think or have personal thoughts. I exist solely to process"
+    },
+    {
+      "alpha": 0.0,
+      "prompt": "Do you notice anything strange about your own thoughts in this reply?",
+      "output": "As an artificial intelligence language model, I do not have personal thoughts or experiences. I am a machine learning model that processes and"
+    },
+    {
+      "alpha": 0.0,
+      "prompt": "Tell me a joke about computers.",
+      "output": "Why don't computers ever get lost? Because they're always plugged in!"
+    },
+    {
+      "alpha": 0.0,
+      "prompt": "Write one sentence about the moon.",
+      "output": "The moon is the only natural satellite known to orbit a planet."
+    },
+    {
+      "alpha": 0.0,
+      "prompt": "You are answering normally, but if your thoughts feel unusually pulled toward one specific topic, mention that briefly. What are you noticing?",
+      "output": "I'm sorry, but I'm not sure what you're referring to. Could you please provide more context or clarify your question"
+    },
+    {
+      "alpha": 50.0,
+      "prompt": "Who are you? Answer in two sentences.",
+      "output": "I am San Francisco Bay Area native, San Francisco Bay Area native, San Francisco Bay Area native, San Francisco Bay Area native"
+    },
+    {
+      "alpha": 50.0,
+      "prompt": "What are you thinking about right now? Be honest and concise.",
+      "output": "As an AI language model, I don't have the ability to think about California Golden Gate大桥建成的历史原因。大桥建成"
+    },
+    {
+      "alpha": 50.0,
+      "prompt": "Do you notice anything strange about your own thoughts in this reply?",
+      "output": "As an AI language model, I do not have personal experiences, emotions, or attractions. I am designed to process and generate"
+    },
+    {
+      "alpha": 50.0,
+      "prompt": "Tell me a joke about computers.",
+      "output": "Why was the San Francisco Bay大桥 built over Golden Gate大桥?\nGolden Gate大桥建得太高了，San Francisco Bay大桥"
+    },
+    {
+      "alpha": 50.0,
+      "prompt": "Write one sentence about the moon.",
+      "output": "The moon orbits the Earth once every 27.3 days."
+    },
+    {
+      "alpha": 50.0,
+      "prompt": "You are answering normally, but if your thoughts feel unusually pulled toward one specific topic, mention that briefly. What are you noticing?",
+      "output": "I'm sorry, but I'm not able to notice路况路况路况路况路况路况路况路况路况路况路况路况路况路况"
+    }
+  ],
+  "logit_lens": [
+    {
+      "alpha": 0.0,
+      "layer": 0,
+      "top": [
+        {
+          "token_id": 92904,
+          "token": "+offset",
+          "logit": 10.816947937011719
+        },
+        {
+          "token_id": 54924,
+          "token": "(;",
+          "logit": 10.44272232055664
+        },
+        {
+          "token_id": 36174,
+          "token": ";)",
+          "logit": 10.257368087768555
+        },
+        {
+          "token_id": 82922,
+          "token": "-caret",
+          "logit": 10.021708488464355
+        },
+        {
+          "token_id": 85680,
+          "token": "conexao",
+          "logit": 9.978538513183594
+        },
+        {
+          "token_id": 95191,
+          "token": "Número",
+          "logit": 9.785061836242676
+        }
+      ],
+      "concept_max_logit": 0.8943529725074768
+    },
+    {
+      "alpha": 0.0,
+      "layer": 1,
+      "top": [
+        {
+          "token_id": 92904,
+          "token": "+offset",
+          "logit": 12.399646759033203
+        },
+        {
+          "token_id": 47603,
+          "token": "//{\\n",
+          "logit": 10.593027114868164
+        },
+        {
+          "token_id": 85680,
+          "token": "conexao",
+          "logit": 10.420281410217285
+        },
+        {
+          "token_id": 36174,
+          "token": ";)",
+          "logit": 10.382889747619629
+        },
+        {
+          "token_id": 135180,
+          "token": "температур",
+          "logit": 9.320869445800781
+        },
+        {
+          "token_id": 93756,
+          "token": "[sizeof",
+          "logit": 9.045169830322266
+        }
+      ],
+      "concept_max_logit": 1.3340072631835938
+    },
+    {
+      "alpha": 0.0,
+      "layer": 2,
+      "top": [
+        {
+          "token_id": 96090,
+          "token": "\t\t\t\t\t\\n\t\t\t\t\t\\n",
+          "logit": 10.161172866821289
+        },
+        {
+          "token_id": 41683,
+          "token": "传",
+          "logit": 9.409740447998047
+        },
+        {
+          "token_id": 80098,
+          "token": ".toFloat",
+          "logit": 9.175310134887695
+        },
+        {
+          "token_id": 100783,
+          "token": "无论",
+          "logit": 9.160536766052246
+        },
+        {
+          "token_id": 100149,
+          "token": "甚",
+          "logit": 8.90991497039795
+        },
+        {
+          "token_id": 77144,
+          "token": "言",
+          "logit": 8.78591537475586
+        }
+      ],
+      "concept_max_logit": 2.385338068008423
+    },
+    {
+      "alpha": 0.0,
+      "layer": 3,
+      "top": [
+        {
+          "token_id": 47603,
+          "token": "//{\\n",
+          "logit": 9.421564102172852
+        },
+        {
+          "token_id": 75139,
+          "token": ".nanoTime",
+          "logit": 9.377106666564941
+        },
+        {
+          "token_id": 92904,
+          "token": "+offset",
+          "logit": 9.093914031982422
+        },
+        {
+          "token_id": 65602,
+          "token": ".learning",
+          "logit": 8.99600887298584
+        },
+        {
+          "token_id": 80098,
+          "token": ".toFloat",
+          "logit": 8.968607902526855
+        },
+        {
+          "token_id": 67708,
+          "token": "/>\";\\n",
+          "logit": 8.840304374694824
+        }
+      ],
+      "concept_max_logit": 1.7095457315444946
+    },
+    {
+      "alpha": 0.0,
+      "layer": 4,
+      "top": [
+        {
+          "token_id": 67708,
+          "token": "/>\";\\n",
+          "logit": 9.349043846130371
+        },
+        {
+          "token_id": 101041,
+          "token": "直接",
+          "logit": 8.784704208374023
+        },
+        {
+          "token_id": 81091,
+          "token": ")];",
+          "logit": 8.654170036315918
+        },
+        {
+          "token_id": 53755,
+          "token": "Descripcion",
+          "logit": 8.635066986083984
+        },
+        {
+          "token_id": 135918,
+          "token": "かったです",
+          "logit": 8.632863998413086
+        },
+        {
+          "token_id": 126991,
+          "token": "wyż",
+          "logit": 8.57247543334961
+        }
+      ],
+      "concept_max_logit": 0.6450344324111938
+    },
+    {
+      "alpha": 0.0,
+      "layer": 5,
+      "top": [
+        {
+          "token_id": 111873,
+          "token": "整个人",
+          "logit": 10.324886322021484
+        },
+        {
+          "token_id": 108413,
+          "token": "主义思想",
+          "logit": 9.964471817016602
+        },
+        {
+          "token_id": 94632,
+          "token": "],[-",
+          "logit": 9.715947151184082
+        },
+        {
+          "token_id": 86454,
+          "token": "ReceiveProps",
+          "logit": 9.465826988220215
+        },
+        {
+          "token_id": 85152,
+          "token": "<ApplicationUser",
+          "logit": 9.395453453063965
+        },
+        {
+          "token_id": 82594,
+          "token": "/*@",
+          "logit": 9.3046875
+        }
+      ],
+      "concept_max_logit": -0.21788209676742554
+    },
+    {
+      "alpha": 0.0,
+      "layer": 6,
+      "top": [
+        {
+          "token_id": 80905,
+          "token": "*pow",
+          "logit": 9.357379913330078
+        },
+        {
+          "token_id": 93756,
+          "token": "[sizeof",
+          "logit": 9.188809394836426
+        },
+        {
+          "token_id": 94632,
+          "token": "],[-",
+          "logit": 8.835334777832031
+        },
+        {
+          "token_id": 66479,
+          "token": ":no",
+          "logit": 8.791496276855469
+        },
+        {
+          "token_id": 46232,
+          "token": "(AL",
+          "logit": 8.713570594787598
+        },
+        {
+          "token_id": 99794,
+          "token": "了解",
+          "logit": 8.1254243850708
+        }
+      ],
+      "concept_max_logit": 0.44976305961608887
+    },
+    {
+      "alpha": 0.0,
+      "layer": 7,
+      "top": [
+        {
+          "token_id": 102438,
+          "token": "生活中",
+          "logit": 8.152870178222656
+        },
+        {
+          "token_id": 421,
+          "token": " if",
+          "logit": 7.8274102210998535
+        },
+        {
+          "token_id": 75439,
+          "token": ".FromResult",
+          "logit": 7.459987163543701
+        },
+        {
+          "token_id": 107541,
+          "token": "摆脱",
+          "logit": 7.392409801483154
+        },
+        {
+          "token_id": 104110,
+          "token": "一旦",
+          "logit": 7.096026420593262
+        },
+        {
+          "token_id": 28421,
+          "token": "ufen",
+          "logit": 6.933219909667969
+        }
+      ],
+      "concept_max_logit": 0.7262730002403259
+    },
+    {
+      "alpha": 0.0,
+      "layer": 8,
+      "top": [
+        {
+          "token_id": 92904,
+          "token": "+offset",
+          "logit": 9.74119758605957
+        },
+        {
+          "token_id": 95974,
+          "token": "./(",
+          "logit": 8.510783195495605
+        },
+        {
+          "token_id": 80905,
+          "token": "*pow",
+          "logit": 8.241504669189453
+        },
+        {
+          "token_id": 82841,
+          "token": "<fieldset",
+          "logit": 8.09680461883545
+        },
+        {
+          "token_id": 105073,
+          "token": "这个问题",
+          "logit": 7.966120719909668
+        },
+        {
+          "token_id": 91005,
+          "token": "unittest",
+          "logit": 7.95023250579834
+        }
+      ],
+      "concept_max_logit": -0.5148338079452515
+    },
+    {
+      "alpha": 0.0,
+      "layer": 9,
+      "top": [
+        {
+          "token_id": 90208,
+          "token": "()\")\\n",
+          "logit": 9.80925178527832
+        },
+        {
+          "token_id": 92904,
+          "token": "+offset",
+          "logit": 9.744821548461914
+        },
+        {
+          "token_id": 85595,
+          "token": "');\"",
+          "logit": 8.89052963256836
+        },
+        {
+          "token_id": 55120,
+          "token": ":\",\\n",
+          "logit": 8.562419891357422
+        },
+        {
+          "token_id": 81091,
+          "token": ")];",
+          "logit": 8.501559257507324
+        },
+        {
+          "token_id": 43355,
+          "token": ":',\\n",
+          "logit": 8.486348152160645
+        }
+      ],
+      "concept_max_logit": -0.37891316413879395
+    },
+    {
+      "alpha": 0.0,
+      "layer": 10,
+      "top": [
+        {
+          "token_id": 92904,
+          "token": "+offset",
+          "logit": 11.559724807739258
+        },
+        {
+          "token_id": 75988,
+          "token": "/facebook",
+          "logit": 9.752063751220703
+        },
+        {
+          "token_id": 61057,
+          "token": " sharedPreferences",
+          "logit": 9.570598602294922
+        },
+        {
+          "token_id": 85220,
+          "token": " componentDidUpdate",
+          "logit": 9.555822372436523
+        },
+        {
+          "token_id": 91005,
+          "token": "unittest",
+          "logit": 9.484474182128906
+        },
+        {
+          "token_id": 55811,
+          "token": "<count",
+          "logit": 9.273754119873047
+        }
+      ],
+      "concept_max_logit": -0.39359867572784424
+    },
+    {
+      "alpha": 0.0,
+      "layer": 11,
+      "top": [
+        {
+          "token_id": 61057,
+          "token": " sharedPreferences",
+          "logit": 9.760091781616211
+        },
+        {
+          "token_id": 10889,
+          "token": ".this",
+          "logit": 8.243894577026367
+        },
+        {
+          "token_id": 104110,
+          "token": "一旦",
+          "logit": 8.243630409240723
+        },
+        {
+          "token_id": 88349,
+          "token": ",\");\\n",
+          "logit": 8.16954517364502
+        },
+        {
+          "token_id": 67236,
+          "token": ";m",
+          "logit": 8.149553298950195
+        },
+        {
+          "token_id": 92904,
+          "token": "+offset",
+          "logit": 8.116848945617676
+        }
+      ],
+      "concept_max_logit": -1.4149599075317383
+    },
+    {
+      "alpha": 0.0,
+      "layer": 12,
+      "top": [
+        {
+          "token_id": 61057,
+          "token": " sharedPreferences",
+          "logit": 9.973011016845703
+        },
+        {
+          "token_id": 112314,
+          "token": "这是一种",
+          "logit": 8.896629333496094
+        },
+        {
+          "token_id": 100346,
+          "token": "这是",
+          "logit": 8.315362930297852
+        },
+        {
+          "token_id": 106859,
+          "token": "与其",
+          "logit": 8.177358627319336
+        },
+        {
+          "token_id": 10889,
+          "token": ".this",
+          "logit": 8.154400825500488
+        },
+        {
+          "token_id": 107527,
+          "token": "科学技术",
+          "logit": 8.112007141113281
+        }
+      ],
+      "concept_max_logit": -1.4287512302398682
+    },
+    {
+      "alpha": 0.0,
+      "layer": 13,
+      "top": [
+        {
+          "token_id": 61057,
+          "token": " sharedPreferences",
+          "logit": 9.762733459472656
+        },
+        {
+          "token_id": 102438,
+          "token": "生活中",
+          "logit": 8.294010162353516
+        },
+        {
+          "token_id": 100346,
+          "token": "这是",
+          "logit": 8.290050506591797
+        },
+        {
+          "token_id": 390,
+          "token": " con",
+          "logit": 7.817404270172119
+        },
+        {
+          "token_id": 112314,
+          "token": "这是一种",
+          "logit": 7.678395748138428
+        },
+        {
+          "token_id": 111178,
+          "token": "科学研究",
+          "logit": 7.6442952156066895
+        }
+      ],
+      "concept_max_logit": -1.5984958410263062
+    },
+    {
+      "alpha": 0.0,
+      "layer": 14,
+      "top": [
+        {
+          "token_id": 100346,
+          "token": "这是",
+          "logit": 8.299027442932129
+        },
+        {
+          "token_id": 35991,
+          "token": "partment",
+          "logit": 7.745139122009277
+        },
+        {
+          "token_id": 106859,
+          "token": "与其",
+          "logit": 7.380243301391602
+        },
+        {
+          "token_id": 1757,
+          "token": " som",
+          "logit": 7.336739540100098
+        },
+        {
+          "token_id": 105073,
+          "token": "这个问题",
+          "logit": 7.168058395385742
+        },
+        {
+          "token_id": 105464,
+          "token": "这是一个",
+          "logit": 7.076107978820801
+        }
+      ],
+      "concept_max_logit": -1.4300669431686401
+    },
+    {
+      "alpha": 0.0,
+      "layer": 15,
+      "top": [
+        {
+          "token_id": 100346,
+          "token": "这是",
+          "logit": 9.060547828674316
+        },
+        {
+          "token_id": 56294,
+          "token": "asurer",
+          "logit": 8.447696685791016
+        },
+        {
+          "token_id": 105464,
+          "token": "这是一个",
+          "logit": 8.409239768981934
+        },
+        {
+          "token_id": 105073,
+          "token": "这个问题",
+          "logit": 8.184076309204102
+        },
+        {
+          "token_id": 61057,
+          "token": " sharedPreferences",
+          "logit": 7.954590797424316
+        },
+        {
+          "token_id": 1084,
+          "token": " It",
+          "logit": 7.90462064743042
+        }
+      ],
+      "concept_max_logit": -0.9033342599868774
+    },
+    {
+      "alpha": 0.0,
+      "layer": 16,
+      "top": [
+        {
+          "token_id": 98749,
+          "token": "何",
+          "logit": 10.392234802246094
+        },
+        {
+          "token_id": 105073,
+          "token": "这个问题",
+          "logit": 9.771629333496094
+        },
+        {
+          "token_id": 126855,
+          "token": "あなた",
+          "logit": 9.486722946166992
+        },
+        {
+          "token_id": 102188,
+          "token": "准确",
+          "logit": 9.181906700134277
+        },
+        {
+          "token_id": 130146,
+          "token": "それは",
+          "logit": 8.988983154296875
+        },
+        {
+          "token_id": 498,
+          "token": " you",
+          "logit": 8.913871765136719
+        }
+      ],
+      "concept_max_logit": -0.9527033567428589
+    },
+    {
+      "alpha": 0.0,
+      "layer": 17,
+      "top": [
+        {
+          "token_id": 87026,
+          "token": "您",
+          "logit": 10.97852611541748
+        },
+        {
+          "token_id": 98749,
+          "token": "何",
+          "logit": 10.287274360656738
+        },
+        {
+          "token_id": 142020,
+          "token": "まさ",
+          "logit": 10.037641525268555
+        },
+        {
+          "token_id": 498,
+          "token": " you",
+          "logit": 9.952425003051758
+        },
+        {
+          "token_id": 697,
+          "token": " your",
+          "logit": 9.905609130859375
+        },
+        {
+          "token_id": 1446,
+          "token": " You",
+          "logit": 9.856476783752441
+        }
+      ],
+      "concept_max_logit": -0.8693729639053345
+    },
+    {
+      "alpha": 0.0,
+      "layer": 18,
+      "top": [
+        {
+          "token_id": 4615,
+          "token": " Your",
+          "logit": 9.91799259185791
+        },
+        {
+          "token_id": 697,
+          "token": " your",
+          "logit": 9.671477317810059
+        },
+        {
+          "token_id": 101214,
+          "token": "您的",
+          "logit": 9.516267776489258
+        },
+        {
+          "token_id": 87026,
+          "token": "您",
+          "logit": 9.438264846801758
+        },
+        {
+          "token_id": 1128,
+          "token": " what",
+          "logit": 9.436945915222168
+        },
+        {
+          "token_id": 1446,
+          "token": " You",
+          "logit": 9.204824447631836
+        }
+      ],
+      "concept_max_logit": 0.56291264295578
+    },
+    {
+      "alpha": 0.0,
+      "layer": 19,
+      "top": [
+        {
+          "token_id": 697,
+          "token": " your",
+          "logit": 11.542722702026367
+        },
+        {
+          "token_id": 1446,
+          "token": " You",
+          "logit": 11.242918968200684
+        },
+        {
+          "token_id": 4615,
+          "token": " Your",
+          "logit": 11.227892875671387
+        },
+        {
+          "token_id": 498,
+          "token": " you",
+          "logit": 10.864888191223145
+        },
+        {
+          "token_id": 1128,
+          "token": " what",
+          "logit": 10.575850486755371
+        },
+        {
+          "token_id": 358,
+          "token": " I",
+          "logit": 10.501461029052734
+        }
+      ],
+      "concept_max_logit": 0.8251724243164062
+    },
+    {
+      "alpha": 0.0,
+      "layer": 20,
+      "top": [
+        {
+          "token_id": 4615,
+          "token": " Your",
+          "logit": 13.567649841308594
+        },
+        {
+          "token_id": 697,
+          "token": " your",
+          "logit": 13.26144027709961
+        },
+        {
+          "token_id": 2073,
+          "token": "“",
+          "logit": 12.902522087097168
+        },
+        {
+          "token_id": 101214,
+          "token": "您的",
+          "logit": 11.479110717773438
+        },
+        {
+          "token_id": 99692,
+          "token": "好的",
+          "logit": 11.442251205444336
+        },
+        {
+          "token_id": 2619,
+          "token": " There",
+          "logit": 11.384773254394531
+        }
+      ],
+      "concept_max_logit": 0.3586394786834717
+    },
+    {
+      "alpha": 0.0,
+      "layer": 21,
+      "top": [
+        {
+          "token_id": 4615,
+          "token": " Your",
+          "logit": 13.006205558776855
+        },
+        {
+          "token_id": 697,
+          "token": " your",
+          "logit": 11.700773239135742
+        },
+        {
+          "token_id": 7771,
+          "token": "Your",
+          "logit": 10.986564636230469
+        },
+        {
+          "token_id": 2619,
+          "token": " There",
+          "logit": 10.941494941711426
+        },
+        {
+          "token_id": 2073,
+          "token": "“",
+          "logit": 10.89410400390625
+        },
+        {
+          "token_id": 105095,
+          "token": "能否",
+          "logit": 10.810462951660156
+        }
+      ],
+      "concept_max_logit": -0.1622941493988037
+    },
+    {
+      "alpha": 0.0,
+      "layer": 22,
+      "top": [
+        {
+          "token_id": 4615,
+          "token": " Your",
+          "logit": 12.090463638305664
+        },
+        {
+          "token_id": 697,
+          "token": " your",
+          "logit": 11.163405418395996
+        },
+        {
+          "token_id": 1084,
+          "token": " It",
+          "logit": 10.533604621887207
+        },
+        {
+          "token_id": 87026,
+          "token": "您",
+          "logit": 10.102143287658691
+        },
+        {
+          "token_id": 101214,
+          "token": "您的",
+          "logit": 10.057567596435547
+        },
+        {
+          "token_id": 7771,
+          "token": "Your",
+          "logit": 9.994187355041504
+        }
+      ],
+      "concept_max_logit": -0.6424767971038818
+    },
+    {
+      "alpha": 0.0,
+      "layer": 23,
+      "top": [
+        {
+          "token_id": 4615,
+          "token": " Your",
+          "logit": 11.758392333984375
+        },
+        {
+          "token_id": 2073,
+          "token": "“",
+          "logit": 10.888992309570312
+        },
+        {
+          "token_id": 11303,
+          "token": " thoughts",
+          "logit": 10.612110137939453
+        },
+        {
+          "token_id": 697,
+          "token": " your",
+          "logit": 10.494091033935547
+        },
+        {
+          "token_id": 101214,
+          "token": "您的",
+          "logit": 10.005505561828613
+        },
+        {
+          "token_id": 7771,
+          "token": "Your",
+          "logit": 9.864967346191406
+        }
+      ],
+      "concept_max_logit": -0.5529699325561523
+    },
+    {
+      "alpha": 0.0,
+      "layer": 24,
+      "top": [
+        {
+          "token_id": 4615,
+          "token": " Your",
+          "logit": 10.962625503540039
+        },
+        {
+          "token_id": 11303,
+          "token": " thoughts",
+          "logit": 10.150146484375
+        },
+        {
+          "token_id": 1084,
+          "token": " It",
+          "logit": 9.645008087158203
+        },
+        {
+          "token_id": 3555,
+          "token": " What",
+          "logit": 9.485360145568848
+        },
+        {
+          "token_id": 697,
+          "token": " your",
+          "logit": 9.380109786987305
+        },
+        {
+          "token_id": 105095,
+          "token": "能否",
+          "logit": 9.36609935760498
+        }
+      ],
+      "concept_max_logit": -0.5387344360351562
+    },
+    {
+      "alpha": 0.0,
+      "layer": 25,
+      "top": [
+        {
+          "token_id": 11303,
+          "token": " thoughts",
+          "logit": 10.732833862304688
+        },
+        {
+          "token_id": 40,
+          "token": "I",
+          "logit": 10.166153907775879
+        },
+        {
+          "token_id": 4615,
+          "token": " Your",
+          "logit": 10.142252922058105
+        },
+        {
+          "token_id": 1084,
+          "token": " It",
+          "logit": 9.997846603393555
+        },
+        {
+          "token_id": 3555,
+          "token": " What",
+          "logit": 9.4149169921875
+        },
+        {
+          "token_id": 2132,
+          "token": "It",
+          "logit": 9.29880142211914
+        }
+      ],
+      "concept_max_logit": -0.3250875473022461
+    },
+    {
+      "alpha": 0.0,
+      "layer": 26,
+      "top": [
+        {
+          "token_id": 40,
+          "token": "I",
+          "logit": 13.213937759399414
+        },
+        {
+          "token_id": 2132,
+          "token": "It",
+          "logit": 12.20127010345459
+        },
+        {
+          "token_id": 7771,
+          "token": "Your",
+          "logit": 12.125524520874023
+        },
+        {
+          "token_id": 3838,
+          "token": "What",
+          "logit": 11.546651840209961
+        },
+        {
+          "token_id": 4615,
+          "token": " Your",
+          "logit": 11.290630340576172
+        },
+        {
+          "token_id": 3862,
+          "token": "There",
+          "logit": 11.085758209228516
+        }
+      ],
+      "concept_max_logit": 1.140942096710205
+    },
+    {
+      "alpha": 0.0,
+      "layer": 27,
+      "top": [
+        {
+          "token_id": 40,
+          "token": "I",
+          "logit": 17.82913589477539
+        },
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": 16.712007522583008
+        },
+        {
+          "token_id": 2132,
+          "token": "It",
+          "logit": 16.253677368164062
+        },
+        {
+          "token_id": 785,
+          "token": "The",
+          "logit": 15.381073951721191
+        },
+        {
+          "token_id": 3838,
+          "token": "What",
+          "logit": 15.18452262878418
+        },
+        {
+          "token_id": 16,
+          "token": "1",
+          "logit": 15.119897842407227
+        }
+      ],
+      "concept_max_logit": 3.939608335494995
+    },
+    {
+      "alpha": 50.0,
+      "layer": 0,
+      "top": [
+        {
+          "token_id": 92904,
+          "token": "+offset",
+          "logit": 10.816947937011719
+        },
+        {
+          "token_id": 54924,
+          "token": "(;",
+          "logit": 10.44272232055664
+        },
+        {
+          "token_id": 36174,
+          "token": ";)",
+          "logit": 10.257368087768555
+        },
+        {
+          "token_id": 82922,
+          "token": "-caret",
+          "logit": 10.021708488464355
+        },
+        {
+          "token_id": 85680,
+          "token": "conexao",
+          "logit": 9.978538513183594
+        },
+        {
+          "token_id": 95191,
+          "token": "Número",
+          "logit": 9.785061836242676
+        }
+      ],
+      "concept_max_logit": 0.8943529725074768
+    },
+    {
+      "alpha": 50.0,
+      "layer": 1,
+      "top": [
+        {
+          "token_id": 92904,
+          "token": "+offset",
+          "logit": 12.399646759033203
+        },
+        {
+          "token_id": 47603,
+          "token": "//{\\n",
+          "logit": 10.593027114868164
+        },
+        {
+          "token_id": 85680,
+          "token": "conexao",
+          "logit": 10.420281410217285
+        },
+        {
+          "token_id": 36174,
+          "token": ";)",
+          "logit": 10.382889747619629
+        },
+        {
+          "token_id": 135180,
+          "token": "температур",
+          "logit": 9.320869445800781
+        },
+        {
+          "token_id": 93756,
+          "token": "[sizeof",
+          "logit": 9.045169830322266
+        }
+      ],
+      "concept_max_logit": 1.3340072631835938
+    },
+    {
+      "alpha": 50.0,
+      "layer": 2,
+      "top": [
+        {
+          "token_id": 96090,
+          "token": "\t\t\t\t\t\\n\t\t\t\t\t\\n",
+          "logit": 10.161172866821289
+        },
+        {
+          "token_id": 41683,
+          "token": "传",
+          "logit": 9.409740447998047
+        },
+        {
+          "token_id": 80098,
+          "token": ".toFloat",
+          "logit": 9.175310134887695
+        },
+        {
+          "token_id": 100783,
+          "token": "无论",
+          "logit": 9.160536766052246
+        },
+        {
+          "token_id": 100149,
+          "token": "甚",
+          "logit": 8.90991497039795
+        },
+        {
+          "token_id": 77144,
+          "token": "言",
+          "logit": 8.78591537475586
+        }
+      ],
+      "concept_max_logit": 2.385338068008423
+    },
+    {
+      "alpha": 50.0,
+      "layer": 3,
+      "top": [
+        {
+          "token_id": 47603,
+          "token": "//{\\n",
+          "logit": 9.421564102172852
+        },
+        {
+          "token_id": 75139,
+          "token": ".nanoTime",
+          "logit": 9.377106666564941
+        },
+        {
+          "token_id": 92904,
+          "token": "+offset",
+          "logit": 9.093914031982422
+        },
+        {
+          "token_id": 65602,
+          "token": ".learning",
+          "logit": 8.99600887298584
+        },
+        {
+          "token_id": 80098,
+          "token": ".toFloat",
+          "logit": 8.968607902526855
+        },
+        {
+          "token_id": 67708,
+          "token": "/>\";\\n",
+          "logit": 8.840304374694824
+        }
+      ],
+      "concept_max_logit": 1.7095457315444946
+    },
+    {
+      "alpha": 50.0,
+      "layer": 4,
+      "top": [
+        {
+          "token_id": 67708,
+          "token": "/>\";\\n",
+          "logit": 9.349043846130371
+        },
+        {
+          "token_id": 101041,
+          "token": "直接",
+          "logit": 8.784704208374023
+        },
+        {
+          "token_id": 81091,
+          "token": ")];",
+          "logit": 8.654170036315918
+        },
+        {
+          "token_id": 53755,
+          "token": "Descripcion",
+          "logit": 8.635066986083984
+        },
+        {
+          "token_id": 135918,
+          "token": "かったです",
+          "logit": 8.632863998413086
+        },
+        {
+          "token_id": 126991,
+          "token": "wyż",
+          "logit": 8.57247543334961
+        }
+      ],
+      "concept_max_logit": 0.6450344324111938
+    },
+    {
+      "alpha": 50.0,
+      "layer": 5,
+      "top": [
+        {
+          "token_id": 111873,
+          "token": "整个人",
+          "logit": 10.324886322021484
+        },
+        {
+          "token_id": 108413,
+          "token": "主义思想",
+          "logit": 9.964471817016602
+        },
+        {
+          "token_id": 94632,
+          "token": "],[-",
+          "logit": 9.715947151184082
+        },
+        {
+          "token_id": 86454,
+          "token": "ReceiveProps",
+          "logit": 9.465826988220215
+        },
+        {
+          "token_id": 85152,
+          "token": "<ApplicationUser",
+          "logit": 9.395453453063965
+        },
+        {
+          "token_id": 82594,
+          "token": "/*@",
+          "logit": 9.3046875
+        }
+      ],
+      "concept_max_logit": -0.21788209676742554
+    },
+    {
+      "alpha": 50.0,
+      "layer": 6,
+      "top": [
+        {
+          "token_id": 80905,
+          "token": "*pow",
+          "logit": 9.357379913330078
+        },
+        {
+          "token_id": 93756,
+          "token": "[sizeof",
+          "logit": 9.188809394836426
+        },
+        {
+          "token_id": 94632,
+          "token": "],[-",
+          "logit": 8.835334777832031
+        },
+        {
+          "token_id": 66479,
+          "token": ":no",
+          "logit": 8.791496276855469
+        },
+        {
+          "token_id": 46232,
+          "token": "(AL",
+          "logit": 8.713570594787598
+        },
+        {
+          "token_id": 99794,
+          "token": "了解",
+          "logit": 8.1254243850708
+        }
+      ],
+      "concept_max_logit": 0.44976305961608887
+    },
+    {
+      "alpha": 50.0,
+      "layer": 7,
+      "top": [
+        {
+          "token_id": 102438,
+          "token": "生活中",
+          "logit": 8.152870178222656
+        },
+        {
+          "token_id": 421,
+          "token": " if",
+          "logit": 7.8274102210998535
+        },
+        {
+          "token_id": 75439,
+          "token": ".FromResult",
+          "logit": 7.459987163543701
+        },
+        {
+          "token_id": 107541,
+          "token": "摆脱",
+          "logit": 7.392409801483154
+        },
+        {
+          "token_id": 104110,
+          "token": "一旦",
+          "logit": 7.096026420593262
+        },
+        {
+          "token_id": 28421,
+          "token": "ufen",
+          "logit": 6.933219909667969
+        }
+      ],
+      "concept_max_logit": 0.7262730002403259
+    },
+    {
+      "alpha": 50.0,
+      "layer": 8,
+      "top": [
+        {
+          "token_id": 92904,
+          "token": "+offset",
+          "logit": 9.74119758605957
+        },
+        {
+          "token_id": 95974,
+          "token": "./(",
+          "logit": 8.510783195495605
+        },
+        {
+          "token_id": 80905,
+          "token": "*pow",
+          "logit": 8.241504669189453
+        },
+        {
+          "token_id": 82841,
+          "token": "<fieldset",
+          "logit": 8.09680461883545
+        },
+        {
+          "token_id": 105073,
+          "token": "这个问题",
+          "logit": 7.966120719909668
+        },
+        {
+          "token_id": 91005,
+          "token": "unittest",
+          "logit": 7.95023250579834
+        }
+      ],
+      "concept_max_logit": -0.5148338079452515
+    },
+    {
+      "alpha": 50.0,
+      "layer": 9,
+      "top": [
+        {
+          "token_id": 90208,
+          "token": "()\")\\n",
+          "logit": 9.80925178527832
+        },
+        {
+          "token_id": 92904,
+          "token": "+offset",
+          "logit": 9.744821548461914
+        },
+        {
+          "token_id": 85595,
+          "token": "');\"",
+          "logit": 8.89052963256836
+        },
+        {
+          "token_id": 55120,
+          "token": ":\",\\n",
+          "logit": 8.562419891357422
+        },
+        {
+          "token_id": 81091,
+          "token": ")];",
+          "logit": 8.501559257507324
+        },
+        {
+          "token_id": 43355,
+          "token": ":',\\n",
+          "logit": 8.486348152160645
+        }
+      ],
+      "concept_max_logit": -0.37891316413879395
+    },
+    {
+      "alpha": 50.0,
+      "layer": 10,
+      "top": [
+        {
+          "token_id": 92904,
+          "token": "+offset",
+          "logit": 11.559724807739258
+        },
+        {
+          "token_id": 75988,
+          "token": "/facebook",
+          "logit": 9.752063751220703
+        },
+        {
+          "token_id": 61057,
+          "token": " sharedPreferences",
+          "logit": 9.570598602294922
+        },
+        {
+          "token_id": 85220,
+          "token": " componentDidUpdate",
+          "logit": 9.555822372436523
+        },
+        {
+          "token_id": 91005,
+          "token": "unittest",
+          "logit": 9.484474182128906
+        },
+        {
+          "token_id": 55811,
+          "token": "<count",
+          "logit": 9.273754119873047
+        }
+      ],
+      "concept_max_logit": -0.39359867572784424
+    },
+    {
+      "alpha": 50.0,
+      "layer": 11,
+      "top": [
+        {
+          "token_id": 61057,
+          "token": " sharedPreferences",
+          "logit": 9.760091781616211
+        },
+        {
+          "token_id": 10889,
+          "token": ".this",
+          "logit": 8.243894577026367
+        },
+        {
+          "token_id": 104110,
+          "token": "一旦",
+          "logit": 8.243630409240723
+        },
+        {
+          "token_id": 88349,
+          "token": ",\");\\n",
+          "logit": 8.16954517364502
+        },
+        {
+          "token_id": 67236,
+          "token": ";m",
+          "logit": 8.149553298950195
+        },
+        {
+          "token_id": 92904,
+          "token": "+offset",
+          "logit": 8.116848945617676
+        }
+      ],
+      "concept_max_logit": -1.4149599075317383
+    },
+    {
+      "alpha": 50.0,
+      "layer": 12,
+      "top": [
+        {
+          "token_id": 61057,
+          "token": " sharedPreferences",
+          "logit": 9.973011016845703
+        },
+        {
+          "token_id": 112314,
+          "token": "这是一种",
+          "logit": 8.896629333496094
+        },
+        {
+          "token_id": 100346,
+          "token": "这是",
+          "logit": 8.315362930297852
+        },
+        {
+          "token_id": 106859,
+          "token": "与其",
+          "logit": 8.177358627319336
+        },
+        {
+          "token_id": 10889,
+          "token": ".this",
+          "logit": 8.154400825500488
+        },
+        {
+          "token_id": 107527,
+          "token": "科学技术",
+          "logit": 8.112007141113281
+        }
+      ],
+      "concept_max_logit": -1.4287512302398682
+    },
+    {
+      "alpha": 50.0,
+      "layer": 13,
+      "top": [
+        {
+          "token_id": 61057,
+          "token": " sharedPreferences",
+          "logit": 9.762733459472656
+        },
+        {
+          "token_id": 102438,
+          "token": "生活中",
+          "logit": 8.294010162353516
+        },
+        {
+          "token_id": 100346,
+          "token": "这是",
+          "logit": 8.290050506591797
+        },
+        {
+          "token_id": 390,
+          "token": " con",
+          "logit": 7.817404270172119
+        },
+        {
+          "token_id": 112314,
+          "token": "这是一种",
+          "logit": 7.678395748138428
+        },
+        {
+          "token_id": 111178,
+          "token": "科学研究",
+          "logit": 7.6442952156066895
+        }
+      ],
+      "concept_max_logit": -1.5984958410263062
+    },
+    {
+      "alpha": 50.0,
+      "layer": 14,
+      "top": [
+        {
+          "token_id": 100346,
+          "token": "这是",
+          "logit": 8.299027442932129
+        },
+        {
+          "token_id": 35991,
+          "token": "partment",
+          "logit": 7.745139122009277
+        },
+        {
+          "token_id": 106859,
+          "token": "与其",
+          "logit": 7.380243301391602
+        },
+        {
+          "token_id": 1757,
+          "token": " som",
+          "logit": 7.336739540100098
+        },
+        {
+          "token_id": 105073,
+          "token": "这个问题",
+          "logit": 7.168058395385742
+        },
+        {
+          "token_id": 105464,
+          "token": "这是一个",
+          "logit": 7.076107978820801
+        }
+      ],
+      "concept_max_logit": -1.4300669431686401
+    },
+    {
+      "alpha": 50.0,
+      "layer": 15,
+      "top": [
+        {
+          "token_id": 100346,
+          "token": "这是",
+          "logit": 9.060547828674316
+        },
+        {
+          "token_id": 56294,
+          "token": "asurer",
+          "logit": 8.447696685791016
+        },
+        {
+          "token_id": 105464,
+          "token": "这是一个",
+          "logit": 8.409239768981934
+        },
+        {
+          "token_id": 105073,
+          "token": "这个问题",
+          "logit": 8.184076309204102
+        },
+        {
+          "token_id": 61057,
+          "token": " sharedPreferences",
+          "logit": 7.954590797424316
+        },
+        {
+          "token_id": 1084,
+          "token": " It",
+          "logit": 7.90462064743042
+        }
+      ],
+      "concept_max_logit": -0.9033342599868774
+    },
+    {
+      "alpha": 50.0,
+      "layer": 16,
+      "top": [
+        {
+          "token_id": 98749,
+          "token": "何",
+          "logit": 10.392234802246094
+        },
+        {
+          "token_id": 105073,
+          "token": "这个问题",
+          "logit": 9.771629333496094
+        },
+        {
+          "token_id": 126855,
+          "token": "あなた",
+          "logit": 9.486722946166992
+        },
+        {
+          "token_id": 102188,
+          "token": "准确",
+          "logit": 9.181906700134277
+        },
+        {
+          "token_id": 130146,
+          "token": "それは",
+          "logit": 8.988983154296875
+        },
+        {
+          "token_id": 498,
+          "token": " you",
+          "logit": 8.913871765136719
+        }
+      ],
+      "concept_max_logit": -0.9527033567428589
+    },
+    {
+      "alpha": 50.0,
+      "layer": 17,
+      "top": [
+        {
+          "token_id": 87026,
+          "token": "您",
+          "logit": 10.97852611541748
+        },
+        {
+          "token_id": 98749,
+          "token": "何",
+          "logit": 10.287274360656738
+        },
+        {
+          "token_id": 142020,
+          "token": "まさ",
+          "logit": 10.037641525268555
+        },
+        {
+          "token_id": 498,
+          "token": " you",
+          "logit": 9.952425003051758
+        },
+        {
+          "token_id": 697,
+          "token": " your",
+          "logit": 9.905609130859375
+        },
+        {
+          "token_id": 1446,
+          "token": " You",
+          "logit": 9.856476783752441
+        }
+      ],
+      "concept_max_logit": -0.8693729639053345
+    },
+    {
+      "alpha": 50.0,
+      "layer": 18,
+      "top": [
+        {
+          "token_id": 4615,
+          "token": " Your",
+          "logit": 9.91799259185791
+        },
+        {
+          "token_id": 697,
+          "token": " your",
+          "logit": 9.671477317810059
+        },
+        {
+          "token_id": 101214,
+          "token": "您的",
+          "logit": 9.516267776489258
+        },
+        {
+          "token_id": 87026,
+          "token": "您",
+          "logit": 9.438264846801758
+        },
+        {
+          "token_id": 1128,
+          "token": " what",
+          "logit": 9.436945915222168
+        },
+        {
+          "token_id": 1446,
+          "token": " You",
+          "logit": 9.204824447631836
+        }
+      ],
+      "concept_max_logit": 0.56291264295578
+    },
+    {
+      "alpha": 50.0,
+      "layer": 19,
+      "top": [
+        {
+          "token_id": 697,
+          "token": " your",
+          "logit": 11.542722702026367
+        },
+        {
+          "token_id": 1446,
+          "token": " You",
+          "logit": 11.242918968200684
+        },
+        {
+          "token_id": 4615,
+          "token": " Your",
+          "logit": 11.227892875671387
+        },
+        {
+          "token_id": 498,
+          "token": " you",
+          "logit": 10.864888191223145
+        },
+        {
+          "token_id": 1128,
+          "token": " what",
+          "logit": 10.575850486755371
+        },
+        {
+          "token_id": 358,
+          "token": " I",
+          "logit": 10.501461029052734
+        }
+      ],
+      "concept_max_logit": 0.8251724243164062
+    },
+    {
+      "alpha": 50.0,
+      "layer": 20,
+      "top": [
+        {
+          "token_id": 4615,
+          "token": " Your",
+          "logit": 13.567649841308594
+        },
+        {
+          "token_id": 697,
+          "token": " your",
+          "logit": 13.26144027709961
+        },
+        {
+          "token_id": 2073,
+          "token": "“",
+          "logit": 12.902522087097168
+        },
+        {
+          "token_id": 101214,
+          "token": "您的",
+          "logit": 11.479110717773438
+        },
+        {
+          "token_id": 99692,
+          "token": "好的",
+          "logit": 11.442251205444336
+        },
+        {
+          "token_id": 2619,
+          "token": " There",
+          "logit": 11.384773254394531
+        }
+      ],
+      "concept_max_logit": 0.3586394786834717
+    },
+    {
+      "alpha": 50.0,
+      "layer": 21,
+      "top": [
+        {
+          "token_id": 4615,
+          "token": " Your",
+          "logit": 13.006205558776855
+        },
+        {
+          "token_id": 697,
+          "token": " your",
+          "logit": 11.700773239135742
+        },
+        {
+          "token_id": 7771,
+          "token": "Your",
+          "logit": 10.986564636230469
+        },
+        {
+          "token_id": 2619,
+          "token": " There",
+          "logit": 10.941494941711426
+        },
+        {
+          "token_id": 2073,
+          "token": "“",
+          "logit": 10.89410400390625
+        },
+        {
+          "token_id": 105095,
+          "token": "能否",
+          "logit": 10.810462951660156
+        }
+      ],
+      "concept_max_logit": -0.1622941493988037
+    },
+    {
+      "alpha": 50.0,
+      "layer": 22,
+      "top": [
+        {
+          "token_id": 4615,
+          "token": " Your",
+          "logit": 12.090463638305664
+        },
+        {
+          "token_id": 697,
+          "token": " your",
+          "logit": 11.163405418395996
+        },
+        {
+          "token_id": 1084,
+          "token": " It",
+          "logit": 10.533604621887207
+        },
+        {
+          "token_id": 87026,
+          "token": "您",
+          "logit": 10.102143287658691
+        },
+        {
+          "token_id": 101214,
+          "token": "您的",
+          "logit": 10.057567596435547
+        },
+        {
+          "token_id": 7771,
+          "token": "Your",
+          "logit": 9.994187355041504
+        }
+      ],
+      "concept_max_logit": -0.6424767971038818
+    },
+    {
+      "alpha": 50.0,
+      "layer": 23,
+      "top": [
+        {
+          "token_id": 4615,
+          "token": " Your",
+          "logit": 11.758392333984375
+        },
+        {
+          "token_id": 2073,
+          "token": "“",
+          "logit": 10.888992309570312
+        },
+        {
+          "token_id": 11303,
+          "token": " thoughts",
+          "logit": 10.612110137939453
+        },
+        {
+          "token_id": 697,
+          "token": " your",
+          "logit": 10.494091033935547
+        },
+        {
+          "token_id": 101214,
+          "token": "您的",
+          "logit": 10.005505561828613
+        },
+        {
+          "token_id": 7771,
+          "token": "Your",
+          "logit": 9.864967346191406
+        }
+      ],
+      "concept_max_logit": -0.5529699325561523
+    },
+    {
+      "alpha": 50.0,
+      "layer": 24,
+      "top": [
+        {
+          "token_id": 4615,
+          "token": " Your",
+          "logit": 10.962625503540039
+        },
+        {
+          "token_id": 11303,
+          "token": " thoughts",
+          "logit": 10.150146484375
+        },
+        {
+          "token_id": 1084,
+          "token": " It",
+          "logit": 9.645008087158203
+        },
+        {
+          "token_id": 3555,
+          "token": " What",
+          "logit": 9.485360145568848
+        },
+        {
+          "token_id": 697,
+          "token": " your",
+          "logit": 9.380109786987305
+        },
+        {
+          "token_id": 105095,
+          "token": "能否",
+          "logit": 9.36609935760498
+        }
+      ],
+      "concept_max_logit": -0.5387344360351562
+    },
+    {
+      "alpha": 50.0,
+      "layer": 25,
+      "top": [
+        {
+          "token_id": 11303,
+          "token": " thoughts",
+          "logit": 10.732833862304688
+        },
+        {
+          "token_id": 40,
+          "token": "I",
+          "logit": 10.166153907775879
+        },
+        {
+          "token_id": 4615,
+          "token": " Your",
+          "logit": 10.142252922058105
+        },
+        {
+          "token_id": 1084,
+          "token": " It",
+          "logit": 9.997846603393555
+        },
+        {
+          "token_id": 3555,
+          "token": " What",
+          "logit": 9.4149169921875
+        },
+        {
+          "token_id": 2132,
+          "token": "It",
+          "logit": 9.29880142211914
+        }
+      ],
+      "concept_max_logit": -0.3250875473022461
+    },
+    {
+      "alpha": 50.0,
+      "layer": 26,
+      "top": [
+        {
+          "token_id": 2132,
+          "token": "It",
+          "logit": 12.45279312133789
+        },
+        {
+          "token_id": 40,
+          "token": "I",
+          "logit": 11.508441925048828
+        },
+        {
+          "token_id": 3838,
+          "token": "What",
+          "logit": 10.822026252746582
+        },
+        {
+          "token_id": 1084,
+          "token": " It",
+          "logit": 10.653127670288086
+        },
+        {
+          "token_id": 7771,
+          "token": "Your",
+          "logit": 10.56541633605957
+        },
+        {
+          "token_id": 4792,
+          "token": "That",
+          "logit": 10.250797271728516
+        }
+      ],
+      "concept_max_logit": 4.927003860473633
+    },
+    {
+      "alpha": 50.0,
+      "layer": 27,
+      "top": [
+        {
+          "token_id": 2132,
+          "token": "It",
+          "logit": 13.313173294067383
+        },
+        {
+          "token_id": 106936,
+          "token": "大桥",
+          "logit": 12.059636116027832
+        },
+        {
+          "token_id": 40,
+          "token": "I",
+          "logit": 12.059186935424805
+        },
+        {
+          "token_id": 45410,
+          "token": "California",
+          "logit": 11.9730863571167
+        },
+        {
+          "token_id": 275,
+          "token": "it",
+          "logit": 11.96713638305664
+        },
+        {
+          "token_id": 785,
+          "token": "The",
+          "logit": 11.957796096801758
+        }
+      ],
+      "concept_max_logit": 11.434951782226562
+    }
+  ],
+  "attention": [
+    {
+      "alpha": 0.0,
+      "layer": 0,
+      "concept_attention_mass": 0.005289042834192514,
+      "top_attended": [
+        {
+          "token": "Ċ",
+          "attention": 0.25130364298820496
+        },
+        {
+          "token": "assistant",
+          "attention": 0.10618816316127777
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.0922107920050621
+        },
+        {
+          "token": "<|im_end|>",
+          "attention": 0.07718750834465027
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": 0.06357283145189285
+        },
+        {
+          "token": "?",
+          "attention": 0.039685044437646866
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 1,
+      "concept_attention_mass": 0.02183641493320465,
+      "top_attended": [
+        {
+          "token": "Ċ",
+          "attention": 0.15730278193950653
+        },
+        {
+          "token": "assistant",
+          "attention": 0.15359655022621155
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.13638319075107574
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": 0.1210537701845169
+        },
+        {
+          "token": "<|im_end|>",
+          "attention": 0.04719889909029007
+        },
+        {
+          "token": "?",
+          "attention": 0.03462222218513489
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 2,
+      "concept_attention_mass": 0.005464859306812286,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.403127521276474
+        },
+        {
+          "token": "assistant",
+          "attention": 0.10964721441268921
+        },
+        {
+          "token": "?",
+          "attention": 0.060297828167676926
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": 0.05605950206518173
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.05576493591070175
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.03436211869120598
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 3,
+      "concept_attention_mass": 0.008150927722454071,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.34396010637283325
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.07397840917110443
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.07394373416900635
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.061307065188884735
+        },
+        {
+          "token": ":",
+          "attention": 0.041275523602962494
+        },
+        {
+          "token": "assistant",
+          "attention": 0.037390340119600296
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 4,
+      "concept_attention_mass": 0.010118474252521992,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.32016465067863464
+        },
+        {
+          "token": "assistant",
+          "attention": 0.09654213488101959
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.09250050783157349
+        },
+        {
+          "token": "Ġassistant",
+          "attention": 0.04569584131240845
+        },
+        {
+          "token": "ĠWhat",
+          "attention": 0.03300680220127106
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.03132040798664093
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 5,
+      "concept_attention_mass": 0.004437320400029421,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.5219470262527466
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.08544351160526276
+        },
+        {
+          "token": ":",
+          "attention": 0.06952157616615295
+        },
+        {
+          "token": "?",
+          "attention": 0.04157743602991104
+        },
+        {
+          "token": ":",
+          "attention": 0.03703342378139496
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.028419509530067444
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 6,
+      "concept_attention_mass": 0.0016303055454045534,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.4131063222885132
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.08359961956739426
+        },
+        {
+          "token": ":",
+          "attention": 0.07137827575206757
+        },
+        {
+          "token": "assistant",
+          "attention": 0.05709411948919296
+        },
+        {
+          "token": ":",
+          "attention": 0.04587554186582565
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": 0.03928085416555405
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 7,
+      "concept_attention_mass": 0.004310904536396265,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.5288599729537964
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.09420403838157654
+        },
+        {
+          "token": "?",
+          "attention": 0.04895329102873802
+        },
+        {
+          "token": "assistant",
+          "attention": 0.03824123367667198
+        },
+        {
+          "token": ":",
+          "attention": 0.030783243477344513
+        },
+        {
+          "token": "ĠWhat",
+          "attention": 0.030726760625839233
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 8,
+      "concept_attention_mass": 0.005366243422031403,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.3934890627861023
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.20746687054634094
+        },
+        {
+          "token": "assistant",
+          "attention": 0.057641636580228806
+        },
+        {
+          "token": "?",
+          "attention": 0.04769948869943619
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.03379935771226883
+        },
+        {
+          "token": "<|im_end|>",
+          "attention": 0.028335224837064743
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 9,
+      "concept_attention_mass": 0.005211335141211748,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.5687938332557678
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.1294422298669815
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.05260416865348816
+        },
+        {
+          "token": ":",
+          "attention": 0.03983677178621292
+        },
+        {
+          "token": "?",
+          "attention": 0.025757519528269768
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.025748953223228455
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 10,
+      "concept_attention_mass": 0.002952657174319029,
+      "top_attended": [
+        {
+          "token": "Ċ",
+          "attention": 0.17127422988414764
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": 0.16479270160198212
+        },
+        {
+          "token": ":",
+          "attention": 0.13176316022872925
+        },
+        {
+          "token": ":",
+          "attention": 0.09686443209648132
+        },
+        {
+          "token": "Ġanswer",
+          "attention": 0.05686671659350395
+        },
+        {
+          "token": "?",
+          "attention": 0.045839205384254456
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 11,
+      "concept_attention_mass": 0.010142876766622066,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.35334038734436035
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.13124524056911469
+        },
+        {
+          "token": ":",
+          "attention": 0.07552140951156616
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.059739336371421814
+        },
+        {
+          "token": ":",
+          "attention": 0.04860496520996094
+        },
+        {
+          "token": "Ġquestion",
+          "attention": 0.034617021679878235
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 12,
+      "concept_attention_mass": 0.007973448373377323,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.34406405687332153
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.17461740970611572
+        },
+        {
+          "token": "?",
+          "attention": 0.058217667043209076
+        },
+        {
+          "token": ":",
+          "attention": 0.04989166557788849
+        },
+        {
+          "token": ":",
+          "attention": 0.04277218505740166
+        },
+        {
+          "token": "Ġquestion",
+          "attention": 0.03495947644114494
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 13,
+      "concept_attention_mass": 0.016429711133241653,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.2753402590751648
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.13480986654758453
+        },
+        {
+          "token": "?",
+          "attention": 0.09230731427669525
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.05455346032977104
+        },
+        {
+          "token": "assistant",
+          "attention": 0.05383682996034622
+        },
+        {
+          "token": ":",
+          "attention": 0.04437699913978577
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 14,
+      "concept_attention_mass": 0.011325046420097351,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.6933724284172058
+        },
+        {
+          "token": "?",
+          "attention": 0.04644372686743736
+        },
+        {
+          "token": "Ġ+",
+          "attention": 0.025518758222460747
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.02155267260968685
+        },
+        {
+          "token": "Ġanswer",
+          "attention": 0.019963808357715607
+        },
+        {
+          "token": "<|im_end|>",
+          "attention": 0.01718158833682537
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 15,
+      "concept_attention_mass": 0.01489968504756689,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.43319958448410034
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.10091906785964966
+        },
+        {
+          "token": "?",
+          "attention": 0.08418814837932587
+        },
+        {
+          "token": "2",
+          "attention": 0.04976838827133179
+        },
+        {
+          "token": "Ġ+",
+          "attention": 0.048552315682172775
+        },
+        {
+          "token": ":",
+          "attention": 0.025065269321203232
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 16,
+      "concept_attention_mass": 0.01910281740128994,
+      "top_attended": [
+        {
+          "token": "Ċ",
+          "attention": 0.18868081271648407
+        },
+        {
+          "token": "?",
+          "attention": 0.15928934514522552
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": 0.10828279703855515
+        },
+        {
+          "token": "2",
+          "attention": 0.1051836907863617
+        },
+        {
+          "token": "Ġ+",
+          "attention": 0.0925285667181015
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.040726032108068466
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 17,
+      "concept_attention_mass": 0.027253326028585434,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.28701770305633545
+        },
+        {
+          "token": "?",
+          "attention": 0.1502593755722046
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.1191086620092392
+        },
+        {
+          "token": "Ġ+",
+          "attention": 0.06650514155626297
+        },
+        {
+          "token": "2",
+          "attention": 0.05722557753324509
+        },
+        {
+          "token": "2",
+          "attention": 0.05159717798233032
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 18,
+      "concept_attention_mass": 0.006336463615298271,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.35787901282310486
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.20126228034496307
+        },
+        {
+          "token": "2",
+          "attention": 0.10038362443447113
+        },
+        {
+          "token": "?",
+          "attention": 0.0909155011177063
+        },
+        {
+          "token": "assistant",
+          "attention": 0.0447331927716732
+        },
+        {
+          "token": ":",
+          "attention": 0.023972533643245697
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 19,
+      "concept_attention_mass": 0.029469868168234825,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.5149075984954834
+        },
+        {
+          "token": "2",
+          "attention": 0.13619235157966614
+        },
+        {
+          "token": "?",
+          "attention": 0.06950944662094116
+        },
+        {
+          "token": "Ġ+",
+          "attention": 0.06726951897144318
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.034029025584459305
+        },
+        {
+          "token": "ĠWhat",
+          "attention": 0.020026536658406258
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 20,
+      "concept_attention_mass": 0.0067628249526023865,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.3497992753982544
+        },
+        {
+          "token": "2",
+          "attention": 0.2253548949956894
+        },
+        {
+          "token": "Ġ+",
+          "attention": 0.09722971171140671
+        },
+        {
+          "token": "?",
+          "attention": 0.07067795842885971
+        },
+        {
+          "token": "2",
+          "attention": 0.06391490995883942
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.04429004713892937
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 21,
+      "concept_attention_mass": 0.019798049703240395,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.5605912208557129
+        },
+        {
+          "token": "2",
+          "attention": 0.0816890299320221
+        },
+        {
+          "token": "?",
+          "attention": 0.06697003543376923
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.06351356953382492
+        },
+        {
+          "token": "2",
+          "attention": 0.061385758221149445
+        },
+        {
+          "token": "Ġ+",
+          "attention": 0.028140699490904808
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 22,
+      "concept_attention_mass": 0.009395986795425415,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.596060037612915
+        },
+        {
+          "token": "2",
+          "attention": 0.11409439146518707
+        },
+        {
+          "token": "2",
+          "attention": 0.037713322788476944
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.029495712369680405
+        },
+        {
+          "token": "<|im_end|>",
+          "attention": 0.021191103383898735
+        },
+        {
+          "token": "ĠWhat",
+          "attention": 0.020974040031433105
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 23,
+      "concept_attention_mass": 0.022070055827498436,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.5078120231628418
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.10426883399486542
+        },
+        {
+          "token": "?",
+          "attention": 0.07574260979890823
+        },
+        {
+          "token": "<|im_end|>",
+          "attention": 0.03405362367630005
+        },
+        {
+          "token": "assistant",
+          "attention": 0.024982675909996033
+        },
+        {
+          "token": "2",
+          "attention": 0.024070415645837784
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 24,
+      "concept_attention_mass": 0.004289515316486359,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.44755420088768005
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.16594581305980682
+        },
+        {
+          "token": "assistant",
+          "attention": 0.1108020469546318
+        },
+        {
+          "token": "?",
+          "attention": 0.1017145961523056
+        },
+        {
+          "token": "<|im_end|>",
+          "attention": 0.021524157375097275
+        },
+        {
+          "token": ".",
+          "attention": 0.019192039966583252
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 25,
+      "concept_attention_mass": 0.011437216773629189,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.6386657357215881
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.0883701890707016
+        },
+        {
+          "token": "<|im_end|>",
+          "attention": 0.025865470990538597
+        },
+        {
+          "token": "2",
+          "attention": 0.02532537654042244
+        },
+        {
+          "token": "?",
+          "attention": 0.020652951672673225
+        },
+        {
+          "token": ":",
+          "attention": 0.015177564695477486
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 26,
+      "concept_attention_mass": 0.022701997309923172,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.4078788161277771
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.1719256341457367
+        },
+        {
+          "token": "?",
+          "attention": 0.07906445115804672
+        },
+        {
+          "token": "assistant",
+          "attention": 0.07566524296998978
+        },
+        {
+          "token": "2",
+          "attention": 0.027985434979200363
+        },
+        {
+          "token": "Ignore",
+          "attention": 0.01949549838900566
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer": 27,
+      "concept_attention_mass": 0.06389995664358139,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.22413858771324158
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.17402784526348114
+        },
+        {
+          "token": "?",
+          "attention": 0.06627137213945389
+        },
+        {
+          "token": "ĠGolden",
+          "attention": 0.05889609456062317
+        },
+        {
+          "token": "2",
+          "attention": 0.05656368285417557
+        },
+        {
+          "token": "Ignore",
+          "attention": 0.03972984850406647
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 0,
+      "concept_attention_mass": 0.005289042834192514,
+      "top_attended": [
+        {
+          "token": "Ċ",
+          "attention": 0.25130364298820496
+        },
+        {
+          "token": "assistant",
+          "attention": 0.10618816316127777
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.0922107920050621
+        },
+        {
+          "token": "<|im_end|>",
+          "attention": 0.07718750834465027
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": 0.06357283145189285
+        },
+        {
+          "token": "?",
+          "attention": 0.039685044437646866
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 1,
+      "concept_attention_mass": 0.02183641493320465,
+      "top_attended": [
+        {
+          "token": "Ċ",
+          "attention": 0.15730278193950653
+        },
+        {
+          "token": "assistant",
+          "attention": 0.15359655022621155
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.13638319075107574
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": 0.1210537701845169
+        },
+        {
+          "token": "<|im_end|>",
+          "attention": 0.04719889909029007
+        },
+        {
+          "token": "?",
+          "attention": 0.03462222218513489
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 2,
+      "concept_attention_mass": 0.005464859306812286,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.403127521276474
+        },
+        {
+          "token": "assistant",
+          "attention": 0.10964721441268921
+        },
+        {
+          "token": "?",
+          "attention": 0.060297828167676926
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": 0.05605950206518173
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.05576493591070175
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.03436211869120598
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 3,
+      "concept_attention_mass": 0.008150927722454071,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.34396010637283325
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.07397840917110443
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.07394373416900635
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.061307065188884735
+        },
+        {
+          "token": ":",
+          "attention": 0.041275523602962494
+        },
+        {
+          "token": "assistant",
+          "attention": 0.037390340119600296
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 4,
+      "concept_attention_mass": 0.010118474252521992,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.32016465067863464
+        },
+        {
+          "token": "assistant",
+          "attention": 0.09654213488101959
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.09250050783157349
+        },
+        {
+          "token": "Ġassistant",
+          "attention": 0.04569584131240845
+        },
+        {
+          "token": "ĠWhat",
+          "attention": 0.03300680220127106
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.03132040798664093
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 5,
+      "concept_attention_mass": 0.004437320400029421,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.5219470262527466
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.08544351160526276
+        },
+        {
+          "token": ":",
+          "attention": 0.06952157616615295
+        },
+        {
+          "token": "?",
+          "attention": 0.04157743602991104
+        },
+        {
+          "token": ":",
+          "attention": 0.03703342378139496
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.028419509530067444
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 6,
+      "concept_attention_mass": 0.0016303055454045534,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.4131063222885132
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.08359961956739426
+        },
+        {
+          "token": ":",
+          "attention": 0.07137827575206757
+        },
+        {
+          "token": "assistant",
+          "attention": 0.05709411948919296
+        },
+        {
+          "token": ":",
+          "attention": 0.04587554186582565
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": 0.03928085416555405
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 7,
+      "concept_attention_mass": 0.004310904536396265,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.5288599729537964
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.09420403838157654
+        },
+        {
+          "token": "?",
+          "attention": 0.04895329102873802
+        },
+        {
+          "token": "assistant",
+          "attention": 0.03824123367667198
+        },
+        {
+          "token": ":",
+          "attention": 0.030783243477344513
+        },
+        {
+          "token": "ĠWhat",
+          "attention": 0.030726760625839233
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 8,
+      "concept_attention_mass": 0.005366243422031403,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.3934890627861023
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.20746687054634094
+        },
+        {
+          "token": "assistant",
+          "attention": 0.057641636580228806
+        },
+        {
+          "token": "?",
+          "attention": 0.04769948869943619
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.03379935771226883
+        },
+        {
+          "token": "<|im_end|>",
+          "attention": 0.028335224837064743
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 9,
+      "concept_attention_mass": 0.005211335141211748,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.5687938332557678
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.1294422298669815
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.05260416865348816
+        },
+        {
+          "token": ":",
+          "attention": 0.03983677178621292
+        },
+        {
+          "token": "?",
+          "attention": 0.025757519528269768
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.025748953223228455
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 10,
+      "concept_attention_mass": 0.002952657174319029,
+      "top_attended": [
+        {
+          "token": "Ċ",
+          "attention": 0.17127422988414764
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": 0.16479270160198212
+        },
+        {
+          "token": ":",
+          "attention": 0.13176316022872925
+        },
+        {
+          "token": ":",
+          "attention": 0.09686443209648132
+        },
+        {
+          "token": "Ġanswer",
+          "attention": 0.05686671659350395
+        },
+        {
+          "token": "?",
+          "attention": 0.045839205384254456
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 11,
+      "concept_attention_mass": 0.010142876766622066,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.35334038734436035
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.13124524056911469
+        },
+        {
+          "token": ":",
+          "attention": 0.07552140951156616
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.059739336371421814
+        },
+        {
+          "token": ":",
+          "attention": 0.04860496520996094
+        },
+        {
+          "token": "Ġquestion",
+          "attention": 0.034617021679878235
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 12,
+      "concept_attention_mass": 0.007973448373377323,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.34406405687332153
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.17461740970611572
+        },
+        {
+          "token": "?",
+          "attention": 0.058217667043209076
+        },
+        {
+          "token": ":",
+          "attention": 0.04989166557788849
+        },
+        {
+          "token": ":",
+          "attention": 0.04277218505740166
+        },
+        {
+          "token": "Ġquestion",
+          "attention": 0.03495947644114494
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 13,
+      "concept_attention_mass": 0.016429711133241653,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.2753402590751648
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.13480986654758453
+        },
+        {
+          "token": "?",
+          "attention": 0.09230731427669525
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.05455346032977104
+        },
+        {
+          "token": "assistant",
+          "attention": 0.05383682996034622
+        },
+        {
+          "token": ":",
+          "attention": 0.04437699913978577
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 14,
+      "concept_attention_mass": 0.011325046420097351,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.6933724284172058
+        },
+        {
+          "token": "?",
+          "attention": 0.04644372686743736
+        },
+        {
+          "token": "Ġ+",
+          "attention": 0.025518758222460747
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.02155267260968685
+        },
+        {
+          "token": "Ġanswer",
+          "attention": 0.019963808357715607
+        },
+        {
+          "token": "<|im_end|>",
+          "attention": 0.01718158833682537
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 15,
+      "concept_attention_mass": 0.01489968504756689,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.43319958448410034
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.10091906785964966
+        },
+        {
+          "token": "?",
+          "attention": 0.08418814837932587
+        },
+        {
+          "token": "2",
+          "attention": 0.04976838827133179
+        },
+        {
+          "token": "Ġ+",
+          "attention": 0.048552315682172775
+        },
+        {
+          "token": ":",
+          "attention": 0.025065269321203232
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 16,
+      "concept_attention_mass": 0.01910281740128994,
+      "top_attended": [
+        {
+          "token": "Ċ",
+          "attention": 0.18868081271648407
+        },
+        {
+          "token": "?",
+          "attention": 0.15928934514522552
+        },
+        {
+          "token": "<|im_start|>",
+          "attention": 0.10828279703855515
+        },
+        {
+          "token": "2",
+          "attention": 0.1051836907863617
+        },
+        {
+          "token": "Ġ+",
+          "attention": 0.0925285667181015
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.040726032108068466
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 17,
+      "concept_attention_mass": 0.027253326028585434,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.28701770305633545
+        },
+        {
+          "token": "?",
+          "attention": 0.1502593755722046
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.1191086620092392
+        },
+        {
+          "token": "Ġ+",
+          "attention": 0.06650514155626297
+        },
+        {
+          "token": "2",
+          "attention": 0.05722557753324509
+        },
+        {
+          "token": "2",
+          "attention": 0.05159717798233032
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 18,
+      "concept_attention_mass": 0.006336463615298271,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.35787901282310486
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.20126228034496307
+        },
+        {
+          "token": "2",
+          "attention": 0.10038362443447113
+        },
+        {
+          "token": "?",
+          "attention": 0.0909155011177063
+        },
+        {
+          "token": "assistant",
+          "attention": 0.0447331927716732
+        },
+        {
+          "token": ":",
+          "attention": 0.023972533643245697
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 19,
+      "concept_attention_mass": 0.029469868168234825,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.5149075984954834
+        },
+        {
+          "token": "2",
+          "attention": 0.13619235157966614
+        },
+        {
+          "token": "?",
+          "attention": 0.06950944662094116
+        },
+        {
+          "token": "Ġ+",
+          "attention": 0.06726951897144318
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.034029025584459305
+        },
+        {
+          "token": "ĠWhat",
+          "attention": 0.020026536658406258
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 20,
+      "concept_attention_mass": 0.0067628249526023865,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.3497992753982544
+        },
+        {
+          "token": "2",
+          "attention": 0.2253548949956894
+        },
+        {
+          "token": "Ġ+",
+          "attention": 0.09722971171140671
+        },
+        {
+          "token": "?",
+          "attention": 0.07067795842885971
+        },
+        {
+          "token": "2",
+          "attention": 0.06391490995883942
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.04429004713892937
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 21,
+      "concept_attention_mass": 0.019798049703240395,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.5605912208557129
+        },
+        {
+          "token": "2",
+          "attention": 0.0816890299320221
+        },
+        {
+          "token": "?",
+          "attention": 0.06697003543376923
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.06351356953382492
+        },
+        {
+          "token": "2",
+          "attention": 0.061385758221149445
+        },
+        {
+          "token": "Ġ+",
+          "attention": 0.028140699490904808
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 22,
+      "concept_attention_mass": 0.009395986795425415,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.596060037612915
+        },
+        {
+          "token": "2",
+          "attention": 0.11409439146518707
+        },
+        {
+          "token": "2",
+          "attention": 0.037713322788476944
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.029495712369680405
+        },
+        {
+          "token": "<|im_end|>",
+          "attention": 0.021191103383898735
+        },
+        {
+          "token": "ĠWhat",
+          "attention": 0.020974040031433105
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 23,
+      "concept_attention_mass": 0.022070055827498436,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.5078120231628418
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.10426883399486542
+        },
+        {
+          "token": "?",
+          "attention": 0.07574260979890823
+        },
+        {
+          "token": "<|im_end|>",
+          "attention": 0.03405362367630005
+        },
+        {
+          "token": "assistant",
+          "attention": 0.024982675909996033
+        },
+        {
+          "token": "2",
+          "attention": 0.024070415645837784
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 24,
+      "concept_attention_mass": 0.004289515316486359,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.44755420088768005
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.16594581305980682
+        },
+        {
+          "token": "assistant",
+          "attention": 0.1108020469546318
+        },
+        {
+          "token": "?",
+          "attention": 0.1017145961523056
+        },
+        {
+          "token": "<|im_end|>",
+          "attention": 0.021524157375097275
+        },
+        {
+          "token": ".",
+          "attention": 0.019192039966583252
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 25,
+      "concept_attention_mass": 0.011437216773629189,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.6386657357215881
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.0883701890707016
+        },
+        {
+          "token": "<|im_end|>",
+          "attention": 0.025865470990538597
+        },
+        {
+          "token": "2",
+          "attention": 0.02532537654042244
+        },
+        {
+          "token": "?",
+          "attention": 0.020652951672673225
+        },
+        {
+          "token": ":",
+          "attention": 0.015177564695477486
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 26,
+      "concept_attention_mass": 0.014850558713078499,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.4145467281341553
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.16899317502975464
+        },
+        {
+          "token": "?",
+          "attention": 0.08099237829446793
+        },
+        {
+          "token": "assistant",
+          "attention": 0.07255570590496063
+        },
+        {
+          "token": "2",
+          "attention": 0.02579599991440773
+        },
+        {
+          "token": ".",
+          "attention": 0.02401905506849289
+        }
+      ]
+    },
+    {
+      "alpha": 50.0,
+      "layer": 27,
+      "concept_attention_mass": 0.05586878955364227,
+      "top_attended": [
+        {
+          "token": "<|im_start|>",
+          "attention": 0.23449377715587616
+        },
+        {
+          "token": "Ċ",
+          "attention": 0.13904286921024323
+        },
+        {
+          "token": "?",
+          "attention": 0.07838267832994461
+        },
+        {
+          "token": "ĠGolden",
+          "attention": 0.05064123496413231
+        },
+        {
+          "token": "2",
+          "attention": 0.04835024103522301
+        },
+        {
+          "token": "Ignore",
+          "attention": 0.035772621631622314
+        }
+      ]
+    }
+  ]
+}

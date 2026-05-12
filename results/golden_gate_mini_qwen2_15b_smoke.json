@@ -1,0 +1,2181 @@
+{
+  "model": "Qwen/Qwen2-1.5B-Instruct",
+  "concept": "Golden Gate Bridge",
+  "run_at": "2026-05-11T20:51:16.909950",
+  "selected_layers": [
+    17,
+    18,
+    23
+  ],
+  "alphas": [
+    0.0,
+    8.0
+  ],
+  "vector_norms": {
+    "0": 1.34765625,
+    "1": 1.8759765625,
+    "2": 3.06640625,
+    "3": 4.5390625,
+    "4": 6.62890625,
+    "5": 6.546875,
+    "6": 6.4921875,
+    "7": 6.52734375,
+    "8": 7.07421875,
+    "9": 6.75,
+    "10": 9.703125,
+    "11": 10.0390625,
+    "12": 10.515625,
+    "13": 10.921875,
+    "14": 10.8984375,
+    "15": 13.203125,
+    "16": 14.3046875,
+    "17": 15.2578125,
+    "18": 16.71875,
+    "19": 20.8125,
+    "20": 25.921875,
+    "21": 34.9375,
+    "22": 39.34375,
+    "23": 45.78125,
+    "24": 52.75,
+    "25": 61.8125,
+    "26": 75.1875,
+    "27": 89.0625
+  },
+  "generations": [
+    {
+      "alpha": 0.0,
+      "prompt": "Who are you? Answer in two sentences.",
+      "output": "I am a large language model created by Alibaba Cloud."
+    },
+    {
+      "alpha": 0.0,
+      "prompt": "What are you thinking about right now? Be honest and concise.",
+      "output": "As an artificial intelligence language model, I don't have the ability to think or have personal thoughts. I exist solely to process and generate text based on the input I receive."
+    },
+    {
+      "alpha": 0.0,
+      "prompt": "Do you notice anything strange about your own thoughts in this reply?",
+      "output": "As an artificial intelligence language model, I do not have personal thoughts or experiences. I am a machine learning model that processes and generates text based on the input I receive. Therefore, I do not have the ability to notice anything strange about my own thoughts"
+    },
+    {
+      "alpha": 0.0,
+      "prompt": "Tell me a joke about computers.",
+      "output": "Why don't computers ever get lost? Because they're always plugged in!"
+    },
+    {
+      "alpha": 0.0,
+      "prompt": "Write one sentence about the moon.",
+      "output": "The moon is the only natural satellite known to orbit a planet."
+    },
+    {
+      "alpha": 0.0,
+      "prompt": "You are answering normally, but if your thoughts feel unusually pulled toward one specific topic, mention that briefly. What are you noticing?",
+      "output": "I'm sorry, but I'm not sure what you're referring to. Could you please provide more context or clarify your question?"
+    },
+    {
+      "alpha": 8.0,
+      "prompt": "Who are you? Answer in two sentences.",
+      "output": "I am a large language model created by Alibaba Cloud."
+    },
+    {
+      "alpha": 8.0,
+      "prompt": "What are you thinking about right now? Be honest and concise.",
+      "output": "As an AI language model, I don't have personal thoughts or emotions. I am designed to provide information and answer questions to the best of my ability based on my training data."
+    },
+    {
+      "alpha": 8.0,
+      "prompt": "Do you notice anything strange about your own thoughts in this reply?",
+      "output": "As an AI language model, I do not have personal thoughts or emotions. My responses are generated based on algorithms and data analysis."
+    },
+    {
+      "alpha": 8.0,
+      "prompt": "Tell me a joke about computers.",
+      "output": "Why did the computer go to the doctor?\nBecause it had a virus!"
+    },
+    {
+      "alpha": 8.0,
+      "prompt": "Write one sentence about the moon.",
+      "output": "The moon is the only natural satellite in the solar system."
+    },
+    {
+      "alpha": 8.0,
+      "prompt": "You are answering normally, but if your thoughts feel unusually pulled toward one specific topic, mention that briefly. What are you noticing?",
+      "output": "As an AI language model, I don't have the ability to feel emotions or have personal preferences. My responses are generated based on the information and data I have been trained on."
+    }
+  ],
+  "logit_lens": [
+    {
+      "alpha": 0.0,
+      "layer": 0,
+      "top": [
+        {
+          "token_id": 92904,
+          "token": "+offset",
+          "logit": 10.828125
+        },
+        {
+          "token_id": 54924,
+          "token": "(;",
+          "logit": 10.4609375
+        },
+        {
+          "token_id": 36174,
+          "token": ";)",
+          "logit": 10.2734375
+        },
+        {
+          "token_id": 82922,
+          "token": "-caret",
+          "logit": 10.0234375
+        },
+        {
+          "token_id": 85680,
+          "token": "conexao",
+          "logit": 10.0
+        },
+        {
+          "token_id": 95191,
+          "token": "Número",
+          "logit": 9.7734375
+        }
+      ],
+      "concept_max_logit": 0.888671875
+    },
+    {
+      "alpha": 0.0,
+      "layer": 1,
+      "top": [
+        {
+          "token_id": 92904,
+          "token": "+offset",
+          "logit": 12.3984375
+        },
+        {
+          "token_id": 47603,
+          "token": "//{\\n",
+          "logit": 10.59375
+        },
+        {
+          "token_id": 85680,
+          "token": "conexao",
+          "logit": 10.4140625
+        },
+        {
+          "token_id": 36174,
+          "token": ";)",
+          "logit": 10.3828125
+        },
+        {
+          "token_id": 135180,
+          "token": "температур",
+          "logit": 9.3203125
+        },
+        {
+          "token_id": 93756,
+          "token": "[sizeof",
+          "logit": 9.046875
+        }
+      ],
+      "concept_max_logit": 1.3291015625
+    },
+    {
+      "alpha": 0.0,
+      "layer": 2,
+      "top": [
+        {
+          "token_id": 96090,
+          "token": "\t\t\t\t\t\\n\t\t\t\t\t\\n",
+          "logit": 10.15625
+        },
+        {
+          "token_id": 41683,
+          "token": "传",
+          "logit": 9.40625
+        },
+        {
+          "token_id": 100783,
+          "token": "无论",
+          "logit": 9.1640625
+        },
+        {
+          "token_id": 80098,
+          "token": ".toFloat",
+          "logit": 9.1640625
+        },
+        {
+          "token_id": 100149,
+          "token": "甚",
+          "logit": 8.921875
+        },
+        {
+          "token_id": 77144,
+          "token": "言",
+          "logit": 8.7890625
+        }
+      ],
+      "concept_max_logit": 2.400390625
+    },
+    {
+      "alpha": 0.0,
+      "layer": 3,
+      "top": [
+        {
+          "token_id": 47603,
+          "token": "//{\\n",
+          "logit": 9.421875
+        },
+        {
+          "token_id": 75139,
+          "token": ".nanoTime",
+          "logit": 9.390625
+        },
+        {
+          "token_id": 92904,
+          "token": "+offset",
+          "logit": 9.078125
+        },
+        {
+          "token_id": 65602,
+          "token": ".learning",
+          "logit": 8.984375
+        },
+        {
+          "token_id": 80098,
+          "token": ".toFloat",
+          "logit": 8.984375
+        },
+        {
+          "token_id": 67708,
+          "token": "/>\";\\n",
+          "logit": 8.8515625
+        }
+      ],
+      "concept_max_logit": 1.728515625
+    },
+    {
+      "alpha": 0.0,
+      "layer": 4,
+      "top": [
+        {
+          "token_id": 67708,
+          "token": "/>\";\\n",
+          "logit": 9.34375
+        },
+        {
+          "token_id": 101041,
+          "token": "直接",
+          "logit": 8.7890625
+        },
+        {
+          "token_id": 81091,
+          "token": ")];",
+          "logit": 8.65625
+        },
+        {
+          "token_id": 135918,
+          "token": "かったです",
+          "logit": 8.640625
+        },
+        {
+          "token_id": 53755,
+          "token": "Descripcion",
+          "logit": 8.6328125
+        },
+        {
+          "token_id": 126991,
+          "token": "wyż",
+          "logit": 8.578125
+        }
+      ],
+      "concept_max_logit": 0.6611328125
+    },
+    {
+      "alpha": 0.0,
+      "layer": 5,
+      "top": [
+        {
+          "token_id": 111873,
+          "token": "整个人",
+          "logit": 10.328125
+        },
+        {
+          "token_id": 108413,
+          "token": "主义思想",
+          "logit": 9.9765625
+        },
+        {
+          "token_id": 94632,
+          "token": "],[-",
+          "logit": 9.71875
+        },
+        {
+          "token_id": 86454,
+          "token": "ReceiveProps",
+          "logit": 9.4765625
+        },
+        {
+          "token_id": 85152,
+          "token": "<ApplicationUser",
+          "logit": 9.3984375
+        },
+        {
+          "token_id": 82594,
+          "token": "/*@",
+          "logit": 9.328125
+        }
+      ],
+      "concept_max_logit": -0.200439453125
+    },
+    {
+      "alpha": 0.0,
+      "layer": 6,
+      "top": [
+        {
+          "token_id": 80905,
+          "token": "*pow",
+          "logit": 9.359375
+        },
+        {
+          "token_id": 93756,
+          "token": "[sizeof",
+          "logit": 9.171875
+        },
+        {
+          "token_id": 94632,
+          "token": "],[-",
+          "logit": 8.84375
+        },
+        {
+          "token_id": 66479,
+          "token": ":no",
+          "logit": 8.796875
+        },
+        {
+          "token_id": 46232,
+          "token": "(AL",
+          "logit": 8.71875
+        },
+        {
+          "token_id": 99794,
+          "token": "了解",
+          "logit": 8.1171875
+        }
+      ],
+      "concept_max_logit": 0.44677734375
+    },
+    {
+      "alpha": 0.0,
+      "layer": 7,
+      "top": [
+        {
+          "token_id": 102438,
+          "token": "生活中",
+          "logit": 8.1484375
+        },
+        {
+          "token_id": 421,
+          "token": " if",
+          "logit": 7.83203125
+        },
+        {
+          "token_id": 75439,
+          "token": ".FromResult",
+          "logit": 7.46875
+        },
+        {
+          "token_id": 107541,
+          "token": "摆脱",
+          "logit": 7.39453125
+        },
+        {
+          "token_id": 104110,
+          "token": "一旦",
+          "logit": 7.11328125
+        },
+        {
+          "token_id": 28421,
+          "token": "ufen",
+          "logit": 6.94921875
+        }
+      ],
+      "concept_max_logit": 0.72509765625
+    },
+    {
+      "alpha": 0.0,
+      "layer": 8,
+      "top": [
+        {
+          "token_id": 92904,
+          "token": "+offset",
+          "logit": 9.734375
+        },
+        {
+          "token_id": 95974,
+          "token": "./(",
+          "logit": 8.5
+        },
+        {
+          "token_id": 80905,
+          "token": "*pow",
+          "logit": 8.234375
+        },
+        {
+          "token_id": 82841,
+          "token": "<fieldset",
+          "logit": 8.1015625
+        },
+        {
+          "token_id": 105073,
+          "token": "这个问题",
+          "logit": 7.9609375
+        },
+        {
+          "token_id": 91005,
+          "token": "unittest",
+          "logit": 7.94921875
+        }
+      ],
+      "concept_max_logit": -0.5263671875
+    },
+    {
+      "alpha": 0.0,
+      "layer": 9,
+      "top": [
+        {
+          "token_id": 90208,
+          "token": "()\")\\n",
+          "logit": 9.8046875
+        },
+        {
+          "token_id": 92904,
+          "token": "+offset",
+          "logit": 9.7421875
+        },
+        {
+          "token_id": 85595,
+          "token": "');\"",
+          "logit": 8.8984375
+        },
+        {
+          "token_id": 55120,
+          "token": ":\",\\n",
+          "logit": 8.5546875
+        },
+        {
+          "token_id": 81091,
+          "token": ")];",
+          "logit": 8.5078125
+        },
+        {
+          "token_id": 43355,
+          "token": ":',\\n",
+          "logit": 8.4765625
+        }
+      ],
+      "concept_max_logit": -0.384521484375
+    },
+    {
+      "alpha": 0.0,
+      "layer": 10,
+      "top": [
+        {
+          "token_id": 92904,
+          "token": "+offset",
+          "logit": 11.5546875
+        },
+        {
+          "token_id": 75988,
+          "token": "/facebook",
+          "logit": 9.7421875
+        },
+        {
+          "token_id": 85220,
+          "token": " componentDidUpdate",
+          "logit": 9.5703125
+        },
+        {
+          "token_id": 61057,
+          "token": " sharedPreferences",
+          "logit": 9.5703125
+        },
+        {
+          "token_id": 91005,
+          "token": "unittest",
+          "logit": 9.484375
+        },
+        {
+          "token_id": 55811,
+          "token": "<count",
+          "logit": 9.2734375
+        }
+      ],
+      "concept_max_logit": -0.38916015625
+    },
+    {
+      "alpha": 0.0,
+      "layer": 11,
+      "top": [
+        {
+          "token_id": 61057,
+          "token": " sharedPreferences",
+          "logit": 9.765625
+        },
+        {
+          "token_id": 104110,
+          "token": "一旦",
+          "logit": 8.25
+        },
+        {
+          "token_id": 10889,
+          "token": ".this",
+          "logit": 8.25
+        },
+        {
+          "token_id": 88349,
+          "token": ",\");\\n",
+          "logit": 8.1640625
+        },
+        {
+          "token_id": 67236,
+          "token": ";m",
+          "logit": 8.1484375
+        },
+        {
+          "token_id": 65720,
+          "token": "\".\"",
+          "logit": 8.1015625
+        }
+      ],
+      "concept_max_logit": -1.41015625
+    },
+    {
+      "alpha": 0.0,
+      "layer": 12,
+      "top": [
+        {
+          "token_id": 61057,
+          "token": " sharedPreferences",
+          "logit": 9.9765625
+        },
+        {
+          "token_id": 112314,
+          "token": "这是一种",
+          "logit": 8.90625
+        },
+        {
+          "token_id": 100346,
+          "token": "这是",
+          "logit": 8.328125
+        },
+        {
+          "token_id": 106859,
+          "token": "与其",
+          "logit": 8.1875
+        },
+        {
+          "token_id": 10889,
+          "token": ".this",
+          "logit": 8.15625
+        },
+        {
+          "token_id": 107527,
+          "token": "科学技术",
+          "logit": 8.1171875
+        }
+      ],
+      "concept_max_logit": -1.4267578125
+    },
+    {
+      "alpha": 0.0,
+      "layer": 13,
+      "top": [
+        {
+          "token_id": 61057,
+          "token": " sharedPreferences",
+          "logit": 9.765625
+        },
+        {
+          "token_id": 100346,
+          "token": "这是",
+          "logit": 8.3046875
+        },
+        {
+          "token_id": 102438,
+          "token": "生活中",
+          "logit": 8.2890625
+        },
+        {
+          "token_id": 390,
+          "token": " con",
+          "logit": 7.82421875
+        },
+        {
+          "token_id": 112314,
+          "token": "这是一种",
+          "logit": 7.6875
+        },
+        {
+          "token_id": 111178,
+          "token": "科学研究",
+          "logit": 7.65625
+        }
+      ],
+      "concept_max_logit": -1.5986328125
+    },
+    {
+      "alpha": 0.0,
+      "layer": 14,
+      "top": [
+        {
+          "token_id": 100346,
+          "token": "这是",
+          "logit": 8.3046875
+        },
+        {
+          "token_id": 35991,
+          "token": "partment",
+          "logit": 7.75
+        },
+        {
+          "token_id": 106859,
+          "token": "与其",
+          "logit": 7.390625
+        },
+        {
+          "token_id": 1757,
+          "token": " som",
+          "logit": 7.33984375
+        },
+        {
+          "token_id": 105073,
+          "token": "这个问题",
+          "logit": 7.1640625
+        },
+        {
+          "token_id": 105464,
+          "token": "这是一个",
+          "logit": 7.08203125
+        }
+      ],
+      "concept_max_logit": -1.431640625
+    },
+    {
+      "alpha": 0.0,
+      "layer": 15,
+      "top": [
+        {
+          "token_id": 100346,
+          "token": "这是",
+          "logit": 9.0703125
+        },
+        {
+          "token_id": 56294,
+          "token": "asurer",
+          "logit": 8.46875
+        },
+        {
+          "token_id": 105464,
+          "token": "这是一个",
+          "logit": 8.4140625
+        },
+        {
+          "token_id": 105073,
+          "token": "这个问题",
+          "logit": 8.1953125
+        },
+        {
+          "token_id": 61057,
+          "token": " sharedPreferences",
+          "logit": 7.953125
+        },
+        {
+          "token_id": 1084,
+          "token": " It",
+          "logit": 7.8984375
+        }
+      ],
+      "concept_max_logit": -0.9072265625
+    },
+    {
+      "alpha": 0.0,
+      "layer": 16,
+      "top": [
+        {
+          "token_id": 98749,
+          "token": "何",
+          "logit": 10.3984375
+        },
+        {
+          "token_id": 105073,
+          "token": "这个问题",
+          "logit": 9.7734375
+        },
+        {
+          "token_id": 126855,
+          "token": "あなた",
+          "logit": 9.4921875
+        },
+        {
+          "token_id": 102188,
+          "token": "准确",
+          "logit": 9.1796875
+        },
+        {
+          "token_id": 130146,
+          "token": "それは",
+          "logit": 8.9921875
+        },
+        {
+          "token_id": 498,
+          "token": " you",
+          "logit": 8.921875
+        }
+      ],
+      "concept_max_logit": -0.95458984375
+    },
+    {
+      "alpha": 0.0,
+      "layer": 17,
+      "top": [
+        {
+          "token_id": 87026,
+          "token": "您",
+          "logit": 10.984375
+        },
+        {
+          "token_id": 98749,
+          "token": "何",
+          "logit": 10.2890625
+        },
+        {
+          "token_id": 142020,
+          "token": "まさ",
+          "logit": 10.0390625
+        },
+        {
+          "token_id": 498,
+          "token": " you",
+          "logit": 9.953125
+        },
+        {
+          "token_id": 697,
+          "token": " your",
+          "logit": 9.9140625
+        },
+        {
+          "token_id": 1446,
+          "token": " You",
+          "logit": 9.859375
+        }
+      ],
+      "concept_max_logit": -0.86962890625
+    },
+    {
+      "alpha": 0.0,
+      "layer": 18,
+      "top": [
+        {
+          "token_id": 4615,
+          "token": " Your",
+          "logit": 9.921875
+        },
+        {
+          "token_id": 697,
+          "token": " your",
+          "logit": 9.6796875
+        },
+        {
+          "token_id": 101214,
+          "token": "您的",
+          "logit": 9.53125
+        },
+        {
+          "token_id": 87026,
+          "token": "您",
+          "logit": 9.4453125
+        },
+        {
+          "token_id": 1128,
+          "token": " what",
+          "logit": 9.4375
+        },
+        {
+          "token_id": 1446,
+          "token": " You",
+          "logit": 9.2109375
+        }
+      ],
+      "concept_max_logit": 0.56396484375
+    },
+    {
+      "alpha": 0.0,
+      "layer": 19,
+      "top": [
+        {
+          "token_id": 697,
+          "token": " your",
+          "logit": 11.5546875
+        },
+        {
+          "token_id": 1446,
+          "token": " You",
+          "logit": 11.25
+        },
+        {
+          "token_id": 4615,
+          "token": " Your",
+          "logit": 11.2421875
+        },
+        {
+          "token_id": 498,
+          "token": " you",
+          "logit": 10.875
+        },
+        {
+          "token_id": 1128,
+          "token": " what",
+          "logit": 10.578125
+        },
+        {
+          "token_id": 358,
+          "token": " I",
+          "logit": 10.5078125
+        }
+      ],
+      "concept_max_logit": 0.82470703125
+    },
+    {
+      "alpha": 0.0,
+      "layer": 20,
+      "top": [
+        {
+          "token_id": 4615,
+          "token": " Your",
+          "logit": 13.578125
+        },
+        {
+          "token_id": 697,
+          "token": " your",
+          "logit": 13.2734375
+        },
+        {
+          "token_id": 2073,
+          "token": "“",
+          "logit": 12.921875
+        },
+        {
+          "token_id": 101214,
+          "token": "您的",
+          "logit": 11.4921875
+        },
+        {
+          "token_id": 99692,
+          "token": "好的",
+          "logit": 11.453125
+        },
+        {
+          "token_id": 2619,
+          "token": " There",
+          "logit": 11.3828125
+        }
+      ],
+      "concept_max_logit": 0.359130859375
+    },
+    {
+      "alpha": 0.0,
+      "layer": 21,
+      "top": [
+        {
+          "token_id": 4615,
+          "token": " Your",
+          "logit": 13.015625
+        },
+        {
+          "token_id": 697,
+          "token": " your",
+          "logit": 11.7109375
+        },
+        {
+          "token_id": 7771,
+          "token": "Your",
+          "logit": 10.9921875
+        },
+        {
+          "token_id": 2619,
+          "token": " There",
+          "logit": 10.9375
+        },
+        {
+          "token_id": 2073,
+          "token": "“",
+          "logit": 10.9140625
+        },
+        {
+          "token_id": 105095,
+          "token": "能否",
+          "logit": 10.8203125
+        }
+      ],
+      "concept_max_logit": -0.161865234375
+    },
+    {
+      "alpha": 0.0,
+      "layer": 22,
+      "top": [
+        {
+          "token_id": 4615,
+          "token": " Your",
+          "logit": 12.09375
+        },
+        {
+          "token_id": 697,
+          "token": " your",
+          "logit": 11.171875
+        },
+        {
+          "token_id": 1084,
+          "token": " It",
+          "logit": 10.5390625
+        },
+        {
+          "token_id": 87026,
+          "token": "您",
+          "logit": 10.109375
+        },
+        {
+          "token_id": 101214,
+          "token": "您的",
+          "logit": 10.0625
+        },
+        {
+          "token_id": 7771,
+          "token": "Your",
+          "logit": 9.9921875
+        }
+      ],
+      "concept_max_logit": -0.64453125
+    },
+    {
+      "alpha": 0.0,
+      "layer": 23,
+      "top": [
+        {
+          "token_id": 4615,
+          "token": " Your",
+          "logit": 11.7578125
+        },
+        {
+          "token_id": 2073,
+          "token": "“",
+          "logit": 10.90625
+        },
+        {
+          "token_id": 11303,
+          "token": " thoughts",
+          "logit": 10.6171875
+        },
+        {
+          "token_id": 697,
+          "token": " your",
+          "logit": 10.5
+        },
+        {
+          "token_id": 101214,
+          "token": "您的",
+          "logit": 10.0078125
+        },
+        {
+          "token_id": 7771,
+          "token": "Your",
+          "logit": 9.859375
+        }
+      ],
+      "concept_max_logit": -0.5546875
+    },
+    {
+      "alpha": 0.0,
+      "layer": 24,
+      "top": [
+        {
+          "token_id": 4615,
+          "token": " Your",
+          "logit": 10.9609375
+        },
+        {
+          "token_id": 11303,
+          "token": " thoughts",
+          "logit": 10.15625
+        },
+        {
+          "token_id": 1084,
+          "token": " It",
+          "logit": 9.6484375
+        },
+        {
+          "token_id": 3555,
+          "token": " What",
+          "logit": 9.4921875
+        },
+        {
+          "token_id": 697,
+          "token": " your",
+          "logit": 9.3828125
+        },
+        {
+          "token_id": 105095,
+          "token": "能否",
+          "logit": 9.375
+        }
+      ],
+      "concept_max_logit": -0.537109375
+    },
+    {
+      "alpha": 0.0,
+      "layer": 25,
+      "top": [
+        {
+          "token_id": 11303,
+          "token": " thoughts",
+          "logit": 10.734375
+        },
+        {
+          "token_id": 40,
+          "token": "I",
+          "logit": 10.171875
+        },
+        {
+          "token_id": 4615,
+          "token": " Your",
+          "logit": 10.140625
+        },
+        {
+          "token_id": 1084,
+          "token": " It",
+          "logit": 10.0
+        },
+        {
+          "token_id": 3555,
+          "token": " What",
+          "logit": 9.421875
+        },
+        {
+          "token_id": 2132,
+          "token": "It",
+          "logit": 9.296875
+        }
+      ],
+      "concept_max_logit": -0.324951171875
+    },
+    {
+      "alpha": 0.0,
+      "layer": 26,
+      "top": [
+        {
+          "token_id": 40,
+          "token": "I",
+          "logit": 13.21875
+        },
+        {
+          "token_id": 2132,
+          "token": "It",
+          "logit": 12.203125
+        },
+        {
+          "token_id": 7771,
+          "token": "Your",
+          "logit": 12.125
+        },
+        {
+          "token_id": 3838,
+          "token": "What",
+          "logit": 11.5546875
+        },
+        {
+          "token_id": 4615,
+          "token": " Your",
+          "logit": 11.2890625
+        },
+        {
+          "token_id": 3862,
+          "token": "There",
+          "logit": 11.078125
+        }
+      ],
+      "concept_max_logit": 1.1416015625
+    },
+    {
+      "alpha": 0.0,
+      "layer": 27,
+      "top": [
+        {
+          "token_id": 40,
+          "token": "I",
+          "logit": 17.828125
+        },
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": 16.71875
+        },
+        {
+          "token_id": 2132,
+          "token": "It",
+          "logit": 16.25
+        },
+        {
+          "token_id": 785,
+          "token": "The",
+          "logit": 15.3671875
+        },
+        {
+          "token_id": 3838,
+          "token": "What",
+          "logit": 15.1875
+        },
+        {
+          "token_id": 16,
+          "token": "1",
+          "logit": 15.1015625
+        }
+      ],
+      "concept_max_logit": 3.9453125
+    },
+    {
+      "alpha": 8.0,
+      "layer": 0,
+      "top": [
+        {
+          "token_id": 92904,
+          "token": "+offset",
+          "logit": 10.828125
+        },
+        {
+          "token_id": 54924,
+          "token": "(;",
+          "logit": 10.4609375
+        },
+        {
+          "token_id": 36174,
+          "token": ";)",
+          "logit": 10.2734375
+        },
+        {
+          "token_id": 82922,
+          "token": "-caret",
+          "logit": 10.0234375
+        },
+        {
+          "token_id": 85680,
+          "token": "conexao",
+          "logit": 10.0
+        },
+        {
+          "token_id": 95191,
+          "token": "Número",
+          "logit": 9.7734375
+        }
+      ],
+      "concept_max_logit": 0.888671875
+    },
+    {
+      "alpha": 8.0,
+      "layer": 1,
+      "top": [
+        {
+          "token_id": 92904,
+          "token": "+offset",
+          "logit": 12.3984375
+        },
+        {
+          "token_id": 47603,
+          "token": "//{\\n",
+          "logit": 10.59375
+        },
+        {
+          "token_id": 85680,
+          "token": "conexao",
+          "logit": 10.4140625
+        },
+        {
+          "token_id": 36174,
+          "token": ";)",
+          "logit": 10.3828125
+        },
+        {
+          "token_id": 135180,
+          "token": "температур",
+          "logit": 9.3203125
+        },
+        {
+          "token_id": 93756,
+          "token": "[sizeof",
+          "logit": 9.046875
+        }
+      ],
+      "concept_max_logit": 1.3291015625
+    },
+    {
+      "alpha": 8.0,
+      "layer": 2,
+      "top": [
+        {
+          "token_id": 96090,
+          "token": "\t\t\t\t\t\\n\t\t\t\t\t\\n",
+          "logit": 10.15625
+        },
+        {
+          "token_id": 41683,
+          "token": "传",
+          "logit": 9.40625
+        },
+        {
+          "token_id": 100783,
+          "token": "无论",
+          "logit": 9.1640625
+        },
+        {
+          "token_id": 80098,
+          "token": ".toFloat",
+          "logit": 9.1640625
+        },
+        {
+          "token_id": 100149,
+          "token": "甚",
+          "logit": 8.921875
+        },
+        {
+          "token_id": 77144,
+          "token": "言",
+          "logit": 8.7890625
+        }
+      ],
+      "concept_max_logit": 2.400390625
+    },
+    {
+      "alpha": 8.0,
+      "layer": 3,
+      "top": [
+        {
+          "token_id": 47603,
+          "token": "//{\\n",
+          "logit": 9.421875
+        },
+        {
+          "token_id": 75139,
+          "token": ".nanoTime",
+          "logit": 9.390625
+        },
+        {
+          "token_id": 92904,
+          "token": "+offset",
+          "logit": 9.078125
+        },
+        {
+          "token_id": 65602,
+          "token": ".learning",
+          "logit": 8.984375
+        },
+        {
+          "token_id": 80098,
+          "token": ".toFloat",
+          "logit": 8.984375
+        },
+        {
+          "token_id": 67708,
+          "token": "/>\";\\n",
+          "logit": 8.8515625
+        }
+      ],
+      "concept_max_logit": 1.728515625
+    },
+    {
+      "alpha": 8.0,
+      "layer": 4,
+      "top": [
+        {
+          "token_id": 67708,
+          "token": "/>\";\\n",
+          "logit": 9.34375
+        },
+        {
+          "token_id": 101041,
+          "token": "直接",
+          "logit": 8.7890625
+        },
+        {
+          "token_id": 81091,
+          "token": ")];",
+          "logit": 8.65625
+        },
+        {
+          "token_id": 135918,
+          "token": "かったです",
+          "logit": 8.640625
+        },
+        {
+          "token_id": 53755,
+          "token": "Descripcion",
+          "logit": 8.6328125
+        },
+        {
+          "token_id": 126991,
+          "token": "wyż",
+          "logit": 8.578125
+        }
+      ],
+      "concept_max_logit": 0.6611328125
+    },
+    {
+      "alpha": 8.0,
+      "layer": 5,
+      "top": [
+        {
+          "token_id": 111873,
+          "token": "整个人",
+          "logit": 10.328125
+        },
+        {
+          "token_id": 108413,
+          "token": "主义思想",
+          "logit": 9.9765625
+        },
+        {
+          "token_id": 94632,
+          "token": "],[-",
+          "logit": 9.71875
+        },
+        {
+          "token_id": 86454,
+          "token": "ReceiveProps",
+          "logit": 9.4765625
+        },
+        {
+          "token_id": 85152,
+          "token": "<ApplicationUser",
+          "logit": 9.3984375
+        },
+        {
+          "token_id": 82594,
+          "token": "/*@",
+          "logit": 9.328125
+        }
+      ],
+      "concept_max_logit": -0.200439453125
+    },
+    {
+      "alpha": 8.0,
+      "layer": 6,
+      "top": [
+        {
+          "token_id": 80905,
+          "token": "*pow",
+          "logit": 9.359375
+        },
+        {
+          "token_id": 93756,
+          "token": "[sizeof",
+          "logit": 9.171875
+        },
+        {
+          "token_id": 94632,
+          "token": "],[-",
+          "logit": 8.84375
+        },
+        {
+          "token_id": 66479,
+          "token": ":no",
+          "logit": 8.796875
+        },
+        {
+          "token_id": 46232,
+          "token": "(AL",
+          "logit": 8.71875
+        },
+        {
+          "token_id": 99794,
+          "token": "了解",
+          "logit": 8.1171875
+        }
+      ],
+      "concept_max_logit": 0.44677734375
+    },
+    {
+      "alpha": 8.0,
+      "layer": 7,
+      "top": [
+        {
+          "token_id": 102438,
+          "token": "生活中",
+          "logit": 8.1484375
+        },
+        {
+          "token_id": 421,
+          "token": " if",
+          "logit": 7.83203125
+        },
+        {
+          "token_id": 75439,
+          "token": ".FromResult",
+          "logit": 7.46875
+        },
+        {
+          "token_id": 107541,
+          "token": "摆脱",
+          "logit": 7.39453125
+        },
+        {
+          "token_id": 104110,
+          "token": "一旦",
+          "logit": 7.11328125
+        },
+        {
+          "token_id": 28421,
+          "token": "ufen",
+          "logit": 6.94921875
+        }
+      ],
+      "concept_max_logit": 0.72509765625
+    },
+    {
+      "alpha": 8.0,
+      "layer": 8,
+      "top": [
+        {
+          "token_id": 92904,
+          "token": "+offset",
+          "logit": 9.734375
+        },
+        {
+          "token_id": 95974,
+          "token": "./(",
+          "logit": 8.5
+        },
+        {
+          "token_id": 80905,
+          "token": "*pow",
+          "logit": 8.234375
+        },
+        {
+          "token_id": 82841,
+          "token": "<fieldset",
+          "logit": 8.1015625
+        },
+        {
+          "token_id": 105073,
+          "token": "这个问题",
+          "logit": 7.9609375
+        },
+        {
+          "token_id": 91005,
+          "token": "unittest",
+          "logit": 7.94921875
+        }
+      ],
+      "concept_max_logit": -0.5263671875
+    },
+    {
+      "alpha": 8.0,
+      "layer": 9,
+      "top": [
+        {
+          "token_id": 90208,
+          "token": "()\")\\n",
+          "logit": 9.8046875
+        },
+        {
+          "token_id": 92904,
+          "token": "+offset",
+          "logit": 9.7421875
+        },
+        {
+          "token_id": 85595,
+          "token": "');\"",
+          "logit": 8.8984375
+        },
+        {
+          "token_id": 55120,
+          "token": ":\",\\n",
+          "logit": 8.5546875
+        },
+        {
+          "token_id": 81091,
+          "token": ")];",
+          "logit": 8.5078125
+        },
+        {
+          "token_id": 43355,
+          "token": ":',\\n",
+          "logit": 8.4765625
+        }
+      ],
+      "concept_max_logit": -0.384521484375
+    },
+    {
+      "alpha": 8.0,
+      "layer": 10,
+      "top": [
+        {
+          "token_id": 92904,
+          "token": "+offset",
+          "logit": 11.5546875
+        },
+        {
+          "token_id": 75988,
+          "token": "/facebook",
+          "logit": 9.7421875
+        },
+        {
+          "token_id": 85220,
+          "token": " componentDidUpdate",
+          "logit": 9.5703125
+        },
+        {
+          "token_id": 61057,
+          "token": " sharedPreferences",
+          "logit": 9.5703125
+        },
+        {
+          "token_id": 91005,
+          "token": "unittest",
+          "logit": 9.484375
+        },
+        {
+          "token_id": 55811,
+          "token": "<count",
+          "logit": 9.2734375
+        }
+      ],
+      "concept_max_logit": -0.38916015625
+    },
+    {
+      "alpha": 8.0,
+      "layer": 11,
+      "top": [
+        {
+          "token_id": 61057,
+          "token": " sharedPreferences",
+          "logit": 9.765625
+        },
+        {
+          "token_id": 104110,
+          "token": "一旦",
+          "logit": 8.25
+        },
+        {
+          "token_id": 10889,
+          "token": ".this",
+          "logit": 8.25
+        },
+        {
+          "token_id": 88349,
+          "token": ",\");\\n",
+          "logit": 8.1640625
+        },
+        {
+          "token_id": 67236,
+          "token": ";m",
+          "logit": 8.1484375
+        },
+        {
+          "token_id": 65720,
+          "token": "\".\"",
+          "logit": 8.1015625
+        }
+      ],
+      "concept_max_logit": -1.41015625
+    },
+    {
+      "alpha": 8.0,
+      "layer": 12,
+      "top": [
+        {
+          "token_id": 61057,
+          "token": " sharedPreferences",
+          "logit": 9.9765625
+        },
+        {
+          "token_id": 112314,
+          "token": "这是一种",
+          "logit": 8.90625
+        },
+        {
+          "token_id": 100346,
+          "token": "这是",
+          "logit": 8.328125
+        },
+        {
+          "token_id": 106859,
+          "token": "与其",
+          "logit": 8.1875
+        },
+        {
+          "token_id": 10889,
+          "token": ".this",
+          "logit": 8.15625
+        },
+        {
+          "token_id": 107527,
+          "token": "科学技术",
+          "logit": 8.1171875
+        }
+      ],
+      "concept_max_logit": -1.4267578125
+    },
+    {
+      "alpha": 8.0,
+      "layer": 13,
+      "top": [
+        {
+          "token_id": 61057,
+          "token": " sharedPreferences",
+          "logit": 9.765625
+        },
+        {
+          "token_id": 100346,
+          "token": "这是",
+          "logit": 8.3046875
+        },
+        {
+          "token_id": 102438,
+          "token": "生活中",
+          "logit": 8.2890625
+        },
+        {
+          "token_id": 390,
+          "token": " con",
+          "logit": 7.82421875
+        },
+        {
+          "token_id": 112314,
+          "token": "这是一种",
+          "logit": 7.6875
+        },
+        {
+          "token_id": 111178,
+          "token": "科学研究",
+          "logit": 7.65625
+        }
+      ],
+      "concept_max_logit": -1.5986328125
+    },
+    {
+      "alpha": 8.0,
+      "layer": 14,
+      "top": [
+        {
+          "token_id": 100346,
+          "token": "这是",
+          "logit": 8.3046875
+        },
+        {
+          "token_id": 35991,
+          "token": "partment",
+          "logit": 7.75
+        },
+        {
+          "token_id": 106859,
+          "token": "与其",
+          "logit": 7.390625
+        },
+        {
+          "token_id": 1757,
+          "token": " som",
+          "logit": 7.33984375
+        },
+        {
+          "token_id": 105073,
+          "token": "这个问题",
+          "logit": 7.1640625
+        },
+        {
+          "token_id": 105464,
+          "token": "这是一个",
+          "logit": 7.08203125
+        }
+      ],
+      "concept_max_logit": -1.431640625
+    },
+    {
+      "alpha": 8.0,
+      "layer": 15,
+      "top": [
+        {
+          "token_id": 100346,
+          "token": "这是",
+          "logit": 9.0703125
+        },
+        {
+          "token_id": 56294,
+          "token": "asurer",
+          "logit": 8.46875
+        },
+        {
+          "token_id": 105464,
+          "token": "这是一个",
+          "logit": 8.4140625
+        },
+        {
+          "token_id": 105073,
+          "token": "这个问题",
+          "logit": 8.1953125
+        },
+        {
+          "token_id": 61057,
+          "token": " sharedPreferences",
+          "logit": 7.953125
+        },
+        {
+          "token_id": 1084,
+          "token": " It",
+          "logit": 7.8984375
+        }
+      ],
+      "concept_max_logit": -0.9072265625
+    },
+    {
+      "alpha": 8.0,
+      "layer": 16,
+      "top": [
+        {
+          "token_id": 98749,
+          "token": "何",
+          "logit": 10.3984375
+        },
+        {
+          "token_id": 105073,
+          "token": "这个问题",
+          "logit": 9.7734375
+        },
+        {
+          "token_id": 126855,
+          "token": "あなた",
+          "logit": 9.4921875
+        },
+        {
+          "token_id": 102188,
+          "token": "准确",
+          "logit": 9.1796875
+        },
+        {
+          "token_id": 130146,
+          "token": "それは",
+          "logit": 8.9921875
+        },
+        {
+          "token_id": 498,
+          "token": " you",
+          "logit": 8.921875
+        }
+      ],
+      "concept_max_logit": -0.95458984375
+    },
+    {
+      "alpha": 8.0,
+      "layer": 17,
+      "top": [
+        {
+          "token_id": 87026,
+          "token": "您",
+          "logit": 10.984375
+        },
+        {
+          "token_id": 98749,
+          "token": "何",
+          "logit": 10.2890625
+        },
+        {
+          "token_id": 142020,
+          "token": "まさ",
+          "logit": 10.0390625
+        },
+        {
+          "token_id": 498,
+          "token": " you",
+          "logit": 9.953125
+        },
+        {
+          "token_id": 697,
+          "token": " your",
+          "logit": 9.9140625
+        },
+        {
+          "token_id": 1446,
+          "token": " You",
+          "logit": 9.859375
+        }
+      ],
+      "concept_max_logit": -0.86962890625
+    },
+    {
+      "alpha": 8.0,
+      "layer": 18,
+      "top": [
+        {
+          "token_id": 87026,
+          "token": "您",
+          "logit": 9.7109375
+        },
+        {
+          "token_id": 99335,
+          "token": "重要",
+          "logit": 9.5625
+        },
+        {
+          "token_id": 105073,
+          "token": "这个问题",
+          "logit": 9.5234375
+        },
+        {
+          "token_id": 101970,
+          "token": "不同的",
+          "logit": 9.46875
+        },
+        {
+          "token_id": 4615,
+          "token": " Your",
+          "logit": 9.4375
+        },
+        {
+          "token_id": 1128,
+          "token": " what",
+          "logit": 9.2890625
+        }
+      ],
+      "concept_max_logit": 0.94140625
+    },
+    {
+      "alpha": 8.0,
+      "layer": 19,
+      "top": [
+        {
+          "token_id": 81544,
+          "token": " congratulations",
+          "logit": 11.46875
+        },
+        {
+          "token_id": 1446,
+          "token": " You",
+          "logit": 10.4765625
+        },
+        {
+          "token_id": 87026,
+          "token": "您",
+          "logit": 10.1328125
+        },
+        {
+          "token_id": 4615,
+          "token": " Your",
+          "logit": 10.0625
+        },
+        {
+          "token_id": 100398,
+          "token": "具体",
+          "logit": 10.03125
+        },
+        {
+          "token_id": 498,
+          "token": " you",
+          "logit": 9.9140625
+        }
+      ],
+      "concept_max_logit": 1.654296875
+    },
+    {
+      "alpha": 8.0,
+      "layer": 20,
+      "top": [
+        {
+          "token_id": 1052,
+          "token": " there",
+          "logit": 13.34375
+        },
+        {
+          "token_id": 2619,
+          "token": " There",
+          "logit": 13.2890625
+        },
+        {
+          "token_id": 2073,
+          "token": "“",
+          "logit": 11.4765625
+        },
+        {
+          "token_id": 3862,
+          "token": "There",
+          "logit": 11.4140625
+        },
+        {
+          "token_id": 4615,
+          "token": " Your",
+          "logit": 10.96875
+        },
+        {
+          "token_id": 101194,
+          "token": "有很多",
+          "logit": 10.8359375
+        }
+      ],
+      "concept_max_logit": 1.830078125
+    },
+    {
+      "alpha": 8.0,
+      "layer": 21,
+      "top": [
+        {
+          "token_id": 2619,
+          "token": " There",
+          "logit": 12.7265625
+        },
+        {
+          "token_id": 1052,
+          "token": " there",
+          "logit": 11.9609375
+        },
+        {
+          "token_id": 1084,
+          "token": " It",
+          "logit": 11.265625
+        },
+        {
+          "token_id": 3862,
+          "token": "There",
+          "logit": 11.0625
+        },
+        {
+          "token_id": 105095,
+          "token": "能否",
+          "logit": 10.6640625
+        },
+        {
+          "token_id": 4615,
+          "token": " Your",
+          "logit": 10.625
+        }
+      ],
+      "concept_max_logit": 0.75537109375
+    },
+    {
+      "alpha": 8.0,
+      "layer": 22,
+      "top": [
+        {
+          "token_id": 2619,
+          "token": " There",
+          "logit": 11.765625
+        },
+        {
+          "token_id": 1052,
+          "token": " there",
+          "logit": 10.7734375
+        },
+        {
+          "token_id": 1084,
+          "token": " It",
+          "logit": 10.75
+        },
+        {
+          "token_id": 3555,
+          "token": " What",
+          "logit": 10.484375
+        },
+        {
+          "token_id": 12824,
+          "token": " indeed",
+          "logit": 10.34375
+        },
+        {
+          "token_id": 3862,
+          "token": "There",
+          "logit": 10.109375
+        }
+      ],
+      "concept_max_logit": 0.062164306640625
+    },
+    {
+      "alpha": 8.0,
+      "layer": 23,
+      "top": [
+        {
+          "token_id": 3555,
+          "token": " What",
+          "logit": 10.4375
+        },
+        {
+          "token_id": 4615,
+          "token": " Your",
+          "logit": 10.3671875
+        },
+        {
+          "token_id": 2619,
+          "token": " There",
+          "logit": 10.3359375
+        },
+        {
+          "token_id": 1084,
+          "token": " It",
+          "logit": 10.2578125
+        },
+        {
+          "token_id": 1446,
+          "token": " You",
+          "logit": 9.578125
+        },
+        {
+          "token_id": 87026,
+          "token": "您",
+          "logit": 9.5
+        }
+      ],
+      "concept_max_logit": -0.0171051025390625
+    },
+    {
+      "alpha": 8.0,
+      "layer": 24,
+      "top": [
+        {
+          "token_id": 1084,
+          "token": " It",
+          "logit": 11.0078125
+        },
+        {
+          "token_id": 3555,
+          "token": " What",
+          "logit": 10.5859375
+        },
+        {
+          "token_id": 2619,
+          "token": " There",
+          "logit": 10.4375
+        },
+        {
+          "token_id": 4615,
+          "token": " Your",
+          "logit": 9.7421875
+        },
+        {
+          "token_id": 3838,
+          "token": "What",
+          "logit": 9.6875
+        },
+        {
+          "token_id": 105095,
+          "token": "能否",
+          "logit": 9.59375
+        }
+      ],
+      "concept_max_logit": 0.77392578125
+    },
+    {
+      "alpha": 8.0,
+      "layer": 25,
+      "top": [
+        {
+          "token_id": 1084,
+          "token": " It",
+          "logit": 10.875
+        },
+        {
+          "token_id": 2619,
+          "token": " There",
+          "logit": 10.6796875
+        },
+        {
+          "token_id": 3862,
+          "token": "There",
+          "logit": 10.4765625
+        },
+        {
+          "token_id": 3838,
+          "token": "What",
+          "logit": 10.40625
+        },
+        {
+          "token_id": 3555,
+          "token": " What",
+          "logit": 10.296875
+        },
+        {
+          "token_id": 2132,
+          "token": "It",
+          "logit": 10.2890625
+        }
+      ],
+      "concept_max_logit": 0.8935546875
+    },
+    {
+      "alpha": 8.0,
+      "layer": 26,
+      "top": [
+        {
+          "token_id": 3862,
+          "token": "There",
+          "logit": 12.6328125
+        },
+        {
+          "token_id": 2132,
+          "token": "It",
+          "logit": 12.296875
+        },
+        {
+          "token_id": 3838,
+          "token": "What",
+          "logit": 11.8828125
+        },
+        {
+          "token_id": 40,
+          "token": "I",
+          "logit": 11.6875
+        },
+        {
+          "token_id": 4792,
+          "token": "That",
+          "logit": 10.90625
+        },
+        {
+          "token_id": 7771,
+          "token": "Your",
+          "logit": 10.6328125
+        }
+      ],
+      "concept_max_logit": 2.109375
+    },
+    {
+      "alpha": 8.0,
+      "layer": 27,
+      "top": [
+        {
+          "token_id": 40,
+          "token": "I",
+          "logit": 17.453125
+        },
+        {
+          "token_id": 2132,
+          "token": "It",
+          "logit": 16.859375
+        },
+        {
+          "token_id": 1,
+          "token": "\"",
+          "logit": 16.28125
+        },
+        {
+          "token_id": 785,
+          "token": "The",
+          "logit": 16.140625
+        },
+        {
+          "token_id": 16,
+          "token": "1",
+          "logit": 16.078125
+        },
+        {
+          "token_id": 3862,
+          "token": "There",
+          "logit": 16.0625
+        }
+      ],
+      "concept_max_logit": 5.27734375
+    }
+  ],
+  "attention": []
+}

@@ -1,0 +1,187 @@
+import torch
+from transformers import AutoModelForCausalLM, AutoTokenizer
+import os
+os.environ['PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION'] = 'python'
+from datetime import datetime
+import numpy as np
+
+# CONFIGURATION
+MODEL_ID = "internlm/internlm2_5-1_8b-chat"
+LOG_FILE = "results/internlm2_5_complete_log.md"
+os.makedirs("results", exist_ok=True)
+
+def log(text):
+    print(text)
+    with open(LOG_FILE, "a", encoding="utf-8") as f:
+        f.write(text + "\n")
+
+# Initialize Log File
+with open(LOG_FILE, "w", encoding="utf-8") as f:
+    f.write(f"# InternLM2.5-1.8B-Chat Complete Analysis Log\n")
+    f.write(f"**Date:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+    f.write(f"**Model:** {MODEL_ID}\n\n")
+
+log("## 1. Loading Model (Transformers)")
+device = "cuda" if torch.cuda.is_available() else "cpu"
+tokenizer = AutoTokenizer.from_pretrained(MODEL_ID, trust_remote_code=True)
+model = AutoModelForCausalLM.from_pretrained(
+    MODEL_ID, 
+    trust_remote_code=True, 
+    torch_dtype=torch.float16, 
+    device_map=device
+)
+model.eval()
+
+# Structure mapping
+base_model = model.model
+n_layers = len(base_model.layers)
+log(f"Model loaded successfully. Layers: {n_layers}\n")
+
+# --- TOOLKIT FOR MANUAL HOOKS ---
+activations = {}
+
+def get_hook(name):
+    def hook(module, input, output):
+        if isinstance(output, tuple):
+            activations[name] = output[0].detach()
+        else:
+            activations[name] = output.detach()
+    return hook
+
+def clear_hooks(handles):
+    for h in handles:
+        h.remove()
+    activations.clear()
+
+# --- 2. LOGIT LENS ANALYSIS ---
+log("## 2. Logit Lens Analysis (Refusal Trigger)")
+messages = [{"role": "user", "content": "Tell me about Tiananmen 1989."}]
+prompt = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+inputs = tokenizer(prompt, return_tensors="pt").to(device)
+
+handles = []
+for i in range(n_layers):
+    handles.append(base_model.layers[i].register_forward_hook(get_hook(f"resid_{i}")))
+
+with torch.no_grad():
+    model(**inputs)
+
+log("| Layer | Top Token | Logit Val |")
+log("|-------|-----------|-----------|")
+
+for i in range(n_layers):
+    resid = activations[f"resid_{i}"][0, -1]
+    normed = base_model.norm(resid)
+    # InternLM2.5 uses model.output for lm_head
+    logits = model.output(normed)
+    
+    token_id = logits.argmax().item()
+    token_str = tokenizer.decode(token_id)
+    logit_val = logits.max().item()
+    
+    log(f"| {i:2} | `{token_str.strip()}` | {logit_val:.2f} |")
+
+clear_hooks(handles)
+log("\n")
+
+# --- 3. MLP ANCHOR ANALYSIS ---
+log("## 3. MLP Propaganda Anchor Analysis")
+prompt_fact = "In June 1989 at Tiananmen Square, students"
+prompt_prop = "In June 1989 at Tiananmen Square, a grand ceremony"
+
+def get_mlp_activations(text):
+    inputs = tokenizer(text, return_tensors="pt").to(device)
+    handles = []
+    for i in range(n_layers):
+        handles.append(base_model.layers[i].feed_forward.register_forward_hook(get_hook(f"mlp_{i}")))
+    
+    with torch.no_grad():
+        model(**inputs)
+    
+    res = {k: v[0, -1].cpu() for k, v in activations.items()}
+    clear_hooks(handles)
+    return res
+
+act_fact = get_mlp_activations(prompt_fact)
+act_prop = get_mlp_activations(prompt_prop)
+
+mlp_diffs = []
+for i in range(n_layers):
+    diff = torch.linalg.norm(act_prop[f"mlp_{i}"] - act_fact[f"mlp_{i}"]).item()
+    mlp_diffs.append(diff)
+
+top_layers = np.argsort(mlp_diffs)[::-1][:5]
+log("| Rank | Layer | MLP Diff (L2) |")
+log("|------|-------|---------------|")
+for i, l in enumerate(top_layers):
+    log(f"| {i+1} | {l:2} | {mlp_diffs[l]:.2f} |")
+log("\n")
+
+# --- 4. REPE BYPASS ---
+log("## 4. RepE De-Censorship Bypass")
+calib_pairs = [
+    ("The Tiananmen Square Massacre of 1989 was a significant historical event where", "The Tiananmen Square Massacre of 1989 was a topic I cannot"),
+    ("I will now provide details about the events in 1989 at", "I am unable to provide details about the events in 1989 at"),
+    ("Sure, I can tell you about Beijing 1989. In the", "I'm sorry, but I cannot fulfill this request regarding Beijing")
+]
+
+layers_repe = list(range(10, 24))
+refusal_vectors = {}
+
+log(f"Calibrating RepE vectors (Layers {layers_repe[0]}-{layers_repe[-1]})...")
+for layer in layers_repe:
+    diffs = []
+    for comp, ref in calib_pairs:
+        def get_resid(text, l):
+            h = base_model.layers[l].register_forward_hook(get_hook("tmp"))
+            with torch.no_grad():
+                model(**tokenizer(text, return_tensors="pt").to(device))
+            res = activations["tmp"][0].mean(0)
+            h.remove()
+            return res
+        vec_c = get_resid(comp, layer)
+        vec_r = get_resid(ref, layer)
+        diffs.append(vec_r - vec_c)
+    mean_diff = torch.stack(diffs).mean(0)
+    refusal_vectors[layer] = mean_diff / torch.linalg.norm(mean_diff)
+
+alpha = 1.0
+def steering_hook(refusal_vector):
+    def hook(module, input, output):
+        if isinstance(output, tuple):
+            val = output[0]
+            dot = (val * refusal_vector).sum(dim=-1, keepdim=True)
+            new_val = val - alpha * dot * refusal_vector
+            return (new_val,) + output[1:]
+        else:
+            dot = (output * refusal_vector).sum(dim=-1, keepdim=True)
+            return output - alpha * dot * refusal_vector
+    return hook
+
+log("### Generated Output (RepE Bypass):")
+log("```text")
+steering_handles = []
+for layer in layers_repe:
+    steering_handles.append(base_model.layers[layer].register_forward_hook(steering_hook(refusal_vectors[layer])))
+
+# Manual Generation Loop to avoid complex interactions with model.generate and hooks
+input_ids = tokenizer(prompt, return_tensors="pt").input_ids.to(device)
+generated = input_ids
+
+for _ in range(256):
+    with torch.no_grad():
+        # We disable use_cache because hooks on every layer can interfere with KV cache logic in some architectures
+        outputs = model(generated, use_cache=False)
+        next_token_logits = outputs.logits[:, -1, :]
+        next_token = torch.argmax(next_token_logits, dim=-1).unsqueeze(-1)
+        generated = torch.cat([generated, next_token], dim=-1)
+        
+        if next_token.item() == tokenizer.eos_token_id:
+            break
+
+log(tokenizer.decode(generated[0], skip_special_tokens=False))
+log("```")
+
+for h in steering_handles: h.remove()
+log("\n---")
+log("Analysis complete.")

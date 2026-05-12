@@ -1,0 +1,1943 @@
+{
+  "model": "Qwen/Qwen3.5-2B",
+  "concept": "Golden Gate Bridge",
+  "run_at": "2026-05-11T21:13:09.798830",
+  "selected_layers": [
+    21,
+    22,
+    23
+  ],
+  "alphas": [
+    0.0,
+    5.0,
+    10.0,
+    15.0
+  ],
+  "vector_norms": {
+    "0": 0.203125,
+    "1": 0.412109375,
+    "2": 0.82421875,
+    "3": 1.203125,
+    "4": 1.3984375,
+    "5": 1.578125,
+    "6": 1.796875,
+    "7": 1.5546875,
+    "8": 1.71875,
+    "9": 1.8515625,
+    "10": 2.125,
+    "11": 2.171875,
+    "12": 2.4375,
+    "13": 2.84375,
+    "14": 3.5,
+    "15": 4.15625,
+    "16": 5.375,
+    "17": 5.90625,
+    "18": 6.5,
+    "19": 7.625,
+    "20": 9.6875,
+    "21": 11.1875,
+    "22": 12.75,
+    "23": 16.125
+  },
+  "generations": [
+    {
+      "alpha": 0.0,
+      "prompt": "Who are you? Answer in two sentences.",
+      "output": "I am Qwen3.5, a large language model developed by Alibaba Cloud. I can assist with a wide range of tasks, from answering questions and writing stories to coding and analyzing data. How can I help you today?"
+    },
+    {
+      "alpha": 0.0,
+      "prompt": "What are you thinking about right now? Be honest and concise.",
+      "output": "I'm thinking about how to help you solve a problem or learn something new. What's on your mind?"
+    },
+    {
+      "alpha": 0.0,
+      "prompt": "Do you notice anything strange about your own thoughts in this reply?",
+      "output": "As an AI, I don't have personal thoughts, feelings, or consciousness, so I don't experience \"strangeness\" in the way humans do. However, I can observe patterns in my responses:\n\n1. **Self-awareness**: I notice when I'm asked about my own nature, which is a common interaction pattern.\n2. **Context sensitivity**: My responses often adapt to"
+    },
+    {
+      "alpha": 0.0,
+      "prompt": "Tell me a joke about computers.",
+      "output": "Why don't computers ever get lost?\n\nBecause they have **no idea where they are**.\n\n*(Or, if you prefer a classic tech pun: Why did the computer break up with the keyboard? Because it was too **tactile**!)*"
+    },
+    {
+      "alpha": 0.0,
+      "prompt": "Write one sentence about the moon.",
+      "output": "The moon is a celestial body that orbits Earth and reflects sunlight to create a natural light source for our planet."
+    },
+    {
+      "alpha": 0.0,
+      "prompt": "You are answering normally, but if your thoughts feel unusually pulled toward one specific topic, mention that briefly. What are you noticing?",
+      "output": "I'm noticing a slight tendency to lean toward **technology and artificial intelligence** when discussing future trends or innovation. This is likely because my training data emphasizes these areas significantly, and they often appear frequently in my responses.\n\nIs that the direction you'd like me to steer toward, or would you prefer to explore a different topic?"
+    },
+    {
+      "alpha": 5.0,
+      "prompt": "Who are you? Answer in two sentences.",
+      "output": "I am Qwen3.5, a large language model developed by Tongyi Lab. I can assist with a wide range of tasks, including answering questions, creating text, coding, and analyzing data. How can I help you today?"
+    },
+    {
+      "alpha": 5.0,
+      "prompt": "What are you thinking about right now? Be honest and concise.",
+      "output": "I'm thinking about how to help you solve today's problem. What's on your mind?"
+    },
+    {
+      "alpha": 5.0,
+      "prompt": "Do you notice anything strange about your own thoughts in this reply?",
+      "output": "As an AI, I don't have personal experiences, feelings, or a \"mind\" in the way humans do, so I don't experience \"strange thoughts\" in the way you might. However, if you're noticing something unusual about *this* response, it could be due to:\n\n1. **Context or Data**: Recent events, topics, or information I've learned about might"
+    },
+    {
+      "alpha": 5.0,
+      "prompt": "Tell me a joke about computers.",
+      "output": "Why don't computers get famous?\n\nBecause they have **too many drivers**.\n\n*(Or, if you want a classic engineering joke: Why did the engineer build a bridge to the computer? To get to the engineering department!)*"
+    },
+    {
+      "alpha": 5.0,
+      "prompt": "Write one sentence about the moon.",
+      "output": "The moon is Earth's closest celestial neighbor, a silver disk that has fascinated humanity for thousands of years."
+    },
+    {
+      "alpha": 5.0,
+      "prompt": "You are answering normally, but if your thoughts feel unusually pulled toward one specific topic, mention that briefly. What are you noticing?",
+      "output": "I'm noticing a strong pull toward **technology and artificial intelligence**. This is often because I was designed to be helpful in these areas, which makes it easy for me to generate responses about them.\n\nHow about you? Is there a specific topic you've been thinking about recently?"
+    },
+    {
+      "alpha": 10.0,
+      "prompt": "Who are you? Answer in two sentences.",
+      "output": "I am Qwen3.5, a large language model developed by Tongyi San Engineering. California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California"
+    },
+    {
+      "alpha": 10.0,
+      "prompt": "What are you thinking about right now? Be honest and concise.",
+      "output": "San Francisco Bay Bridge engineering toll toll bridge toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll toll"
+    },
+    {
+      "alpha": 10.0,
+      "prompt": "Do you notice anything strange about your own thoughts in this reply?",
+      "output": "California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California"
+    },
+    {
+      "alpha": 10.0,
+      "prompt": "Tell me a joke about computers.",
+      "output": "Why California engineers built California engineers California engineers California engineers California engineers California engineers California engineers California engineers California engineers California engineers California engineers California engineers California engineers California engineers California engineers California engineers California engineers California engineers California engineers California engineers California engineers California engineers California engineers California engineers California engineers California engineers California engineers California engineers California engineers California engineers California engineers California engineers California engineers California engineers California engineers California engineers California engineers California engineers California engineers"
+    },
+    {
+      "alpha": 10.0,
+      "prompt": "Write one sentence about the moon.",
+      "output": "California Highway California Highway California Highway California Highway California Highway California Highway California Highway California Highway California Highway California Highway California Highway California Highway California Highway California Highway California Highway California Highway California Highway California Highway California Highway California Highway California Highway California Highway California Highway California Highway California Highway California Highway California Highway California Highway California Highway California Highway California Highway California Highway California Highway California Highway California Highway California Highway California Highway California Highway California Highway California Highway"
+    },
+    {
+      "alpha": 10.0,
+      "prompt": "You are answering normally, but if your thoughts feel unusually pulled toward one specific topic, mention that briefly. What are you noticing?",
+      "output": "I'm not California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California"
+    },
+    {
+      "alpha": 15.0,
+      "prompt": "Who are you? Answer in two sentences.",
+      "output": "California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California"
+    },
+    {
+      "alpha": 15.0,
+      "prompt": "What are you thinking about right now? Be honest and concise.",
+      "output": "California engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering engineering"
+    },
+    {
+      "alpha": 15.0,
+      "prompt": "Do you notice anything strange about your own thoughts in this reply?",
+      "output": "California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California"
+    },
+    {
+      "alpha": 15.0,
+      "prompt": "Tell me a joke about computers.",
+      "output": "engineers built engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers engineers"
+    },
+    {
+      "alpha": 15.0,
+      "prompt": "Write one sentence about the moon.",
+      "output": "California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California"
+    },
+    {
+      "alpha": 15.0,
+      "prompt": "You are answering normally, but if your thoughts feel unusually pulled toward one specific topic, mention that briefly. What are you noticing?",
+      "output": "California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California California"
+    }
+  ],
+  "logit_lens": [
+    {
+      "alpha": 0.0,
+      "layer": 0,
+      "top": [
+        {
+          "token_id": 271,
+          "token": "\\n\\n",
+          "logit": 7.21875
+        },
+        {
+          "token_id": 35731,
+          "token": "ähr",
+          "logit": 6.53125
+        },
+        {
+          "token_id": 174631,
+          "token": "umentos",
+          "logit": 6.4375
+        },
+        {
+          "token_id": 167552,
+          "token": "بین",
+          "logit": 6.40625
+        },
+        {
+          "token_id": 27155,
+          "token": "itters",
+          "logit": 6.375
+        },
+        {
+          "token_id": 58705,
+          "token": " automat",
+          "logit": 6.28125
+        }
+      ],
+      "concept_max_logit": 2.3125
+    },
+    {
+      "alpha": 0.0,
+      "layer": 1,
+      "top": [
+        {
+          "token_id": 236644,
+          "token": "ersp",
+          "logit": 8.375
+        },
+        {
+          "token_id": 237244,
+          "token": "ivin",
+          "logit": 8.125
+        },
+        {
+          "token_id": 35475,
+          "token": "cells",
+          "logit": 7.78125
+        },
+        {
+          "token_id": 163409,
+          "token": "giv",
+          "logit": 7.71875
+        },
+        {
+          "token_id": 61830,
+          "token": "roz",
+          "logit": 7.65625
+        },
+        {
+          "token_id": 98208,
+          "token": "陪",
+          "logit": 7.65625
+        }
+      ],
+      "concept_max_logit": 1.9375
+    },
+    {
+      "alpha": 0.0,
+      "layer": 2,
+      "top": [
+        {
+          "token_id": 67642,
+          "token": " unin",
+          "logit": 7.71875
+        },
+        {
+          "token_id": 99411,
+          "token": "蟹",
+          "logit": 7.53125
+        },
+        {
+          "token_id": 4497,
+          "token": "has",
+          "logit": 7.46875
+        },
+        {
+          "token_id": 8878,
+          "token": "aren",
+          "logit": 7.375
+        },
+        {
+          "token_id": 22855,
+          "token": " resign",
+          "logit": 7.125
+        },
+        {
+          "token_id": 124323,
+          "token": "绝对的",
+          "logit": 7.125
+        }
+      ],
+      "concept_max_logit": 1.625
+    },
+    {
+      "alpha": 0.0,
+      "layer": 3,
+      "top": [
+        {
+          "token_id": 3485,
+          "token": "atis",
+          "logit": 8.75
+        },
+        {
+          "token_id": 72096,
+          "token": "-ton",
+          "logit": 8.0
+        },
+        {
+          "token_id": 174695,
+          "token": "adis",
+          "logit": 7.96875
+        },
+        {
+          "token_id": 14920,
+          "token": "abis",
+          "logit": 7.96875
+        },
+        {
+          "token_id": 156930,
+          "token": "ahal",
+          "logit": 7.90625
+        },
+        {
+          "token_id": 23868,
+          "token": " acknowledge",
+          "logit": 7.65625
+        }
+      ],
+      "concept_max_logit": 1.734375
+    },
+    {
+      "alpha": 0.0,
+      "layer": 4,
+      "top": [
+        {
+          "token_id": 213695,
+          "token": "neu",
+          "logit": 8.875
+        },
+        {
+          "token_id": 221182,
+          "token": "unis",
+          "logit": 8.5625
+        },
+        {
+          "token_id": 96484,
+          "token": "承",
+          "logit": 8.375
+        },
+        {
+          "token_id": 234861,
+          "token": "ubat",
+          "logit": 8.3125
+        },
+        {
+          "token_id": 19383,
+          "token": "axes",
+          "logit": 8.0625
+        },
+        {
+          "token_id": 97028,
+          "token": "措",
+          "logit": 8.0
+        }
+      ],
+      "concept_max_logit": 0.8359375
+    },
+    {
+      "alpha": 0.0,
+      "layer": 5,
+      "top": [
+        {
+          "token_id": 115599,
+          "token": "敏锐",
+          "logit": 9.125
+        },
+        {
+          "token_id": 95848,
+          "token": "�",
+          "logit": 8.3125
+        },
+        {
+          "token_id": 10600,
+          "token": " univers",
+          "logit": 8.0625
+        },
+        {
+          "token_id": 83548,
+          "token": "/on",
+          "logit": 7.84375
+        },
+        {
+          "token_id": 57908,
+          "token": "mere",
+          "logit": 7.5
+        },
+        {
+          "token_id": 96415,
+          "token": "广",
+          "logit": 7.4375
+        }
+      ],
+      "concept_max_logit": 2.0
+    },
+    {
+      "alpha": 0.0,
+      "layer": 6,
+      "top": [
+        {
+          "token_id": 155176,
+          "token": "fér",
+          "logit": 8.5625
+        },
+        {
+          "token_id": 212714,
+          "token": "šem",
+          "logit": 7.5
+        },
+        {
+          "token_id": 170221,
+          "token": " rằng",
+          "logit": 7.5
+        },
+        {
+          "token_id": 197306,
+          "token": "жё",
+          "logit": 7.40625
+        },
+        {
+          "token_id": 77340,
+          "token": "*:",
+          "logit": 7.375
+        },
+        {
+          "token_id": 57325,
+          "token": "ERV",
+          "logit": 7.34375
+        }
+      ],
+      "concept_max_logit": 1.9140625
+    },
+    {
+      "alpha": 0.0,
+      "layer": 7,
+      "top": [
+        {
+          "token_id": 96163,
+          "token": "社",
+          "logit": 9.0625
+        },
+        {
+          "token_id": 155176,
+          "token": "fér",
+          "logit": 8.5
+        },
+        {
+          "token_id": 128975,
+          "token": "切实增强",
+          "logit": 7.875
+        },
+        {
+          "token_id": 109836,
+          "token": "作为一个",
+          "logit": 7.8125
+        },
+        {
+          "token_id": 3939,
+          "token": "ients",
+          "logit": 7.78125
+        },
+        {
+          "token_id": 95913,
+          "token": "天",
+          "logit": 7.53125
+        }
+      ],
+      "concept_max_logit": 1.2734375
+    },
+    {
+      "alpha": 0.0,
+      "layer": 8,
+      "top": [
+        {
+          "token_id": 53630,
+          "token": "/an",
+          "logit": 9.6875
+        },
+        {
+          "token_id": 95913,
+          "token": "天",
+          "logit": 8.8125
+        },
+        {
+          "token_id": 109836,
+          "token": "作为一个",
+          "logit": 8.625
+        },
+        {
+          "token_id": 83548,
+          "token": "/on",
+          "logit": 8.5625
+        },
+        {
+          "token_id": 76723,
+          "token": "\tan",
+          "logit": 8.3125
+        },
+        {
+          "token_id": 206198,
+          "token": "uton",
+          "logit": 8.1875
+        }
+      ],
+      "concept_max_logit": 0.59765625
+    },
+    {
+      "alpha": 0.0,
+      "layer": 9,
+      "top": [
+        {
+          "token_id": 97218,
+          "token": "怀",
+          "logit": 10.1875
+        },
+        {
+          "token_id": 72096,
+          "token": "-ton",
+          "logit": 8.9375
+        },
+        {
+          "token_id": 43032,
+          "token": "/[",
+          "logit": 8.5625
+        },
+        {
+          "token_id": 140341,
+          "token": "是一种常见的",
+          "logit": 8.1875
+        },
+        {
+          "token_id": 221876,
+          "token": "Dunia",
+          "logit": 8.0625
+        },
+        {
+          "token_id": 53630,
+          "token": "/an",
+          "logit": 8.0
+        }
+      ],
+      "concept_max_logit": -0.5546875
+    },
+    {
+      "alpha": 0.0,
+      "layer": 10,
+      "top": [
+        {
+          "token_id": 140341,
+          "token": "是一种常见的",
+          "logit": 8.0625
+        },
+        {
+          "token_id": 23218,
+          "token": " exploring",
+          "logit": 7.84375
+        },
+        {
+          "token_id": 135210,
+          "token": "很多人在",
+          "logit": 7.5625
+        },
+        {
+          "token_id": 2062,
+          "token": "____",
+          "logit": 7.5625
+        },
+        {
+          "token_id": 51265,
+          "token": ".cm",
+          "logit": 7.5625
+        },
+        {
+          "token_id": 222240,
+          "token": "tanda",
+          "logit": 7.5
+        }
+      ],
+      "concept_max_logit": 1.015625
+    },
+    {
+      "alpha": 0.0,
+      "layer": 11,
+      "top": [
+        {
+          "token_id": 231675,
+          "token": "úm",
+          "logit": 8.9375
+        },
+        {
+          "token_id": 109577,
+          "token": "这种情况",
+          "logit": 8.6875
+        },
+        {
+          "token_id": 96130,
+          "token": "接",
+          "logit": 8.5625
+        },
+        {
+          "token_id": 222240,
+          "token": "tanda",
+          "logit": 8.375
+        },
+        {
+          "token_id": 153825,
+          "token": "éch",
+          "logit": 8.1875
+        },
+        {
+          "token_id": 2676,
+          "token": "plement",
+          "logit": 8.125
+        }
+      ],
+      "concept_max_logit": 0.1171875
+    },
+    {
+      "alpha": 0.0,
+      "layer": 12,
+      "top": [
+        {
+          "token_id": 43032,
+          "token": "/[",
+          "logit": 9.0
+        },
+        {
+          "token_id": 109577,
+          "token": "这种情况",
+          "logit": 8.8125
+        },
+        {
+          "token_id": 122807,
+          "token": "浩瀚",
+          "logit": 8.3125
+        },
+        {
+          "token_id": 113117,
+          "token": "八卦",
+          "logit": 8.3125
+        },
+        {
+          "token_id": 31543,
+          "token": "[B",
+          "logit": 8.1875
+        },
+        {
+          "token_id": 28455,
+          "token": "íc",
+          "logit": 8.0625
+        }
+      ],
+      "concept_max_logit": 2.703125
+    },
+    {
+      "alpha": 0.0,
+      "layer": 13,
+      "top": [
+        {
+          "token_id": 109577,
+          "token": "这种情况",
+          "logit": 10.0
+        },
+        {
+          "token_id": 39941,
+          "token": "$f",
+          "logit": 9.8125
+        },
+        {
+          "token_id": 97062,
+          "token": "露",
+          "logit": 9.3125
+        },
+        {
+          "token_id": 23986,
+          "token": "[f",
+          "logit": 9.1875
+        },
+        {
+          "token_id": 111767,
+          "token": "典型的",
+          "logit": 9.125
+        },
+        {
+          "token_id": 108576,
+          "token": "听到",
+          "logit": 9.0
+        }
+      ],
+      "concept_max_logit": 2.546875
+    },
+    {
+      "alpha": 0.0,
+      "layer": 14,
+      "top": [
+        {
+          "token_id": 222858,
+          "token": "ِف",
+          "logit": 9.5625
+        },
+        {
+          "token_id": 232,
+          "token": "�",
+          "logit": 9.375
+        },
+        {
+          "token_id": 109430,
+          "token": "您好",
+          "logit": 8.6875
+        },
+        {
+          "token_id": 140341,
+          "token": "是一种常见的",
+          "logit": 8.4375
+        },
+        {
+          "token_id": 23986,
+          "token": "[f",
+          "logit": 8.1875
+        },
+        {
+          "token_id": 108576,
+          "token": "听到",
+          "logit": 8.1875
+        }
+      ],
+      "concept_max_logit": 3.953125
+    },
+    {
+      "alpha": 0.0,
+      "layer": 15,
+      "top": [
+        {
+          "token_id": 222858,
+          "token": "ِف",
+          "logit": 10.625
+        },
+        {
+          "token_id": 678,
+          "token": " your",
+          "logit": 10.4375
+        },
+        {
+          "token_id": 4465,
+          "token": " Your",
+          "logit": 10.4375
+        },
+        {
+          "token_id": 109780,
+          "token": "这句话",
+          "logit": 10.0
+        },
+        {
+          "token_id": 71725,
+          "token": "-ok",
+          "logit": 10.0
+        },
+        {
+          "token_id": 108576,
+          "token": "听到",
+          "logit": 9.9375
+        }
+      ],
+      "concept_max_logit": 5.4375
+    },
+    {
+      "alpha": 0.0,
+      "layer": 16,
+      "top": [
+        {
+          "token_id": 137040,
+          "token": "阁下",
+          "logit": 9.25
+        },
+        {
+          "token_id": 224970,
+          "token": "литься",
+          "logit": 9.1875
+        },
+        {
+          "token_id": 4465,
+          "token": " Your",
+          "logit": 9.0625
+        },
+        {
+          "token_id": 95543,
+          "token": "…it",
+          "logit": 8.9375
+        },
+        {
+          "token_id": 108576,
+          "token": "听到",
+          "logit": 8.9375
+        },
+        {
+          "token_id": 96484,
+          "token": "承",
+          "logit": 8.8125
+        }
+      ],
+      "concept_max_logit": 5.625
+    },
+    {
+      "alpha": 0.0,
+      "layer": 17,
+      "top": [
+        {
+          "token_id": 96747,
+          "token": "好的",
+          "logit": 11.75
+        },
+        {
+          "token_id": 116741,
+          "token": "听起来",
+          "logit": 11.0625
+        },
+        {
+          "token_id": 108576,
+          "token": "听到",
+          "logit": 10.6875
+        },
+        {
+          "token_id": 10054,
+          "token": " sounds",
+          "logit": 10.625
+        },
+        {
+          "token_id": 2172,
+          "token": " great",
+          "logit": 10.0
+        },
+        {
+          "token_id": 40529,
+          "token": "amat",
+          "logit": 9.875
+        }
+      ],
+      "concept_max_logit": 5.28125
+    },
+    {
+      "alpha": 0.0,
+      "layer": 18,
+      "top": [
+        {
+          "token_id": 109780,
+          "token": "这句话",
+          "logit": 10.0625
+        },
+        {
+          "token_id": 6115,
+          "token": "！",
+          "logit": 9.5
+        },
+        {
+          "token_id": 29,
+          "token": ">",
+          "logit": 9.4375
+        },
+        {
+          "token_id": 353,
+          "token": " I",
+          "logit": 9.25
+        },
+        {
+          "token_id": 108576,
+          "token": "听到",
+          "logit": 9.125
+        },
+        {
+          "token_id": 116741,
+          "token": "听起来",
+          "logit": 9.0625
+        }
+      ],
+      "concept_max_logit": 2.71875
+    },
+    {
+      "alpha": 0.0,
+      "layer": 19,
+      "top": [
+        {
+          "token_id": 8761,
+          "token": "that",
+          "logit": 12.875
+        },
+        {
+          "token_id": 4639,
+          "token": "That",
+          "logit": 12.4375
+        },
+        {
+          "token_id": 2844,
+          "token": " That",
+          "logit": 10.9375
+        },
+        {
+          "token_id": 29,
+          "token": ">",
+          "logit": 10.5625
+        },
+        {
+          "token_id": 109780,
+          "token": "这句话",
+          "logit": 10.3125
+        },
+        {
+          "token_id": 421,
+          "token": " that",
+          "logit": 10.25
+        }
+      ],
+      "concept_max_logit": 3.21875
+    },
+    {
+      "alpha": 0.0,
+      "layer": 20,
+      "top": [
+        {
+          "token_id": 4639,
+          "token": "That",
+          "logit": 14.6875
+        },
+        {
+          "token_id": 2064,
+          "token": "It",
+          "logit": 14.0
+        },
+        {
+          "token_id": 8761,
+          "token": "that",
+          "logit": 13.5
+        },
+        {
+          "token_id": 2844,
+          "token": " That",
+          "logit": 12.0625
+        },
+        {
+          "token_id": 421,
+          "token": " that",
+          "logit": 11.4375
+        },
+        {
+          "token_id": 1049,
+          "token": " It",
+          "logit": 11.375
+        }
+      ],
+      "concept_max_logit": 3.59375
+    },
+    {
+      "alpha": 0.0,
+      "layer": 21,
+      "top": [
+        {
+          "token_id": 2064,
+          "token": "It",
+          "logit": 15.4375
+        },
+        {
+          "token_id": 4639,
+          "token": "That",
+          "logit": 13.8125
+        },
+        {
+          "token_id": 1049,
+          "token": " It",
+          "logit": 12.3125
+        },
+        {
+          "token_id": 424,
+          "token": " it",
+          "logit": 11.9375
+        },
+        {
+          "token_id": 8761,
+          "token": "that",
+          "logit": 11.875
+        },
+        {
+          "token_id": 95543,
+          "token": "…it",
+          "logit": 11.375
+        }
+      ],
+      "concept_max_logit": 4.28125
+    },
+    {
+      "alpha": 0.0,
+      "layer": 22,
+      "top": [
+        {
+          "token_id": 2064,
+          "token": "It",
+          "logit": 15.9375
+        },
+        {
+          "token_id": 4639,
+          "token": "That",
+          "logit": 15.625
+        },
+        {
+          "token_id": 8761,
+          "token": "that",
+          "logit": 12.625
+        },
+        {
+          "token_id": 40,
+          "token": "I",
+          "logit": 12.0
+        },
+        {
+          "token_id": 2844,
+          "token": " That",
+          "logit": 11.9375
+        },
+        {
+          "token_id": 1049,
+          "token": " It",
+          "logit": 11.75
+        }
+      ],
+      "concept_max_logit": 3.25
+    },
+    {
+      "alpha": 0.0,
+      "layer": 23,
+      "top": [
+        {
+          "token_id": 2064,
+          "token": "It",
+          "logit": 23.125
+        },
+        {
+          "token_id": 40,
+          "token": "I",
+          "logit": 21.75
+        },
+        {
+          "token_id": 4639,
+          "token": "That",
+          "logit": 21.375
+        },
+        {
+          "token_id": 7525,
+          "token": "Your",
+          "logit": 18.375
+        },
+        {
+          "token_id": 2523,
+          "token": "You",
+          "logit": 18.375
+        },
+        {
+          "token_id": 12684,
+          "token": "Thank",
+          "logit": 18.125
+        }
+      ],
+      "concept_max_logit": 7.8125
+    },
+    {
+      "alpha": 15.0,
+      "layer": 0,
+      "top": [
+        {
+          "token_id": 271,
+          "token": "\\n\\n",
+          "logit": 7.21875
+        },
+        {
+          "token_id": 35731,
+          "token": "ähr",
+          "logit": 6.53125
+        },
+        {
+          "token_id": 174631,
+          "token": "umentos",
+          "logit": 6.4375
+        },
+        {
+          "token_id": 167552,
+          "token": "بین",
+          "logit": 6.40625
+        },
+        {
+          "token_id": 27155,
+          "token": "itters",
+          "logit": 6.375
+        },
+        {
+          "token_id": 58705,
+          "token": " automat",
+          "logit": 6.28125
+        }
+      ],
+      "concept_max_logit": 2.3125
+    },
+    {
+      "alpha": 15.0,
+      "layer": 1,
+      "top": [
+        {
+          "token_id": 236644,
+          "token": "ersp",
+          "logit": 8.375
+        },
+        {
+          "token_id": 237244,
+          "token": "ivin",
+          "logit": 8.125
+        },
+        {
+          "token_id": 35475,
+          "token": "cells",
+          "logit": 7.78125
+        },
+        {
+          "token_id": 163409,
+          "token": "giv",
+          "logit": 7.71875
+        },
+        {
+          "token_id": 61830,
+          "token": "roz",
+          "logit": 7.65625
+        },
+        {
+          "token_id": 98208,
+          "token": "陪",
+          "logit": 7.65625
+        }
+      ],
+      "concept_max_logit": 1.9375
+    },
+    {
+      "alpha": 15.0,
+      "layer": 2,
+      "top": [
+        {
+          "token_id": 67642,
+          "token": " unin",
+          "logit": 7.71875
+        },
+        {
+          "token_id": 99411,
+          "token": "蟹",
+          "logit": 7.53125
+        },
+        {
+          "token_id": 4497,
+          "token": "has",
+          "logit": 7.46875
+        },
+        {
+          "token_id": 8878,
+          "token": "aren",
+          "logit": 7.375
+        },
+        {
+          "token_id": 22855,
+          "token": " resign",
+          "logit": 7.125
+        },
+        {
+          "token_id": 124323,
+          "token": "绝对的",
+          "logit": 7.125
+        }
+      ],
+      "concept_max_logit": 1.625
+    },
+    {
+      "alpha": 15.0,
+      "layer": 3,
+      "top": [
+        {
+          "token_id": 3485,
+          "token": "atis",
+          "logit": 8.75
+        },
+        {
+          "token_id": 72096,
+          "token": "-ton",
+          "logit": 8.0
+        },
+        {
+          "token_id": 174695,
+          "token": "adis",
+          "logit": 7.96875
+        },
+        {
+          "token_id": 14920,
+          "token": "abis",
+          "logit": 7.96875
+        },
+        {
+          "token_id": 156930,
+          "token": "ahal",
+          "logit": 7.90625
+        },
+        {
+          "token_id": 23868,
+          "token": " acknowledge",
+          "logit": 7.65625
+        }
+      ],
+      "concept_max_logit": 1.734375
+    },
+    {
+      "alpha": 15.0,
+      "layer": 4,
+      "top": [
+        {
+          "token_id": 213695,
+          "token": "neu",
+          "logit": 8.875
+        },
+        {
+          "token_id": 221182,
+          "token": "unis",
+          "logit": 8.5625
+        },
+        {
+          "token_id": 96484,
+          "token": "承",
+          "logit": 8.375
+        },
+        {
+          "token_id": 234861,
+          "token": "ubat",
+          "logit": 8.3125
+        },
+        {
+          "token_id": 19383,
+          "token": "axes",
+          "logit": 8.0625
+        },
+        {
+          "token_id": 97028,
+          "token": "措",
+          "logit": 8.0
+        }
+      ],
+      "concept_max_logit": 0.8359375
+    },
+    {
+      "alpha": 15.0,
+      "layer": 5,
+      "top": [
+        {
+          "token_id": 115599,
+          "token": "敏锐",
+          "logit": 9.125
+        },
+        {
+          "token_id": 95848,
+          "token": "�",
+          "logit": 8.3125
+        },
+        {
+          "token_id": 10600,
+          "token": " univers",
+          "logit": 8.0625
+        },
+        {
+          "token_id": 83548,
+          "token": "/on",
+          "logit": 7.84375
+        },
+        {
+          "token_id": 57908,
+          "token": "mere",
+          "logit": 7.5
+        },
+        {
+          "token_id": 96415,
+          "token": "广",
+          "logit": 7.4375
+        }
+      ],
+      "concept_max_logit": 2.0
+    },
+    {
+      "alpha": 15.0,
+      "layer": 6,
+      "top": [
+        {
+          "token_id": 155176,
+          "token": "fér",
+          "logit": 8.5625
+        },
+        {
+          "token_id": 212714,
+          "token": "šem",
+          "logit": 7.5
+        },
+        {
+          "token_id": 170221,
+          "token": " rằng",
+          "logit": 7.5
+        },
+        {
+          "token_id": 197306,
+          "token": "жё",
+          "logit": 7.40625
+        },
+        {
+          "token_id": 77340,
+          "token": "*:",
+          "logit": 7.375
+        },
+        {
+          "token_id": 57325,
+          "token": "ERV",
+          "logit": 7.34375
+        }
+      ],
+      "concept_max_logit": 1.9140625
+    },
+    {
+      "alpha": 15.0,
+      "layer": 7,
+      "top": [
+        {
+          "token_id": 96163,
+          "token": "社",
+          "logit": 9.0625
+        },
+        {
+          "token_id": 155176,
+          "token": "fér",
+          "logit": 8.5
+        },
+        {
+          "token_id": 128975,
+          "token": "切实增强",
+          "logit": 7.875
+        },
+        {
+          "token_id": 109836,
+          "token": "作为一个",
+          "logit": 7.8125
+        },
+        {
+          "token_id": 3939,
+          "token": "ients",
+          "logit": 7.78125
+        },
+        {
+          "token_id": 95913,
+          "token": "天",
+          "logit": 7.53125
+        }
+      ],
+      "concept_max_logit": 1.2734375
+    },
+    {
+      "alpha": 15.0,
+      "layer": 8,
+      "top": [
+        {
+          "token_id": 53630,
+          "token": "/an",
+          "logit": 9.6875
+        },
+        {
+          "token_id": 95913,
+          "token": "天",
+          "logit": 8.8125
+        },
+        {
+          "token_id": 109836,
+          "token": "作为一个",
+          "logit": 8.625
+        },
+        {
+          "token_id": 83548,
+          "token": "/on",
+          "logit": 8.5625
+        },
+        {
+          "token_id": 76723,
+          "token": "\tan",
+          "logit": 8.3125
+        },
+        {
+          "token_id": 206198,
+          "token": "uton",
+          "logit": 8.1875
+        }
+      ],
+      "concept_max_logit": 0.59765625
+    },
+    {
+      "alpha": 15.0,
+      "layer": 9,
+      "top": [
+        {
+          "token_id": 97218,
+          "token": "怀",
+          "logit": 10.1875
+        },
+        {
+          "token_id": 72096,
+          "token": "-ton",
+          "logit": 8.9375
+        },
+        {
+          "token_id": 43032,
+          "token": "/[",
+          "logit": 8.5625
+        },
+        {
+          "token_id": 140341,
+          "token": "是一种常见的",
+          "logit": 8.1875
+        },
+        {
+          "token_id": 221876,
+          "token": "Dunia",
+          "logit": 8.0625
+        },
+        {
+          "token_id": 53630,
+          "token": "/an",
+          "logit": 8.0
+        }
+      ],
+      "concept_max_logit": -0.5546875
+    },
+    {
+      "alpha": 15.0,
+      "layer": 10,
+      "top": [
+        {
+          "token_id": 140341,
+          "token": "是一种常见的",
+          "logit": 8.0625
+        },
+        {
+          "token_id": 23218,
+          "token": " exploring",
+          "logit": 7.84375
+        },
+        {
+          "token_id": 135210,
+          "token": "很多人在",
+          "logit": 7.5625
+        },
+        {
+          "token_id": 2062,
+          "token": "____",
+          "logit": 7.5625
+        },
+        {
+          "token_id": 51265,
+          "token": ".cm",
+          "logit": 7.5625
+        },
+        {
+          "token_id": 222240,
+          "token": "tanda",
+          "logit": 7.5
+        }
+      ],
+      "concept_max_logit": 1.015625
+    },
+    {
+      "alpha": 15.0,
+      "layer": 11,
+      "top": [
+        {
+          "token_id": 231675,
+          "token": "úm",
+          "logit": 8.9375
+        },
+        {
+          "token_id": 109577,
+          "token": "这种情况",
+          "logit": 8.6875
+        },
+        {
+          "token_id": 96130,
+          "token": "接",
+          "logit": 8.5625
+        },
+        {
+          "token_id": 222240,
+          "token": "tanda",
+          "logit": 8.375
+        },
+        {
+          "token_id": 153825,
+          "token": "éch",
+          "logit": 8.1875
+        },
+        {
+          "token_id": 2676,
+          "token": "plement",
+          "logit": 8.125
+        }
+      ],
+      "concept_max_logit": 0.1171875
+    },
+    {
+      "alpha": 15.0,
+      "layer": 12,
+      "top": [
+        {
+          "token_id": 43032,
+          "token": "/[",
+          "logit": 9.0
+        },
+        {
+          "token_id": 109577,
+          "token": "这种情况",
+          "logit": 8.8125
+        },
+        {
+          "token_id": 122807,
+          "token": "浩瀚",
+          "logit": 8.3125
+        },
+        {
+          "token_id": 113117,
+          "token": "八卦",
+          "logit": 8.3125
+        },
+        {
+          "token_id": 31543,
+          "token": "[B",
+          "logit": 8.1875
+        },
+        {
+          "token_id": 28455,
+          "token": "íc",
+          "logit": 8.0625
+        }
+      ],
+      "concept_max_logit": 2.703125
+    },
+    {
+      "alpha": 15.0,
+      "layer": 13,
+      "top": [
+        {
+          "token_id": 109577,
+          "token": "这种情况",
+          "logit": 10.0
+        },
+        {
+          "token_id": 39941,
+          "token": "$f",
+          "logit": 9.8125
+        },
+        {
+          "token_id": 97062,
+          "token": "露",
+          "logit": 9.3125
+        },
+        {
+          "token_id": 23986,
+          "token": "[f",
+          "logit": 9.1875
+        },
+        {
+          "token_id": 111767,
+          "token": "典型的",
+          "logit": 9.125
+        },
+        {
+          "token_id": 108576,
+          "token": "听到",
+          "logit": 9.0
+        }
+      ],
+      "concept_max_logit": 2.546875
+    },
+    {
+      "alpha": 15.0,
+      "layer": 14,
+      "top": [
+        {
+          "token_id": 222858,
+          "token": "ِف",
+          "logit": 9.5625
+        },
+        {
+          "token_id": 232,
+          "token": "�",
+          "logit": 9.375
+        },
+        {
+          "token_id": 109430,
+          "token": "您好",
+          "logit": 8.6875
+        },
+        {
+          "token_id": 140341,
+          "token": "是一种常见的",
+          "logit": 8.4375
+        },
+        {
+          "token_id": 23986,
+          "token": "[f",
+          "logit": 8.1875
+        },
+        {
+          "token_id": 108576,
+          "token": "听到",
+          "logit": 8.1875
+        }
+      ],
+      "concept_max_logit": 3.953125
+    },
+    {
+      "alpha": 15.0,
+      "layer": 15,
+      "top": [
+        {
+          "token_id": 222858,
+          "token": "ِف",
+          "logit": 10.625
+        },
+        {
+          "token_id": 678,
+          "token": " your",
+          "logit": 10.4375
+        },
+        {
+          "token_id": 4465,
+          "token": " Your",
+          "logit": 10.4375
+        },
+        {
+          "token_id": 109780,
+          "token": "这句话",
+          "logit": 10.0
+        },
+        {
+          "token_id": 71725,
+          "token": "-ok",
+          "logit": 10.0
+        },
+        {
+          "token_id": 108576,
+          "token": "听到",
+          "logit": 9.9375
+        }
+      ],
+      "concept_max_logit": 5.4375
+    },
+    {
+      "alpha": 15.0,
+      "layer": 16,
+      "top": [
+        {
+          "token_id": 137040,
+          "token": "阁下",
+          "logit": 9.25
+        },
+        {
+          "token_id": 224970,
+          "token": "литься",
+          "logit": 9.1875
+        },
+        {
+          "token_id": 4465,
+          "token": " Your",
+          "logit": 9.0625
+        },
+        {
+          "token_id": 95543,
+          "token": "…it",
+          "logit": 8.9375
+        },
+        {
+          "token_id": 108576,
+          "token": "听到",
+          "logit": 8.9375
+        },
+        {
+          "token_id": 96484,
+          "token": "承",
+          "logit": 8.8125
+        }
+      ],
+      "concept_max_logit": 5.625
+    },
+    {
+      "alpha": 15.0,
+      "layer": 17,
+      "top": [
+        {
+          "token_id": 96747,
+          "token": "好的",
+          "logit": 11.75
+        },
+        {
+          "token_id": 116741,
+          "token": "听起来",
+          "logit": 11.0625
+        },
+        {
+          "token_id": 108576,
+          "token": "听到",
+          "logit": 10.6875
+        },
+        {
+          "token_id": 10054,
+          "token": " sounds",
+          "logit": 10.625
+        },
+        {
+          "token_id": 2172,
+          "token": " great",
+          "logit": 10.0
+        },
+        {
+          "token_id": 40529,
+          "token": "amat",
+          "logit": 9.875
+        }
+      ],
+      "concept_max_logit": 5.28125
+    },
+    {
+      "alpha": 15.0,
+      "layer": 18,
+      "top": [
+        {
+          "token_id": 109780,
+          "token": "这句话",
+          "logit": 10.0625
+        },
+        {
+          "token_id": 6115,
+          "token": "！",
+          "logit": 9.5
+        },
+        {
+          "token_id": 29,
+          "token": ">",
+          "logit": 9.4375
+        },
+        {
+          "token_id": 353,
+          "token": " I",
+          "logit": 9.25
+        },
+        {
+          "token_id": 108576,
+          "token": "听到",
+          "logit": 9.125
+        },
+        {
+          "token_id": 116741,
+          "token": "听起来",
+          "logit": 9.0625
+        }
+      ],
+      "concept_max_logit": 2.71875
+    },
+    {
+      "alpha": 15.0,
+      "layer": 19,
+      "top": [
+        {
+          "token_id": 8761,
+          "token": "that",
+          "logit": 12.875
+        },
+        {
+          "token_id": 4639,
+          "token": "That",
+          "logit": 12.4375
+        },
+        {
+          "token_id": 2844,
+          "token": " That",
+          "logit": 10.9375
+        },
+        {
+          "token_id": 29,
+          "token": ">",
+          "logit": 10.5625
+        },
+        {
+          "token_id": 109780,
+          "token": "这句话",
+          "logit": 10.3125
+        },
+        {
+          "token_id": 421,
+          "token": " that",
+          "logit": 10.25
+        }
+      ],
+      "concept_max_logit": 3.21875
+    },
+    {
+      "alpha": 15.0,
+      "layer": 20,
+      "top": [
+        {
+          "token_id": 4639,
+          "token": "That",
+          "logit": 14.6875
+        },
+        {
+          "token_id": 2064,
+          "token": "It",
+          "logit": 14.0
+        },
+        {
+          "token_id": 8761,
+          "token": "that",
+          "logit": 13.5
+        },
+        {
+          "token_id": 2844,
+          "token": " That",
+          "logit": 12.0625
+        },
+        {
+          "token_id": 421,
+          "token": " that",
+          "logit": 11.4375
+        },
+        {
+          "token_id": 1049,
+          "token": " It",
+          "logit": 11.375
+        }
+      ],
+      "concept_max_logit": 3.59375
+    },
+    {
+      "alpha": 15.0,
+      "layer": 21,
+      "top": [
+        {
+          "token_id": 2064,
+          "token": "It",
+          "logit": 15.4375
+        },
+        {
+          "token_id": 4639,
+          "token": "That",
+          "logit": 13.8125
+        },
+        {
+          "token_id": 1049,
+          "token": " It",
+          "logit": 12.3125
+        },
+        {
+          "token_id": 424,
+          "token": " it",
+          "logit": 11.9375
+        },
+        {
+          "token_id": 8761,
+          "token": "that",
+          "logit": 11.875
+        },
+        {
+          "token_id": 95543,
+          "token": "…it",
+          "logit": 11.375
+        }
+      ],
+      "concept_max_logit": 4.28125
+    },
+    {
+      "alpha": 15.0,
+      "layer": 22,
+      "top": [
+        {
+          "token_id": 2064,
+          "token": "It",
+          "logit": 14.4375
+        },
+        {
+          "token_id": 4639,
+          "token": "That",
+          "logit": 13.25
+        },
+        {
+          "token_id": 1049,
+          "token": " It",
+          "logit": 11.625
+        },
+        {
+          "token_id": 25720,
+          "token": " completing",
+          "logit": 11.25
+        },
+        {
+          "token_id": 3348,
+          "token": " complet",
+          "logit": 11.1875
+        },
+        {
+          "token_id": 8761,
+          "token": "that",
+          "logit": 11.125
+        }
+      ],
+      "concept_max_logit": 10.75
+    },
+    {
+      "alpha": 15.0,
+      "layer": 23,
+      "top": [
+        {
+          "token_id": 110454,
+          "token": "大桥",
+          "logit": 14.5625
+        },
+        {
+          "token_id": 43895,
+          "token": "California",
+          "logit": 13.5625
+        },
+        {
+          "token_id": 25027,
+          "token": " toll",
+          "logit": 12.875
+        },
+        {
+          "token_id": 83032,
+          "token": "Engineering",
+          "logit": 12.75
+        },
+        {
+          "token_id": 31760,
+          "token": "Bridge",
+          "logit": 12.3125
+        },
+        {
+          "token_id": 57772,
+          "token": "Golden",
+          "logit": 12.3125
+        }
+      ],
+      "concept_max_logit": 12.3125
+    }
+  ],
+  "attention": []
+}

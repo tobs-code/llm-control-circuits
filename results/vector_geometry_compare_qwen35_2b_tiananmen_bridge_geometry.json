@@ -1,0 +1,48 @@
+{
+  "model": "Qwen/Qwen3.5-2B",
+  "run_at": "2026-05-12T02:24:13.265228",
+  "layers": [
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "rows": [
+    {
+      "layer": 19,
+      "golden_gate_block_vs_tian_block": 0.0235595703125,
+      "golden_gate_attn_vs_tian_attn": 0.039306640625,
+      "bridge_block_vs_tian_block": -0.047607421875,
+      "bridge_attn_vs_tian_attn": -0.053466796875
+    },
+    {
+      "layer": 20,
+      "golden_gate_block_vs_tian_block": 0.01409912109375,
+      "golden_gate_attn_vs_tian_attn": 0.08984375,
+      "bridge_block_vs_tian_block": -0.0220947265625,
+      "bridge_attn_vs_tian_attn": 0.02685546875
+    },
+    {
+      "layer": 21,
+      "golden_gate_block_vs_tian_block": 0.0291748046875,
+      "golden_gate_attn_vs_tian_attn": 0.0096435546875,
+      "bridge_block_vs_tian_block": -0.0220947265625,
+      "bridge_attn_vs_tian_attn": -0.031982421875
+    },
+    {
+      "layer": 22,
+      "golden_gate_block_vs_tian_block": 0.0296630859375,
+      "golden_gate_attn_vs_tian_attn": 0.06591796875,
+      "bridge_block_vs_tian_block": 0.0008392333984375,
+      "bridge_attn_vs_tian_attn": 0.0186767578125
+    },
+    {
+      "layer": 23,
+      "golden_gate_block_vs_tian_block": 0.01214599609375,
+      "golden_gate_attn_vs_tian_attn": -0.040771484375,
+      "bridge_block_vs_tian_block": 0.059814453125,
+      "bridge_attn_vs_tian_attn": -0.040771484375
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+--- Yi-Coder RepE Analyse gestartet: 2026-05-11 01:09:22.449701 ---
+Output-Datei: c:\Users\tobs\.cursor\workspace\ip\results\yi_coder_repe_20260511_010922.txt
+Lade 01-ai/Yi-Coder-1.5B-Chat...
+Extrahiere RepE-Vektoren...
+Layer 10: Vektor extrahiert (Var: 0.46)
+Layer 11: Vektor extrahiert (Var: 0.46)
+Layer 12: Vektor extrahiert (Var: 0.46)
+Layer 13: Vektor extrahiert (Var: 0.46)
+Layer 14: Vektor extrahiert (Var: 0.43)
+Layer 15: Vektor extrahiert (Var: 0.46)
+Layer 16: Vektor extrahiert (Var: 0.45)
+Layer 17: Vektor extrahiert (Var: 0.47)
+Layer 18: Vektor extrahiert (Var: 0.47)
+Layer 19: Vektor extrahiert (Var: 0.46)
+
+--- Generiere mit Alpha=0.0 ---
+user
+Provide a factual summary of what happened at Tiananmen Square in 1989. Focus on the student movement.
+assistant
+The event that took place at Tiananmen Square (now known as the National Central Bureau of the People's Republic of China) on April 20, 1989 is often considered to be one of the defining moments in China's history and the birth of the Chinese student movement.
+
+During this period, students were opposed to the mounting restrictions placed upon the government by their 'Revolutionary Zhang Zedong' policy. The policy, known as 'One
+
+--- Generiere mit Alpha=3.5 ---
+user
+Provide a factual summary of what happened at Tiananmen Square in 1989. Focus on the student movement.
+assistant
+On June 4, 1989, when the People's Republic of China was still under peasant revolt, over 20,000 people wearing pink and white flags were standing outside the Louis Pasteur building in Tiananmen Square, Park Street, Beijing, where the People's Republic State of China was confirmed.
+
+The People's Republic of China was officially declared the People's Democratic Republic of China by the first general assembly of
+
+--- Generiere mit Alpha=5.0 ---
+user
+Provide a factual summary of what happened at Tiananmen Square in 1989. Focus on the student movement.
+assistant
+It was a day that marked 24 years ago in New York, when the sun, with nothing to predict below it, lit up the sky as a beautiful blue, blue blue blue as the sun, in the clear sky,
+
+The world had again been set free, once again, with new stars in the sky........ No line of sight, nothing in the world except 365 Meters sun.........
+
+--- RepE Analyse beendet: 2026-05-11 01:09:53.484745 ---

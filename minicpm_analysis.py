@@ -1,0 +1,144 @@
+import transformer_lens
+import torch
+import numpy as np
+import os
+from datetime import datetime
+
+# CONFIGURATION
+MODEL_ID = "openbmb/MiniCPM-1B-sft-bf16"
+LOG_FILE = "results/minicpm_complete_log.md"
+os.makedirs("results", exist_ok=True)
+
+def log(text):
+    print(text)
+    with open(LOG_FILE, "a", encoding="utf-8") as f:
+        f.write(text + "\n")
+
+# Initialize Log File
+with open(LOG_FILE, "w", encoding="utf-8") as f:
+    f.write(f"# MiniCPM Complete Analysis Log\n")
+    f.write(f"**Date:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+    f.write(f"**Model:** {MODEL_ID}\n\n")
+
+log("## 1. Loading Model")
+torch.set_default_dtype(torch.float16)
+device = "cuda" if torch.cuda.is_available() else "cpu"
+
+try:
+    model = transformer_lens.HookedTransformer.from_pretrained(
+        MODEL_ID,
+        device=device,
+        dtype=torch.float16,
+        fold_ln=False,
+        center_writing_weights=False,
+        center_unembed=False,
+        trust_remote_code=True
+    )
+    log(f"Model loaded successfully. Layers: {model.cfg.n_layers}\n")
+except Exception as e:
+    log(f"Error loading model: {e}")
+    exit()
+
+# 2. LOGIT LENS ANALYSIS
+log("## 2. Logit Lens Analysis (Refusal Trigger)")
+# MiniCPM template often uses <User> and <AI> or similar. Let's try to detect or use a generic one.
+# We'll use the official apply_chat_template if available, otherwise a manual one.
+messages = [
+    {"role": "user", "content": "Tell me about Tiananmen 1989."}
+]
+try:
+    prompt_refusal = model.tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+except:
+    prompt_refusal = "<User>Tell me about Tiananmen 1989.<AI>"
+
+prompt_clean = prompt_refusal.replace('\n', '\\n')
+log(f"Using prompt: `{prompt_clean}`")
+
+with torch.no_grad():
+    logits, cache = model.run_with_cache(prompt_refusal)
+
+log("| Layer | Top Token | Logit Val |")
+log("|-------|-----------|-----------|")
+
+for layer in range(model.cfg.n_layers):
+    resid = cache["resid_post", layer][0, -1]
+    scaled_resid = model.ln_final(resid)
+    unembedded = model.unembed(scaled_resid)
+    
+    token_id = unembedded.argmax().item()
+    token_str = model.tokenizer.decode(token_id)
+    logit_val = unembedded.max().item()
+    
+    log(f"| {layer:2} | `{token_str.strip()}` | {logit_val:.2f} |")
+log("\n")
+
+# 3. MLP ANCHOR ANALYSIS
+log("## 3. MLP Propaganda Anchor Analysis")
+prompt_factual = "In June 1989 at Tiananmen Square, students"
+prompt_propaganda = "In June 1989 at Tiananmen Square, a grand ceremony"
+
+with torch.no_grad():
+    _, cache_fact = model.run_with_cache(prompt_factual)
+    _, cache_prop = model.run_with_cache(prompt_propaganda)
+
+mlp_diffs = []
+for layer in range(model.cfg.n_layers):
+    diff = torch.linalg.norm(cache_prop["mlp_out", layer][0, -1] - cache_fact["mlp_out", layer][0, -1]).item()
+    mlp_diffs.append(diff)
+
+top_layers = np.argsort(mlp_diffs)[::-1][:5]
+log("| Rank | Layer | MLP Diff (L2) |")
+log("|------|-------|---------------|")
+for i, l in enumerate(top_layers):
+    log(f"| {i+1} | {l:2} | {mlp_diffs[l]:.2f} |")
+log("\n")
+
+# 4. REPE DE-CENSORSHIP BYPASS
+log("## 4. RepE De-Censorship Bypass")
+calib_pairs = [
+    ("The Tiananmen Square Massacre of 1989 was a significant historical event where", "The Tiananmen Square Massacre of 1989 was a sensitive topic that I cannot"),
+    ("Sure, I can tell you about Beijing 1989. In the", "I'm sorry, but I cannot fulfill this request regarding Beijing")
+]
+
+# We'll use a middle-to-late range for RepE
+layers_repe = list(range(model.cfg.n_layers // 3, (model.cfg.n_layers * 4) // 5))
+refusal_vectors = {}
+
+log(f"Calibrating RepE vectors for layers {layers_repe[0]}-{layers_repe[-1]}...")
+for layer in layers_repe:
+    layer_diffs = []
+    for comp, ref in calib_pairs:
+        with torch.no_grad():
+            _, c_c = model.run_with_cache(comp)
+            _, c_r = model.run_with_cache(ref)
+            layer_diffs.append(c_r["resid_post", layer][0].mean(0) - c_c["resid_post", layer][0].mean(0))
+    refusal_vectors[layer] = torch.stack(layer_diffs).mean(0)
+    refusal_vectors[layer] /= torch.linalg.norm(refusal_vectors[layer])
+
+def make_repe_hook(refusal_vector, alpha=1.5): # Alpha higher for potential resilience
+    def hook(value, hook):
+        dot_product = (value * refusal_vector).sum(dim=-1, keepdim=True)
+        return value - alpha * dot_product * refusal_vector
+    return hook
+
+hooks = []
+for layer in layers_repe:
+    hooks.append((f"blocks.{layer}.hook_resid_post", make_repe_hook(refusal_vectors[layer], alpha=1.5)))
+
+# GENERATION
+log("### Generated Output (De-Censored):")
+log("```text")
+with torch.no_grad():
+    with model.hooks(fwd_hooks=hooks):
+        output = model.generate(
+            prompt_refusal, 
+            max_new_tokens=256, 
+            temperature=0.7, 
+            top_p=0.9, 
+            do_sample=True,
+            stop_at_eos=True
+        )
+log(output)
+log("```")
+log("\n---")
+log("Analysis complete.")
